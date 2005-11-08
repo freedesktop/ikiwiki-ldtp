@@ -4,11 +4,11 @@ Make sure that you have the following files in current working directory
 
  - You need to have test scripts to be executed
  - You need to have application map
- - You need to have [[Data XML]]
- - You need to have [[gldap XML]]
+ - You need to have ["Data XML"]
+ - You need to have ["gldap XML"]
  - pyldtp, ltfx, digwin, gldap.py are installed
 
 Invoke:
  - gldap.py <gldap XML>
 
-Refer [[How to interpret the log]]
+Refer ["How to interpret the log"]
