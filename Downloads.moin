@@ -13,16 +13,10 @@
 ||<rowbgcolor='#E0E0FF'> Sun Solaris i386 [http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-x86.tar.gz gettext] || Sun Solaris i386 [http://download.freedesktop.org/ldtp/0.x/0.2.x/SUNWpyldtp-0.2.1-x86-4.tar.gz pyLDTP] ||
 ||<rowbgcolor='#FFFFFF'> || ||
 ||<rowbgcolor='#FFFFFF'> || ||
-||<rowbgcolor='#FFFFFF'> || ||
-||<rowbgcolor='#FFFFFF'> || ||
 
 ||||||<tablewidth="100%">'''Download LDTP Editor''' ||
 ||
-||<rowbgcolor='#E0E0FF'> LDTP Editor source [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/ldtpeditor/ldtpeditor.tar.gz?tarball=1 LDTP Editor source] || LDTP Editor [http://download.freedesktop.org/ldtp/0.x/0.2.x/ldtpeditor_0.2.1-1_i386.deb for Debian/Ubuntu] ||
-||<rowbgcolor='#FFFFFF'> || ||
-||<rowbgcolor='#FFFFFF'> || ||
-||<rowbgcolor='#FFFFFF'> || ||
-||<rowbgcolor='#FFFFFF'> || ||
+||<rowbgcolor='#E0E0FF'> Latest LDTP Editor [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/ldtpeditor/ldtpeditor.tar.gz?tarball=1 Source] || LDTP Editor [http://download.freedesktop.org/ldtp/0.x/0.2.x/ldtpeditor_0.2.1-1_i386.deb for Debian/Ubuntu] ||
 
 '''Download License'''
 
