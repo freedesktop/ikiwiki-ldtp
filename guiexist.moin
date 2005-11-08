@@ -1,0 +1,17 @@
+== Syntax ==
+
+guiexist ('<window name>')
+
+== Description ==
+
+If the given window name exist, this function returns 1. If window doesnot exist, then this function returns 0.
+
+Ref: [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/pyldtp/ldtp.c ldtp.c]
+
+== Implementation ==
+
+returns 1 on success and 0 on no existing window
+
+== Example ==
+
+guiexist ('dlgOpen')
