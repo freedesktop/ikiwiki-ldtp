@@ -1,0 +1,23 @@
+ * Download the binary files from ["Downloads"]
+
+ * Or download the source files from ["CVS"] and follow the steps to install ["How to setup pyldtp in GNU/Linux environment#Setting up PYLDTP from source"]
+
+ * Enable accessibility (Assistive Technology)
+
+ * Check existing [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/pyautosuite/pyautosuite.tar.gz?tarball=1 pyautosuite.tar.gz] scripts
+
+ * Refer ["API Reference"] page for list of LDTP functions available
+
+ * ["Howto generate Application map"]
+
+ * ["How to create Test Scripts for PY-LDTP"]
+
+ * ["Howto use LDTP Editor"] - To generate Data XML and Grouping scripts
+
+ * Join the LDTP team on IRC for technical help, online.
+   Server  : irc.gimp.org
+   Channel : #ldtp
+
+ * Join the LDTP ["Mailing List"]
+
+ * Check ["TODO"] page and pitch in where ever you can contribute ;)
