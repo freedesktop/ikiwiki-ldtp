@@ -1,0 +1,13 @@
+ - Technically its a good practice to separate script and data. Reason behind this is re-usability
+
+ - Scripts will be written just once, based on the need we can just populate the data XML
+
+ - In some cases for doing regression testing we will just have one script and multiple data files
+
+ - Reason for XML format is, its easy to parse ;)
+
+Refer:
+
+ * ["Howto_use_LDTP_Editor#Generating LDTP Data XML file format"]
+ * ["Sample Data XML"]
+ * ["Data XML File Parser"]
