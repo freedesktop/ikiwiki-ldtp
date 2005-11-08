@@ -1,0 +1,19 @@
+== Syntax ==
+
+waittillguinotexist ('<window name>')
+
+== Description ==
+
+If the given window name does not exist, this function returns 1. If window exist, then this function returns 0. Difference between [[guiexist]] and waitguinotexist is, waitguinotexist waits for maximum 30 seconds. Still the window does not disappear, then 0 is returned. We can set the environment variable 'GUI_TIMEOUT' to change the default waiting time. 
+
+Ref: [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/pyldtp/ldtp.c ldtp.c]
+
+== Implementation ==
+
+returns 1 on success and 0 on no existing window
+
+== Example ==
+
+waittillguinotexist ('dlgOpen')
+
+This function will be useful, when some event is fired and after that if an existing window should close, we can use this function to wait till the window closes.
