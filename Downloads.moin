@@ -9,8 +9,6 @@
 ||<rowbgcolor='#FFFFFF'> || ||
 ||<rowbgcolor='#FFFFFF'> || ||
 ||<rowbgcolor='#FFFFFF'> || ||
-||<rowbgcolor='#FFFFFF'> || ||
-||<rowbgcolor='#FFFFFF'> || ||
 
 ||||||<tablewidth="100%">'''Download 0.2.1 binary packages for Sun Solaris'''||
 ||
@@ -21,16 +19,12 @@
 ||<rowbgcolor='#FFFFFF'> || ||
 ||<rowbgcolor='#FFFFFF'> || ||
 ||<rowbgcolor='#FFFFFF'> || ||
-||<rowbgcolor='#FFFFFF'> || ||
-||<rowbgcolor='#FFFFFF'> || ||
 
 ||||||<tablewidth="100%">'''Download 0.2.1 source''' ||
 ||
 ||<rowbgcolor='#FFFFE0'> PyLDTP source [http://download.freedesktop.org/ldtp/0.x/0.2.x/ldtp-0.2.1.tgz PyLDTP source tar.gz] || PyLDTP source [http://download.freedesktop.org/ldtp/0.x/0.2.x/ldtp-0.2.1.tar.bz2 PyLDTP source tar.bz2] ||
 ||
 ||<rowbgcolor='#E0E0FF'> LDTP Editor source [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/ldtpeditor/ldtpeditor.tar.gz?tarball=1 LDTP Editor source] || LDTP Editor [http://download.freedesktop.org/ldtp/0.x/0.2.x/ldtpeditor_0.2.1-1_i386.deb for Debian/Ubuntu] ||
-||<rowbgcolor='#FFFFFF'> || ||
-||<rowbgcolor='#FFFFFF'> || ||
 ||<rowbgcolor='#FFFFFF'> || ||
 ||<rowbgcolor='#FFFFFF'> || ||
 ||<rowbgcolor='#FFFFFF'> || ||
