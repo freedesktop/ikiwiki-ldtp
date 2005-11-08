@@ -24,59 +24,20 @@
 
 [wiki:Self:FAQ/Wheredoigetinformationaboutpython Where do i get information about python ?]
 
-   * If you have '''''Novell Linux Desktop''''' and if you have installed python-doc package, you can see python documentation in /usr/share/doc/packages/python/html directory.
-   * Alternate online - http://docs.python.org/ You can download them for offline reading from http://docs.python.org/download.html
-
-   '''General Python links'''
-   http://www.vex.net/~x/parnassus/
-
 [wiki:Self:FAQ/HowcanIwritecomponentfunctionsforLDTP How can I write component functions for LDTP ?]
 
-    * [http://developer.gnome.org/doc/API/2.0/at-spi/index.html AT-SPI API documentation]
-    * ["How to develop component functions for LDTP"]
-
 [wiki:Self:FAQ/Isthereanytutorialavailableforwritingtestscripts Is there any tutorial available for writing test scripts ?]
-    
-     ["How_to_create_Test_Scripts_for_PY-LDTP"]
 
 [wiki:Self:FAQ/Howtogeneraterpmfrompyldtpsource How to generate rpm from pyldtp source ?]
 
-    From command line type: ./setup.py bdist_rpm
-
 [wiki:Self:FAQ/addingnewcomponentfunctionfile After adding new file, when I try to generate rpm, I'm getting error like <new file> not found ?]
-
-    Rpm distribution module tries to read MANIFEST file in local directory. If this file already exist and if you
-    have added a new file in setup.py, on building you won't get any error. But on creating rpm you will get an
-    error like <you new file name> not found. Remove MANIFEST file in local directory and generate the rpm file.
 
 [wiki:Self:FAQ/Applicationnotrunning When I try to generate appmap for applications like gimp, gaim, I'm getting an error message "application not running" ?]
 
-    * Try running the application seperately and try to poke them with at-poke.
-    * If at-poke is not able to detect, then try at-poke <application name>. Example: at-poke gaim
-    * If at-poke is able to detect, then you can generate appmap with the following steps:
-      Type the following environment variable in terminal
-      * export GTK_MODULES=gail:atk-bridge
-      * export GNOME_ACCESSIBILITY=1
-      now invoke the application from the terminal in which you have typed the above environment variables. Ex: gaim
-
 [wiki:Self:FAQ/Screensaverstopsldtpexecution When xscreensaver runs, GNU/LDTP is unable to proceed ?]
-
-   * Seems to be accessibility bug. As a work around, use the command 'xscreensaver-command -exit'
 
 [wiki:Self:FAQ/HowdoIseeconsoleoutput I don't see any console output which are printed with g_print ?]
 
-   * Use export LDTP_DEBUG=1 to get messages in console
-   * Use export LDTP_DEBUG=2 to get verbose messages in console
-
 [wiki:Self:FAQ/LDTPsupportedplatforms LDTP supported platforms]
 
-  * [http://www.opensuse.org/ OpenSuSE]
-  * [http://opensolaris.org/ OpenSolaris]
-  * [http://ubuntu.com/ Ubuntu]
-  * [http://www.debian.org/ Debian GNU/Linux]
-  * [http://fedora.redhat.com/ Fedora Core]
-  * [http://www.freebsd.org/ FreeBSD]
-
 [wiki:Self:FAQ/RecommendedGNOMEVersion Recommended GNOME Version]
-
-  - [http://www.gnome.org GNOME] 2.10 and above
