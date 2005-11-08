@@ -1,0 +1,31 @@
+== HOWTO Documents ==
+
+["How to setup pyldtp in GNU/Linux environment"]
+
+["Howto generate Application map"]
+
+["How to create Test Scripts for PY-LDTP"]
+
+["Howto use LDTP Editor"]
+
+["Howto run pyldtp from vnc session"]
+
+["Howto run pyldtp inside Xvfb"]
+
+["Howto run pyldtp inside Xvfb which runs in xinit session"]
+
+["Release notes for Evolution-2.5.1 Sanity suite"]
+
+== Obsolete HOWTOs ==
+
+["Howto setup Novell Linux Desktop"]
+
+["How to setup LDTP in NLD"]
+
+["Howto setup LDTP in SUSE Linux 9.1"]
+
+["How to create Test Tables for LDTP"]
+
+["Test-case generation procedure"]
+
+["How to setup PY-LDTP in NLD"]
