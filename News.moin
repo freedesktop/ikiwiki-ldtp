@@ -1,0 +1,75 @@
+[http://lists.freedesktop.org/archives/ldtp-dev/2005-October/000059.html Sun Solaris LDTP package] will be built biweekly by Sun LDTP Hackers - Tuesday, October 11 2005
+
+LDTP ["FAQ"] has been [http://nagappanal.blogspot.com/2005/10/faqs-about-ldtp.html updated] - Monday, October 10 2005
+
+[http://go-evolution.org/Automation_using_LDTP Evolution sanity scripts] using LDTP project will be released by November end
+
+[http://forge.novell.com/modules/xfmod/project/?tomato Tomato] project is [http://lists.freedesktop.org/archives/ldtp-dev/2005-October/000034.html integrating LDTP] to provide a common scripting environment for Windows and Linux QA script writers - Sunday, October 2 2005
+
+LDTP 0.2.0 release ["Downloads"] - Wednesday, September 28 2005
+
+LDTP is being used for [http://mail.gnome.org/archives/evolution-hackers/2005-September/msg00133.html valgrinding Evolution] - Mon, September 26 2005
+
+["CVS"] hosted in http://cvs.freedesktop.org/ldtp/ - Monday, September 19 2005
+
+["Mailing List"] hosted in http://lists.freedesktop.org/archives/ldtp-dev/ - Monday, September 19 2005
+
+["TeamMembers"] page added - Monday, August 22 2005
+
+Deb packages contributed by Prashanth ["Downloads"] - Monday, August 18 2005
+
+LDTP 0.1.9 release ["Downloads"] - Monday, August 17 2005
+
+LDTP 0.1.8 release ["Downloads"] - Monday, August 1 2005
+
+Fedora Core 4 LDTP rpm has been generated and available for ["Downloads"] - Thursday, August 4 2005
+
+Luis Villa created [http://forge.novell.com/modules/xfmod/maillist/archbrowse.php/ldtp-dev/2005-July/000397.html?id=1458&prjname=ldtp&mlname=dev LDTP in GNOME bugzilla] - Friday, July 22 2005
+
+First ever LDTP ["community Meeting"] - Wednesday, July 20 2005
+
+LDTP 0.1.7 release ["Downloads"] - Monday, July 18 2005
+
+Created first LDTP ["Newsletters"]
+
+LDTP 0.1.6 release ["Downloads"] - Thursday, June 23 2005
+
+Published a small write up [http://slashdot.org/article.pl?sid=05/06/22/1843206 about GNU/LDTP in slashdot] - Wednesday, June 22 2005
+
+Luis Villa trying to setup [http://forge.novell.com/modules/xfmod/maillist/archbrowse.php/ldtp-dev/2005-June/000354.html?id=1458&prjname=ldtp&mlname=dev LDTP to work with GNOME Tinderbox] - Wednesday, June 15 2005
+
+Announced LDTP in [http://2005.guadec.org/ GUADEC] conference - [http://live.gnome.org/Stuttgart2005_2fLightningTalks Lightning Talk]- Monday, May 30 2005
+
+Created ldtp project in sf.net/projects/ldtp and updated CVS [http://cvs.sourceforge.net/viewcvs.py/ldtp sf.net cvs] - Wednesday, May 18 2005
+
+Added ["Howto run pyldtp inside Xvfb which runs in xinit session"] - Friday, April 29 2005
+
+LDTP 0.1.5 released ["Downloads"] - Wednesday, April 20 2005
+
+Luis Villa demonstrated LDTP in [http://www.gnomebangalore.org/pipermail/ldtp/2005-April/000307.html Linux Conference Australia] - Tuesday, April 19 2005
+
+Added GNU/LDTP project to http://cia.navi.cx/stats/project/ldtp - Friday, April 15 2005
+
+LDTP Hack Fest + [http://www.gnomebangalore.org/?q=node/view/782 GnomeBangalore Meet] in Novell, Bangalore - Saturday, April 16 2005
+
+LDTP 0.1.4 released ["Downloads"] - Friday, March 11 2005
+
+LDTP presented inside Novell, Bangalore - Wednesday, March 09 2005
+
+LDTP 0.1.3 released ["Downloads"] - Monday, February 14 2005
+
+LDTP hack fest in Novell, Bangalore - Thursday, February 10 2005
+
+gPdf basic test checked-in - Tuesday, February 08 2005
+
+LDTP has been discussed in [http://swatantra.info/ Swatantra National Symposium]
+
+LDTP 0.1.2 released with python bindings ["Downloads"] - Monday, February 07 2005
+
+LDTP 0.1.1 released ["Downloads"]
+
+LDTP has been discussed in [http://nitt.edu/hackercrackdown/ Hackers Crackdown]
+
+LDTP announced in [http://www.gnomebangalore.org/lindec/ LINDEC]
+
+[http://forge.novell.com/modules/xfmod/cvs/cvspage.php/ldtp/ LDTP CVS] created in [http://forge.novell.com/modules/xfmod/project/?ldtp forge.novell.com]
