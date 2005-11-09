@@ -4,7 +4,7 @@
 
 ["Howto generate Application map"]
 
-["How to create Test Scripts for PY-LDTP"]
+["How_to_create_Test_Scripts_for_PY-LDTP"]
 
 ["Howto use LDTP Editor"]
 
@@ -18,14 +18,4 @@
 
 == Obsolete HOWTOs ==
 
-["Howto setup Novell Linux Desktop"]
-
-["How to setup LDTP in NLD"]
-
-["Howto setup LDTP in SUSE Linux 9.1"]
-
-["How to create Test Tables for LDTP"]
-
 ["Test-case generation procedure"]
-
-["How to setup PY-LDTP in NLD"]
