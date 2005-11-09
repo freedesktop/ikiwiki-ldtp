@@ -1,6 +1,6 @@
     *  LDTP concepts are derived from [http://safsdev.sourceforge.net/Default.htm Software Automation Framework Support]
 
-    * LDTP supports verification of actions performed (GuiExist, VerifyState, etc) - [[API Reference]]
+    * LDTP supports verification of actions performed (guiexist, verifystate, etc) - [[API Reference]]
 
     * Writing test scripts are very easy, the script writer need not know about the object hierarchy
 
