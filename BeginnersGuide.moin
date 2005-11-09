@@ -1,6 +1,6 @@
  * Download the binary files from ["Downloads"]
 
- * Or download the source files from ["CVS"] and follow the steps to install ["How to setup pyldtp in GNU/Linux environment#Setting up PYLDTP from source"]
+ * Or download the source files from ["CVS"] and follow the steps to install ["How to setup pyldtp in GNU/Linux environment"]
 
  * Enable accessibility (Assistive Technology)
 
@@ -10,7 +10,7 @@
 
  * ["Howto generate Application map"]
 
- * ["How to create Test Scripts for PY-LDTP"]
+ * ["How_to_create_Test_Scripts_for_PY-LDTP"]
 
  * ["Howto use LDTP Editor"] - To generate Data XML and Grouping scripts
 
