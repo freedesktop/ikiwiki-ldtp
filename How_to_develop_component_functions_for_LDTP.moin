@@ -1,125 +1,61 @@
 1. How to identify the object in an application (ex: scrollbar) using at-poke
 
-   a) The application is poked using at-poke tool. The command for the application to be poked 
-      is at-poke <application name>
-      eg.at-poke gedit
+   a) The application is poked using at-poke tool. The command for the application to be poked is at-poke <application name> eg.at-poke gedit
 
-   b) The command open the application along with the at-poke window. The application name is 
-      selected from the list of applications in the window.
+   b) The command open the application along with the at-poke window. The application name is selected from the list of applications in the window.
 
    c) Click "poke" button. 
 
-   d) Another window with the application name on the left pane appears. Select the application 
-      name and click "Expand" on the right pane. The application gets expanded displaying all 
-      the components, their name and their corresponding attributes on the right pane.
+   d) Another window with the application name on the left pane appears. Select the application name and click "Expand" on the right pane. The application gets expanded displaying all the components, their name and their corresponding attributes on the right pane.
 
-   e) Scroll down on the left pane to select the required object, whose object name is displayed 
-      on the right pane.
-      eg.To identify scroll bar object in gedit application Poke the gedit application.
-         Expand it and scroll down to identify the object.Note that as the component is selected
-         on the at-poke window, the corresponding component in the application is highlighted.
-         When the scrollbar is identified, the object name "Scroll bar" is displayed on the right
-         pane.
+   e) Scroll down on the left pane to select the required object, whose object name is displayed on the right pane. Example: To identify scroll bar object in gedit application Poke the gedit application. Expand it and scroll down to identify the object.Note that as the component is selected on the at-poke window, the corresponding component in the application is highlighted. When the scrollbar is identified, the object name "Scroll bar" is displayed on the right pane.
 
 2. Before writing a component function what all links / documents needs to be refered ?
 
-   - [http://developer.gnome.org/doc/API/2.0/at-spi/index.html AT-SPI C Bindings Reference Manual]
-     * [http://developer.gnome.org/doc/API/2.0/at-spi/spi-accessible.html Basic Accessible Object Methods and Interface Query]
-     * [http://developer.gnome.org/doc/API/2.0/at-spi/spi-component.html Subinterface Methods]
-
-   - Check existing component function implementation ([http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/ldtp/src/check_box.c check_box.c], ...)
+   * [http://developer.gnome.org/doc/API/2.0/at-spi/index.html AT-SPI C Bindings Reference Manual]
+   * [http://developer.gnome.org/doc/API/2.0/at-spi/spi-accessible.html Basic Accessible Object Methods and Interface Query]
+   * [http://developer.gnome.org/doc/API/2.0/at-spi/spi-component.html Subinterface Methods]
+   * Check existing component function implementation ([http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/ldtp/src/check_box.c check_box.c], ...)
 
 3. How to write a function ?
 
-   - Initially, the component for which the function is to be written should be identified
-     (Refer point 1) and studied in detail. 
-
-   - The [http://developer.gnome.org/doc/API/2.0/at-spi/index.html AT-SPI C Bindings] provided in
-     the link is used in the modules for various functions.
-     For eg, the 'Accessible' Interface is used for all the basic operations on the Accessible
-     object, 'AccessibleAction' Interface is used for the AccessibleAction operations on the 
-     object.
-
-   - The various actions that can be performed on the component should be analysed and identified
-     from the AccessibleAction Interface in at-poke(for eg, for push_button, AccessibleAction is 
-     "click"), and their corresponding functions from the AT-SPI C Bindings are invoked in the 
-     code. If there is no predefined AccessibleAction available for the component, then 
-     user-defined actions can be included in the code(for eg, for scroll_bar, scroll_up and 
-     scroll_down).
-
-    - The various states for the component can be viewed on the right panel of the At-poke 
-      window. The 'AccessibleState' Interface is used to check the states of the component. 
-      For eg, the AccessibleState(s) for push_button are 'VISIBLE', 'ENABLED', etc.
-      '''Note''': that it is not necessary to check all the states listed by At-poke for the 
-      component. Checking those states, that are required for the component is sufficient.
-      For eg, it is sufficient to check the 'VISIBLE', 'HORIZONTAL' and 'VERTICAL' states for  
-      the scroll_bar, though more states like 'SENSITIVE', 'ENABLED' etc.. are available.
-
-    - Finally, before proceeding with a function, studying the existing modules in the 'src' 
-      directory would give a clear picture.   
+   * Initially, the component for which the function is to be written should be identified (Refer point 1) and studied in detail. 
+   * The [http://developer.gnome.org/doc/API/2.0/at-spi/index.html AT-SPI C Bindings] provided in the link is used in the modules for various functions. For eg, the 'Accessible' Interface is used for all the basic operations on the Accessible object, 'AccessibleAction' Interface is used for the AccessibleAction operations on the object.
+   * The various actions that can be performed on the component should be analysed and identified from the AccessibleAction Interface in at-poke(for eg, for push_button, AccessibleAction is "click"), and their corresponding functions from the AT-SPI C Bindings are invoked in the code. If there is no predefined AccessibleAction available for the component, then user-defined actions can be included in the code(for eg, for scroll_bar, scroll_up and scroll_down).
+   * The various states for the component can be viewed on the right panel of the At-poke window. The 'AccessibleState' Interface is used to check the states of the component. For eg, the AccessibleState(s) for push_button are 'VISIBLE', 'ENABLED', etc. '''Note''': that it is not necessary to check all the states listed by At-poke for the component. Checking those states, that are required for the component is sufficient. For eg, it is sufficient to check the 'VISIBLE', 'HORIZONTAL' and 'VERTICAL' states for the scroll_bar, though more states like 'SENSITIVE', 'ENABLED' etc.. are available.
+   * Finally, before proceeding with a function, studying the existing modules in the 'src' directory would give a clear picture.   
 
 4. Coding style (How to name function, variable)
 
-   - Write all the function name in lower case
-
-   - Except the main function write all the other functions as static
-
-   - Atmost try to return the status (PASS - 0/1 or FAIL -1/0) of current function
-
-   - Try to free all the SPI resources ([http://developer.gnome.org/doc/API/2.0/at-spi/at-spi-cspi-SPI-main-loop-and-initialization.html#SPI-freeString SPI_freeString], [http://developer.gnome.org/doc/API/2.0/at-spi/at-spi-cspi-Accessible-Objects.html#Accessible-unref Accessible_unref])
+   * Write all the function name in lower case
+   * Except the main function write all the other functions as static
+   * Atmost try to return the status (PASS - 0/1 or FAIL -1/0) of current function
+   * Try to free all the SPI resources ([http://developer.gnome.org/doc/API/2.0/at-spi/at-spi-cspi-SPI-main-loop-and-initialization.html#SPI-freeString SPI_freeString], [http://developer.gnome.org/doc/API/2.0/at-spi/at-spi-cspi-Accessible-Objects.html#Accessible-unref Accessible_unref])
 
 5. What all should be in your new file (Give reference to safsdev.sf.net with an example to your source code scroll_bar.c)
 
 The file should contain the following functions to perform the corresponding operations:
 
-    - To check whether the selected component for which the test case is written is the invoked 
-      object.
-      For ex. is_object_scroll_bar 
-
-    - To check the required states for the component. For ex. is_scroll_bar_state_visible and
-      is_scroll_bar_state_vertical are used to check the SPI states 'VISIBLE' and 'VERTICAL' 
-      respectively.
-
-    - To perform the corresponding actions for the Accessible Object. For ex. 'click' for 
-      push_button or user-defined actions like 'one_up' and 'one_down' for scroll_bar. These can 
-      be identified with the help of the 'SAFSDEV' reference link [http://safsdev.sourceforge.net/sqabasic2000/ComponentFunctionsList.htm Component Function list]
-
-    - A main function, which includes a pointer to all the above functions written in the module 
-      and returns the function called-for. For ex. scroll_bar_main
+    * To check whether the selected component for which the test case is written is the invoked object. For ex. is_object_scroll_bar 
+    * To check the required states for the component. For ex. is_scroll_bar_state_visible and is_scroll_bar_state_vertical are used to check the SPI states 'VISIBLE' and 'VERTICAL' respectively.
+    * To perform the corresponding actions for the Accessible Object. For ex. 'click' for push_button or user-defined actions like 'one_up' and 'one_down' for scroll_bar. These can be identified with the help of the 'SAFSDEV' reference link [http://safsdev.sourceforge.net/sqabasic2000/ComponentFunctionsList.htm Component Function list]
+    * A main function, which includes a pointer to all the above functions written in the module and returns the function called-for. For ex. scroll_bar_main
 
 6. What all files you need to modify ?
 
-   - In [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/ldtp/src/gui.c gui.c] file,
-     add your ["Class"] in function get_class_id. Before making entry please verify, how other  
-     ["Class"]es are implemented.
-
-   - In [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/ldtp/src/ldtp.c ldtp.c]file, order your new ["Class"] in process_current_record function and add the required 
-     entries. Before making entry please verify, how other ["Class"]es are called.
-
-   - object_state_contains function implemented in
-     [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/ldtp/src/gui.c gui.c] uses 
-     object_state structure in 
-     [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/ldtp/src/states.h states.h].
-     Make sure that your ["Class"] has all the common fields. Add your <component_name>_main 
-     function in [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/ldtp/src/ldtp.h 
-     ldtp.h]
+   * In [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/ldtp/src/gui.c gui.c] file, add your ["Class"] in function get_class_id. Before making entry please verify, how other ["Class"]es are implemented.
+   * In [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/ldtp/src/ldtp.c ldtp.c]file, order your new ["Class"] in process_current_record function and add the required entries. Before making entry please verify, how other ["Class"]es are called.
+   * object_state_contains function implemented in [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/ldtp/src/gui.c gui.c] uses object_state structure in [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/ldtp/src/states.h states.h]. Make sure that your ["Class"] has all the common fields. Add your <component_name>_main function in [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/ldtp/src/ldtp.h ldtp.h]
 
 7. How to Link your source code in main ldtp source ?
 
-      Edit [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/ldtp/src/Makefile.am Makefile.am] and add your new <component_name>.c file entry under ldtp_SOURCES tag. 
-      After making the entry, change to previous directory and run ./autogen.sh and run 'make' 
-      in command prompt.
+    Edit [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/ldtp/src/Makefile.am Makefile.am] and add your new <component_name>.c file entry under ldtp_SOURCES tag. After making the entry, change to previous directory and run ./autogen.sh and run 'make' in command prompt.
 
 8. How to test your new component ?
 
-   - Edit the appmap file in 'input' folder, to include an entry for your component (if it is not
-     already included).
-     Ex. To test the 'scroll_bar' component for 'gedit' application, the gedit.map file is edited
-     and an entry for the scroll_bar is made. 
+   * Edit the appmap file in 'input' folder, to include an entry for your component (if it is not already included). Ex. To test the 'scrollbar' component for 'gedit' application, the gedit.map file is edited and an entry for the scrollbar is made. 
      [gedit]
+
      scrollBar={class=scroll_bar}
-
-  - Write a test case which includes the component and the corresponding action.  For eg. 
-     T   	gedit	scrollBar	scrollDown
-
-  - Execute the test case as given in the link ["Tutorials"] and verify the results.
+  * Write a test case which includes the component and the corresponding action.  For eg. scrolldown ('gedit', 'scrollBar')
+  * Execute the test case as given in the link ["Tutorials"] and verify the results.
