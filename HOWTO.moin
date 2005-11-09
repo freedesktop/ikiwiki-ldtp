@@ -6,6 +6,10 @@
 
 ["How_to_create_Test_Scripts_for_PY-LDTP"]
 
+["how to write test scripts in python"]
+
+["How to execute scripts"] ?
+
 ["Howto use LDTP Editor"]
 
 ["Howto run pyldtp from vnc session"]
@@ -15,6 +19,10 @@
 ["Howto run pyldtp inside Xvfb which runs in xinit session"]
 
 ["Release notes for Evolution-2.5.1 Sanity suite"]
+
+[wiki:Self:LDTPEditor/GeneratingLDTPDataXMLfileformat Generating LDTP Data XML file format]
+
+[wiki:Self:LDTPEditor/GeneratinggldapXMLfileformat Generating gldap XML file format]
 
 == Obsolete HOWTOs ==
 
