@@ -1,43 +1,43 @@
-[wiki:Self:FAQ/LDTPworksbasedonsometechnology LDTP works based on some technology ?]
+[wiki:FAQ/LDTPworksbasedonsometechnology LDTP works based on some technology ?]
 
-[wiki:Self:FAQ/IsLDTPannounced Is LDTP announced ?]
+[wiki:FAQ/IsLDTPannounced Is LDTP announced ?]
 
-[wiki:Self:FAQ/WhyisLDTPnotpartoftheGNOMEproject Why is LDTP not part of the GNOME project ?]
+[wiki:FAQ/WhyisLDTPnotpartoftheGNOMEproject Why is LDTP not part of the GNOME project ?]
 
-[wiki:Self:FAQ/HowisLDTPdifferentfromotherdesktoptestingframeworks How is LDTP different from other desktop testing frameworks ? ]
+[wiki:FAQ/HowisLDTPdifferentfromotherdesktoptestingframeworks How is LDTP different from other desktop testing frameworks ? ]
 
-[wiki:Self:FAQ/HowLDTPdiscoverstheobject How LDTP discovers the object ?]
+[wiki:FAQ/HowLDTPdiscoverstheobject How LDTP discovers the object ?]
 
-[wiki:Self:FAQ/WhousesandsupportsLDTP Who uses and supports LDTP ?]
+[wiki:FAQ/WhousesandsupportsLDTP Who uses and supports LDTP ?]
 
-[wiki:Self:FAQ/DoesLDTPsupportplatformsotherthanLinux Does LDTP support platforms other than Linux ?]
+[wiki:FAQ/DoesLDTPsupportplatformsotherthanLinux Does LDTP support platforms other than Linux ?]
 
-[wiki:Self:FAQ/HowtouseLDTPtotestJavaapplications How to use LDTP to test Java applications ?]
+[wiki:FAQ/HowtouseLDTPtotestJavaapplications How to use LDTP to test Java applications ?]
 
-[wiki:Self:FAQ/WillLDTPsupportKDE Will LDTP support KDE ?]
+[wiki:FAQ/WillLDTPsupportKDE Will LDTP support KDE ?]
 
-[wiki:Self:FAQ/Howaccessibilitytechnologyworks How accessibility technology works ?]
+[wiki:FAQ/Howaccessibilitytechnologyworks How accessibility technology works ?]
 
-[wiki:Self:FAQ/CanIrunmytestsfromaremotelocation Can I run my tests from a remote location ?]
+[wiki:FAQ/CanIrunmytestsfromaremotelocation Can I run my tests from a remote location ?]
 
-[wiki:Self:FAQ/WhydoeserrormessageUnidentifiedObjectdisplayed Why does error message 'Unidentified Object' displayed ?]
+[wiki:FAQ/WhydoeserrormessageUnidentifiedObjectdisplayed Why does error message 'Unidentified Object' displayed ?]
 
-[wiki:Self:FAQ/Wheredoigetinformationaboutpython Where do i get information about python ?]
+[wiki:FAQ/Wheredoigetinformationaboutpython Where do i get information about python ?]
 
-[wiki:Self:FAQ/HowcanIwritecomponentfunctionsforLDTP How can I write component functions for LDTP ?]
+[wiki:FAQ/HowcanIwritecomponentfunctionsforLDTP How can I write component functions for LDTP ?]
 
-[wiki:Self:FAQ/Isthereanytutorialavailableforwritingtestscripts Is there any tutorial available for writing test scripts ?]
+[wiki:FAQ/Isthereanytutorialavailableforwritingtestscripts Is there any tutorial available for writing test scripts ?]
 
-[wiki:Self:FAQ/Howtogeneraterpmfrompyldtpsource How to generate rpm from pyldtp source ?]
+[wiki:FAQ/Howtogeneraterpmfrompyldtpsource How to generate rpm from pyldtp source ?]
 
-[wiki:Self:FAQ/addingnewcomponentfunctionfile After adding new file, when I try to generate rpm, I'm getting error like <new file> not found ?]
+[wiki:FAQ/addingnewcomponentfunctionfile After adding new file, when I try to generate rpm, I'm getting error like <new file> not found ?]
 
-[wiki:Self:FAQ/Applicationnotrunning When I try to generate appmap for applications like gimp, gaim, I'm getting an error message "application not running" ?]
+[wiki:FAQ/Applicationnotrunning When I try to generate appmap for applications like gimp, gaim, I'm getting an error message "application not running" ?]
 
-[wiki:Self:FAQ/Screensaverstopsldtpexecution When xscreensaver runs, GNU/LDTP is unable to proceed ?]
+[wiki:FAQ/Screensaverstopsldtpexecution When xscreensaver runs, GNU/LDTP is unable to proceed ?]
 
-[wiki:Self:FAQ/HowdoIseeconsoleoutput I don't see any console output which are printed with g_print ?]
+[wiki:FAQ/HowdoIseeconsoleoutput I don't see any console output which are printed with g_print ?]
 
-[wiki:Self:FAQ/LDTPsupportedplatforms LDTP supported platforms]
+[wiki:FAQ/LDTPsupportedplatforms LDTP supported platforms]
 
-[wiki:Self:FAQ/RecommendedGNOMEVersion Recommended GNOME Version]
+[wiki:FAQ/RecommendedGNOMEVersion Recommended GNOME Version]
