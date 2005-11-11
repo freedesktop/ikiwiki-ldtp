@@ -1,3 +1,18 @@
+[[TableOfContents]]
+
+== LDTP works based on some technology ? ==
+
+   * Yes, LDTP is based on Assistive Technology.
+   * To know more about assisitive technology  http://developer.gnome.org/projects/gap/
+
+== Is LDTP announced ? ==
+
+Linux Desktop Testing Project (LDTP) was the first Test Automation Framework to use AT-SPI !!! LDTP has been open sourced 1 year back.
+  * LDTP 0.1.0 was anounced on [http://lwn.net/Articles/121202/ Friday 28, January 2005]
+  * LDTP was showcased and discussed in [http://live.gnome.org/Stuttgart2005_2fLightningTalks GUADEC 2005]
+  * Published in [http://opensourcetesting.org/functional.php#GNU/Linux%20Desktop%20Testing%20Project opensourcetesting.org]
+  * Published and discussed in [http://slashdot.org/article.pl?sid=05/06/22/1843206 Slashdot]
+
 [wiki:FAQ/LDTPworksbasedonsometechnology LDTP works based on some technology ?]
 
 [wiki:FAQ/IsLDTPannounced Is LDTP announced ?]
