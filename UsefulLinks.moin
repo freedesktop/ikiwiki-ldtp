@@ -46,6 +46,10 @@ http://ui.openoffice.org/accessibility/at-support.html
 
 http://ui.openoffice.org/accessibility/AWB.html
 
+== Windows GUI test tools and Wine ==
+
+http://kegel.com/wine/testsw.html
+
 == Python related links ==
 
 If you have '''''Novell Linux Desktop''''' and if you have installed python-doc package, you can see python documentation in /usr/share/doc/packages/python/html directory.
