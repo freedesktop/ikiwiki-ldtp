@@ -10,7 +10,7 @@
 
     * Group based execution, which provides precise control on the flow of test-script execution - ["gldap XML"]
 
-    * Scripts can be written as a reusable component and for that the data's can be stored / retrieved in XML - ["Data XML"]
+    * Scripts can be written as a reusable component and for that the data can be stored / retrieved in XML - ["Data XML"]
 
     * User-friendly Text Editor with syntax highlighting for generating and grouping test data ["Howto use LDTP Editor"]
 
