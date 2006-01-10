@@ -7,16 +7,19 @@ We encourage you to join the project and help us to create robust, reliable and 
 ||||||<tablewidth="100%">'''Linux Desktop Testing Project'''||
 ||
 || || ||
-||<rowbgcolor='#FFFFFF'> ["Newsletters"] || GNOME / Mozilla ["Testcases"] ||
+||<rowbgcolor='#FFFFFF'> ["About"] || ["Newsletters"] || GNOME / Mozilla ["Testcases"] ||
 || || ||
-||<rowbgcolor='#E0E0FF'> ["Mailing list"] || ["Community Meeting"] ||
+||<rowbgcolor='#E0E0FF'> ["News"] || ["Mailing list"] || ["Community Meeting"] ||
 || || ||
-||<rowbgcolor="#FFFFFF"> Architecture || ["Release Notes"] ||
+||<rowbgcolor="#FFFFFF"> ["Features"] || Architecture || ["Release Notes"] ||
 || || ||
-||<rowbgcolor='#E0E0FF'> ["Tools"] || TODO ||
+||<rowbgcolor='#E0E0FF'> ["Downloads"] || ["Tools"] || TODO ||
 || || ||
-||<rowbgcolor="#FFFFFF"> ["Tutorials"] || ["Projects using LDTP"] ||
+||<rowbgcolor="#FFFFFF"> ["CVS"] || ["Tutorials"] || ["Projects using LDTP"] ||
 || || ||
-||<rowbgcolor='#E0E0FF'> ["Bugs"] || ["LDTP Demo"] ||
+||<rowbgcolor='#E0E0FF'> ["Docs"] || ["Bugs"] || ["LDTP Demo"] ||
 || || ||
-||<rowbgcolor="#FFFFFF"> ["TeamMembers"] || ["UsefulLinks"] ||
+||<rowbgcolor="#FFFFFF"> ["BeginnersGuide"] || ["TeamMembers"] || ["UsefulLinks"] ||
+|| || ||
+||<rowbgcolor='#E0E0FF'> ["HOWTO"] || ["FAQ"] || ||
+|| || ||
