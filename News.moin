@@ -1,5 +1,7 @@
 ||||||<tablewidth="100%"> ||
 ||
+||<rowbgcolor='#E0E0FF'> LDTP 0.3.0 released ["Downloads"] - Wednesday, February 01 2006 ||
+||
 ||<rowbgcolor='#FFFFFF'> [http://lists.freedesktop.org/archives/ldtp-dev/2005-October/000059.html Sun Solaris LDTP package] will be built biweekly by Sun LDTP Hackers - Tuesday, October 11 2005 ||
 ||
 ||<rowbgcolor='#E0E0FF'> LDTP ["FAQ"] has been [http://nagappanal.blogspot.com/2005/10/faqs-about-ldtp.html updated] - Monday, October 10 2005 ||
@@ -8,7 +10,7 @@
 ||
 ||<rowbgcolor='#E0E0FF'> [http://forge.novell.com/modules/xfmod/project/?tomato Tomato] project is [http://lists.freedesktop.org/archives/ldtp-dev/2005-October/000034.html integrating LDTP] to provide a common scripting environment for Windows and Linux QA script writers - Sunday, October 2 2005 ||
 ||
-||<rowbgcolor='#FFFFFF'> LDTP 0.2.0 release ["Downloads"] - Wednesday, September 28 2005 ||
+||<rowbgcolor='#FFFFFF'> LDTP 0.2.0 released ["Downloads"] - Wednesday, September 28 2005 ||
 ||
 ||<rowbgcolor='#E0E0FF'> LDTP is being used for [http://mail.gnome.org/archives/evolution-hackers/2005-September/msg00133.html valgrinding Evolution] - Mon, September 26 2005 ||
 ||
