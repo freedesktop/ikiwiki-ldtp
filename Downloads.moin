@@ -4,7 +4,7 @@
 ||
 ||<rowbgcolor='#E0E0FF'> Fedora Core 4 [http://download.freedesktop.org/ldtp/0.x/0.3.x/ldtp-0.3.0-3.i386-fc4.rpm ldtp rpm] || Fedora Core 4 with debugging symbols [http://download.freedesktop.org/ldtp/0.x/0.3.x/ldtp-debuginfo-0.3.0-3.i386-fc4.rpm ldtp debuginfo rpm] ||
 ||
-||<rowbgcolor='#FFFFE0'> Debian Sarge 3.1 [http://download.freedesktop.org/ldtp/0.x/0.3.x/python-ldtp_0.3.0-2_i386-DEBIAN.deb ldtp deb] [http://download.freedesktop.org/ldtp/0.x/0.3.x/ltfx_0.1.6-1_i386-DEBIAN.deb stfx deb] || Ubuntu (Breezy Badger) [http://download.freedesktop.org/ldtp/0.x/0.3.x/python-ldtp_0.3.0-2_i386-UBUNTU.deb ldtp deb] [http://download.freedesktop.org/ldtp/0.x/0.3.x/ltfx_0.1.6-1_i386-UBUNTU.deb ltfx deb]||
+||<rowbgcolor='#FFFFE0'> Debian Sarge 3.1 [http://download.freedesktop.org/ldtp/0.x/0.3.x/python-ldtp_0.3.0-2_i386-DEBIAN.deb ldtp deb] [http://download.freedesktop.org/ldtp/0.x/0.3.x/ltfx_0.1.6-1_i386-DEBIAN.deb ltfx deb] || Ubuntu (Breezy Badger) [http://download.freedesktop.org/ldtp/0.x/0.3.x/python-ldtp_0.3.0-2_i386-UBUNTU.deb ldtp deb] [http://download.freedesktop.org/ldtp/0.x/0.3.x/ltfx_0.1.6-1_i386-UBUNTU.deb ltfx deb]||
 ||
 ||<rowbgcolor='#E0E0FF'> LDTP source [http://download.freedesktop.org/ldtp/0.x/0.3.x/ldtp-source-0.3.0.tar.bz2 LDTP source tar.bz2] || PyLDTP source [http://download.freedesktop.org/ldtp/0.x/0.3.x/ldtp-source-0.3.0.tar.gz LDTP source tar.gz] ||
 ||
