@@ -1,0 +1,58 @@
+= LDTP Overall Architecture =
+
+http://ldtp.freedesktop.org/LDTP-Overall-Arch.png
+
+= LDTP Internals =
+
+http://ldtp.freedesktop.org/LDTP-Engine.png
+
+LDTP engine exposes set of API's as defined in the doc section. LDTP
+client wraps the calls based on the programming language (example:
+separate python client, maybe in future we can have Mono / Java / Perl
+based clients). Communication between the client and server takes place
+in XML format.
+
+Most of LDTP ideas are implemented from http://safsdev.sf.net. Most of
+the commands takes at-least 2 arguments. First argument will be context
+(window in which we want to operate) and the second argument will be
+component (object in which we want to operate, based on the current
+context).
+
+''Example:'' click ('*-gedit', 'btnNew') # Click operation will be performed
+on a window which is having *-gedit (regexp) and in that window object
+name 'New', which is of type 'push button'.
+
+== Server ==
+
+When a test script is started, the LDTP client will establish a
+connection with the LDTP engine using AF_UNIX.
+
+== Client Handler ==
+
+When ever a command is executed from the script, the
+client frames the XML data and send it to the server. LDTP engine parses
+the command request from the client and invoke the respective Component
+Handler.
+
+== Component Handler ==
+
+Each individual component handlers uses the AT-SPI
+libraries to communicate to the respective application. Based on the
+execution status, success or failure will be notified as a response (in
+XML format) to the client. In few cases the requested data from the
+respective component will be returned to the client, based on the
+request (example: gettextvalue).
+
+== Event Handler ==
+
+For unexpected windows (example: connection reset by peer
+/connection timed out dialogs) can be handled by registering a callback
+function and the respective callback function will be called, whenever
+the registered window with the title appears and even this window could
+be based on regular expression.
+
+== Logger ==
+
+Logs the execution status in XML format
+
+ * [http://freedesktop.org/~nagappan/LDTP-slides.pdf LDTP slides] presented in FOSS.IN/2005 - pdf format
