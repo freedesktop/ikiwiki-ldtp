@@ -6,8 +6,8 @@ http://ldtp.freedesktop.org/LDTP-Overall-Arch.png
 
 http://ldtp.freedesktop.org/LDTP-Engine.png
 
-LDTP engine exposes set of API's as defined in the doc section. LDTP
-client wraps the calls based on the programming language (example:
+LDTP Clients can talk to LDTP engine with the set of LDTP Command Transfer Protocol (LDTPCTP) as defined in the ["Docs"] section. LDTP
+client wraps the LDTP Command Transfer Protcol based on the programming language (example:
 separate python client, maybe in future we can have Mono / Java / Perl
 based clients). Communication between the client and server takes place
 in XML format.
