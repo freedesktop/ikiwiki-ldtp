@@ -2,8 +2,6 @@
 
 ["How to setup pyldtp in GNU/Linux environment"]
 
-["Howto generate Application map"]
-
 ["How_to_create_Test_Scripts_for_PY-LDTP"]
 
 ["how to write test scripts in python"]
@@ -29,3 +27,5 @@
 == Obsolete HOWTOs ==
 
 ["Test-case generation procedure"]
+
+["Howto generate Application map"]
