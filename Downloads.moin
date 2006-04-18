@@ -8,9 +8,9 @@
 ||
 ||<rowbgcolor='#E0E0FF'> LDTP source [http://download.freedesktop.org/ldtp/0.x/0.4.x/ldtp-source-0.4.0.tar.bz2 LDTP source tar.bz2] || PyLDTP source [http://download.freedesktop.org/ldtp/0.x/0.4.x/ldtp-source-0.4.0.tar.gz LDTP source tar.gz] ||
 ||
-||<rowbgcolor='#FFFFE0'> Sun Solaris Sparc [http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-sparc.tar.gz gettext] || Sun Solaris Sparc [http://download.freedesktop.org/ldtp/0.x/0.2.x/SUNWpyldtp-0.2.1-sparc-4.tar.gz PyLDTP] ||
+||<rowbgcolor='#FFFFE0'> Sun Solaris Sparc [http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-sparc.tar.gz gettext] || Sun Solaris Sparc [http://download.freedesktop.org/ldtp/0.x/0.4.x/SUNWpyldtp-s.tar.gz ldtp] ||
 ||
-||<rowbgcolor='#E0E0FF'> Sun Solaris i386 [http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-x86.tar.gz gettext] || Sun Solaris i386 [http://download.freedesktop.org/ldtp/0.x/0.2.x/SUNWpyldtp-0.2.1-x86-4.tar.gz pyLDTP] ||
+||<rowbgcolor='#E0E0FF'> Sun Solaris i386 [http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-x86.tar.gz gettext] || Sun Solaris i386 [hhttp://download.freedesktop.org/ldtp/0.x/0.4.x/SUNWpyldtp-x.tar.gz ldtp] ||
 ||<rowbgcolor='#FFFFFF'> || ||
 ||<rowbgcolor='#FFFFFF'> || ||
 
