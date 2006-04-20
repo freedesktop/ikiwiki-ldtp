@@ -1,0 +1,69 @@
+Installing ldtp on Red Hat 3.4.3-9.EL4 (using VMWare)
+
+Assumption:
+A linux user (say harsha)
+The symbol $ is run as user in the terminal
+The symbol # is run as root in the terminal
+
+1. Praveen A (J4V4M4N) checked out the entire ldtp project(s) for me (Thank you buddy)
+
+2. I compiled the ldtp project (not pyldtp)
+ 
+    Procedure:
+    $ cd ~harsha/ldtp
+    $./autogen.sh
+    $ ./configure
+    # make    
+    # make install
+    #cd python
+    # ./setup.py build
+    # ./setup.py install 
+ 
+3. I discoverd i had python:
+    Python 2.3.4 (#1, Feb  2 2005, 11:44:49)
+    [GCC 3.4.3 20041212 (Red Hat 3.4.3-9.EL4)] on linux2
+    Type "help", "copyright", "credits" or "license" for more information. 
+
+4. I installed python2.4 rpms (core and devel)
+
+5. I set the <logfile>/home/harsha/EXAMPLES/gedit/gedit-log.xml</logfile> values in gedit-execution.xml
+
+6. Then I tried executing gedit-execution.xml
+
+7. I got a log message saying python imaging library (PIL) is not installed
+
+8. I downloaded PIL and again ran 
+   # python2.4 ~harsha/PIL/setup.py build 
+   # ~harsha/PIL/setup.py install
+
+9. again i ran 
+   $ cd ~harsha/ldtp/python 
+   # python2.4 ./setup.py build
+   # python2.4 setup.py install
+   running install
+   running build
+   running build_py
+   running install_lib
+   copying build/lib/ldtputils.py -> /usr/lib/python2.4/site-packages 
+   copying build/lib/ldtp.py -> /usr/lib/python2.4/site-packages
+   byte-compiling /usr/lib/python2.4/site-packages/ldtputils.py to ldtputils.pyc
+   byte-compiling /usr/lib/python2.4/site-packages/ldtp.py to ldtp.pyc 
+   running install_data
+ 
+and gldap.py got copied to /usr/bin
+
+10. Now I went to Start Menu/Preferences/Accesibility/Assistive Technology Support <click>
+   in the window that appears select "Enable Assistive Technology Support" and say ok
+
+11. I opened one more terminal and typed
+   $ ldtp &
+  (server should run right)
+ 
+12. I opened gedit application
+
+13. now cd ~harsha/EXAMPLES/gedit
+
+14  run the command
+   $ python2.4 /usr/bin/gldap.py gedit-execution.xml
+ 
+15. and the Magic started to happen Hurray Yummy yummy!!! I am happy ;)
