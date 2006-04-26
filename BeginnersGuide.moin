@@ -4,13 +4,11 @@
 
  * Enable accessibility (Assistive Technology)
 
- * Check existing [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/pyautosuite/pyautosuite.tar.gz?tarball=1 pyautosuite.tar.gz] scripts
+ * Check existing [http://webcvs.freedesktop.org/ldtp/pyautosuite] scripts
 
- * Refer ["API Reference"] page for list of LDTP functions available
+ * Refer ["Doc"] page for list of LDTP functions available
 
- * ["Howto generate Application map"] - Optional from LDTP 0.3.0 release.
-
- * ["How_to_create_Test_Scripts_for_PY-LDTP"]
+ * ["How to create test scripts for LDTP"]
 
  * ["Howto use LDTP Editor"] - To generate Data XML and Grouping scripts
 
