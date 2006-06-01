@@ -1,9 +1,12 @@
-= SoC tasks =
-== Tinderbox integration ==
+ * '''Summer of Code 06 '''
 
-== Evolution automation (Mailer / Calendar / Contacts / Task) ==
+= Tasks =
+
+ * Tinderbox integration ["Tinderbox"]
+
+ * Evolution automation ["Evolution"]
  
-== LDTP Regression suite ==
+ * LDTP Regression suite ["Regression"]
 
 
 
