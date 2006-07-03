@@ -142,6 +142,10 @@ Seems to be accessibility bug. As a work around, use the command 'xscreensaver-c
   * [http://fedora.redhat.com/ Fedora Core]
   * [http://www.freebsd.org/ FreeBSD]
 
+== How to Compile LDTP under Ubuntu Dapper? ==
+
+Check ["ldtpUnderDapper"]. You will need automake 1.9 and aclocal 1.9 installed.
+
 == Recommended GNOME Version ==
 
 [http://www.gnome.org GNOME] 2.10 and above
