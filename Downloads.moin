@@ -14,9 +14,9 @@
 ||<rowbgcolor='#FFFFFF'> || ||
 ||<rowbgcolor='#FFFFFF'> || ||
 
-||||||<tablewidth="100%">'''Download LDTP Editor''' ||
+||||||<tablewidth="100%">'''Download LDTP Source''' ||
 ||
-||<rowbgcolor='#E0E0FF'> Latest LDTP Editor [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/ldtpeditor/ldtpeditor.tar.gz?tarball=1 Source] || LDTP Editor [http://download.freedesktop.org/ldtp/0.x/0.2.x/ldtpeditor_0.2.1-1_i386.deb for Debian/Ubuntu] ||
+||<rowbgcolor='#E0E0FF'> ["CVS"] || ||
 
 '''Download License'''
 
