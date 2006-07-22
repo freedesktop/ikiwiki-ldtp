@@ -7,15 +7,15 @@ We encourage you to join the project and help us to create robust, reliable and 
 ||||||<tablewidth="100%">'''Linux Desktop Testing Project'''||
 ||
 || || ||
-||<rowbgcolor='#FFFFFF'> ["About"] || ["Newsletters"] || GNOME ["Testcases"] ||["HOWTO"] ||
+||<rowbgcolor='#FFFFFF'> ["About"] || ["News"] || ["Features"] || ["Downloads"] ||
 || || ||
-||<rowbgcolor='#E0E0FF'> ["News"] || ["Mailing list"] || ["Community Meeting"] || ["FAQ"] ||
+||<rowbgcolor='#E0E0FF'> ["Docs"] || ["Mailing list"] || ["CVS"] || ["FAQ"] ||
 || || ||
-||<rowbgcolor="#FFFFFF"> ["Features"] || ["Architecture"] || ["Release Notes"] || ["SoC"] ||
+||<rowbgcolor="#FFFFFF"> ["BeginnersGuide"] || ["Architecture"] || ["HOWTO"] || ["SoC"] ||
 || || ||
-||<rowbgcolor='#E0E0FF'> ["Downloads"] || ["Tools"] || ["BeginnersGuide"] || [http://ldtp.freedesktop.org/planet Planet LDTP] ||
+||<rowbgcolor='#E0E0FF'> ["TeamMembers"] || ["LDTP Demo"] || GNOME ["Testcases"] || [http://ldtp.freedesktop.org/planet Planet LDTP] ||
 || || ||
-||<rowbgcolor="#FFFFFF"> ["CVS"] || ["Tutorials"] || ["Projects using LDTP"] || ["Bugs"] ||
+||<rowbgcolor="#FFFFFF"> ["UsefulLinks"] || ["Tutorials"] || ["Projects using LDTP"] || ["Bugs"] ||
 || || ||
-||<rowbgcolor='#E0E0FF'> ["TeamMembers"] || ["UsefulLinks"] || ["Docs"] || ["LDTP Demo"] ||
+||<rowbgcolor='#E0E0FF'> ["Release Notes"] || ["Community Meeting"] || ["Newsletters"] || ["Tools"] ||
 || || ||
