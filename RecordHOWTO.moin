@@ -1,0 +1,38 @@
+##language:en
+== Example for Recording ==
+=== General Instructions: ===
+
+ * The commands mentioned below can be executed from both gnome-terminal and konsole. But if you want to be more sure of  the output then use konsole 
+
+ * There is a small issue while recording text area . Whenever a text is to be recorded, after the text is typed , focus must be given to some other text field. This can be done by clicking some other text field. Incase there is only one text field , this can be done clicking outside the text field and then inside again.
+
+ * The name given as application must be the name of application and not the    command. For example the command typed maybe evolution but the application which may be running is evolution-2.6 . Similarly in gftp , the application name is gtk-gftp. So better check the application name in at-poke before giving it to record.Incase the application name is wrong , you will get just teststart and testend. No python commands will be obtained in this case.
+
+=== Example 1 Adding Contact in Evolution ===
+{{{ 
+./ldtprecord.py -c start -a evolution -p all 
+}}}
+      Recording is started for the application evolution and all actions are to be recorded.
+   
+ * Do the actions .Open the File->New->Contact. Type whatever you want and press submit finally. '''NOTE'''  Almost all the events done here are text related events . Do READ the second point in General Instructions
+
+ * After the actions are done , goto the shell again and type
+{{{ 
+./ldtprecord.py -c stop -f /tmp/evolution -i
+}}}
+      Recording is stopped now. The filename given need not have any extension. Extensions are added automatically . '''NOTE''' Dont use ~/ or ../ or ./ to give the file path. It will be better if you give the absolute path , say something like /home/name/ldtp/record/evo.  The i option is to add license and two more lines saying from ldtp import * and from ldtputils import * to the generated code.
+     
+ * If this is done perfectly , then you will get the outout in the shell as something like
+{{{   
+Response Length : 28
+XML File from server : /tmp/ldtp-record-hari-MijN8b
+Created python file path  /tmp/evolution.py
+Created XML file path path  /tmp/evolution.xml
+}}}
+
+      The response length and the XML file from server may vary but the python path and xml file path must be the same if the file path given while stopping record is given as mentioned above.
+	   
+ * Incase the generated python script or the xml data script has some error in it, then send all three files ( XML from the server , python script generated and the data xml ) to the LDTP developers .The XML from server is really important and incase you forget to add that , then it will be really difficult to debug.
+
+
+
