@@ -17,7 +17,3 @@
 
  * Password Field . 
    Incase of the password field , try to listen to keyboard and then put the actual content typed by the user.
-
-=== Client Part === 
- * Integrate execution of script from data.xml
- * LDTP Record GUI 
