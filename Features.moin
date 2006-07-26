@@ -8,7 +8,7 @@
 
     * From the XML log, we can gather [http://lists.freedesktop.org/archives/ldtp-dev/2005-October/000031.html HTML report] using XSLT
 
-    * Group based execution, which provides precise control on the flow of test-script execution - ["gldap XML"]
+    * Group based execution, which provides precise control on the flow of test-script execution - ["ldtprunner XML"]
 
     * Scripts can be written as a reusable component and for that the data can be stored / retrieved in XML - ["Data XML"]
 
