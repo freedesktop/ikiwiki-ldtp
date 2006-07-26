@@ -50,7 +50,7 @@ The symbol # is run as root in the terminal
    byte-compiling /usr/lib/python2.4/site-packages/ldtp.py to ldtp.pyc 
    running install_data
  
-and gldap.py got copied to /usr/bin
+and ldtprunner got copied to /usr/bin
 
 10. Now I went to Start Menu/Preferences/Accesibility/Assistive Technology Support <click>
    in the window that appears select "Enable Assistive Technology Support" and say ok
@@ -64,6 +64,6 @@ and gldap.py got copied to /usr/bin
 13. now cd ~harsha/EXAMPLES/gedit
 
 14  run the command
-   $ python2.4 /usr/bin/gldap.py gedit-execution.xml
+   $ python2.4 /usr/bin/ldtprunner gedit-execution.xml
  
 15. and the Magic started to happen Hurray Yummy yummy!!! I am happy ;)
