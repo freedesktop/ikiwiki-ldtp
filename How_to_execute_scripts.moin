@@ -6,7 +6,7 @@ Make sure that you have the following files in current working directory
  - You need to have application map
  - You need to have ["Data XML"]
  - You need to have ["ldtprunner XML"]
- - pyldtp, ltfx, digwin, gldap.py are installed
+ - ldtp, ltfx, digwin, ldtprunner, ldtprecord are installed
 
 Invoke:
  - ldtprunner <ldtprunner XML>
