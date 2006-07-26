@@ -12,7 +12,7 @@
 
  * ["Howto use LDTP Editor"] - To generate Data XML and Grouping scripts
 
- * ["How to execute scripts"] - GLDAP based
+ * ["How to execute scripts"] - ldtprunner based
 
  * Join the LDTP team on IRC for technical help, online.
    Server  : irc.freenode.net
