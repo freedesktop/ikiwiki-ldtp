@@ -2,7 +2,7 @@
 
 == What it is Object-Oriented LDTP? ==
 
-Currently LDTP support this kind of syntax:
+Currently LDTP support this kind of syntax:[[BR]]
 click('*gedit', btncopy)[[BR]]
 selectmenuitem('*gedit', 'mnuFile;mnuOpen')[[BR]]
 
@@ -17,7 +17,7 @@ Window('frm*gedit').PushButton('btncopy').click()[[BR]]
 Window('frm*gedit').MenuItem('mnuFile;mnuOpen').pick()[[BR]]
 
 
-so I write a wrapper for LDTP, it wraps/improves most of LDTP API. Thanks LDTP community!!
+so I write a wrapper for LDTP, it wraps/improves most of LDTP API. Thanks LDTP community!![[BR]]
 
 == How to use? ==
 === use convert.py to generate the window declaration ===
