@@ -45,7 +45,7 @@ so I write a wrapper for LDTP, it wraps/improves most of LDTP API.
        mnuAllLowerCase = Window.MenuItem('mnuEdit;mnuChangeCase;mnuAllLowerCase', name)[[BR]]
        mnuAllUpperCase = Window.MenuItem('mnuEdit;mnuChangeCase;mnuAllUpperCase', name)[[BR]]
         ...[[BR]]
-    frmGedit = Gedit()[[BR]]
+   frmGedit = Gedit()[[BR]]
 
 === now you can do something like this  ===
    ==== to select a menuitem: ====
@@ -58,7 +58,7 @@ so I write a wrapper for LDTP, it wraps/improves most of LDTP API.
    or write this[[BR]]
    Window('*gedit').PushButton('btnfind').click()[[BR]]
 
-   ==== you can find more wrapped APIs in window.py
+   ==== you can find more wrapped APIs in window.py ====
 
 === also you can add your own methods to this class. ===
 === That's all, enjoy it ;) ===
