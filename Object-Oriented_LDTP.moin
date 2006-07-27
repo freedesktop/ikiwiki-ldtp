@@ -2,7 +2,7 @@
 
 == What it is Object-Oriented LDTP? ==
 
-Currently LDTP support this kind of syntax:[[BR]]
+Till now LDTP supports this kind of syntax:[[BR]]
 click('*gedit', btncopy)[[BR]]
 selectmenuitem('*gedit', 'mnuFile;mnuOpen')[[BR]]
 
