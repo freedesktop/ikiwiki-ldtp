@@ -1,68 +1,67 @@
-Welcome to Object-Oriented LDTP
+= Welcome to Object-Oriented LDTP =
 
-
-What it is Object-Oriented LDTP?
+== What it is Object-Oriented LDTP? ==
 
 Currently LDTP support this kind of syntax:
-click('*gedit', btncopy)
-selectmenuitem('*gedit', 'mnuFile;mnuOpen')
+click('*gedit', btncopy)[[BR]]
+selectmenuitem('*gedit', 'mnuFile;mnuOpen')[[BR]]
 
 it does not support appmap anymore. however I prefer using appmap to maximize its maintainability of our automation script. and I want ldtp have ability to using the following syntax to write script:
-frmgedt.btncopy.click()
-frmgedit.mnuOpen.click()
-and 
-Window('frm*gedit').PushButton('btncopy').click()
-Window('frm*gedit').MenuItem('mnuFile;mnuOpen').pick()    
+
+frmgedt.btncopy.click()[[BR]]
+frmgedit.mnuOpen.click()[[BR]]
+
+and
+
+Window('frm*gedit').PushButton('btncopy').click()[[BR]]
+Window('frm*gedit').MenuItem('mnuFile;mnuOpen').pick()[[BR]]
 
 
 so I write a wrapper for LDTP, it wraps/improves most of LDTP API.
 
-How to use?
-1. use convert.py to generate the window declaration
+== How to use? ==
+=== use convert.py to generate the window declaration ===
    cmd line: 
        convert windowname output
    e.g.
        convert frm*gedit geditclass.py
    it will generate geditclass.py
 
-2. open the file, you can find the code looks like below:
+=== open the file, you can find the code looks like below: ===
 
-    class Gedit(Window):
-        name = '*gedit'
+   from window import *
 
-        btncopy = Window.PushButton('btncopy', name)
-        btncut = Window.PushButton('btncut', name)
-        btnfind = PushButton(name, 'btnfind')
-        btnfindandreplace = PushButton(name, 'btnfindandreplace')
-        btngtkundo = PushButton(name, 'btngtk-undo')
-        btnnew = PushButton(name, 'btnnew')
-        btnopen = PushButton(name, 'btnopen')
-        btnpaste = PushButton(name, 'btnpaste')
-        btnprint = PushButton(name, 'btnprint')
-        btnredo = PushButton(name, 'btnredo')
-        btnsave = PushButton(name, 'btnsave')
-        
-        mnuAbout = Window.Menu('mnuHelp;mnuAbout', name)
-        mnuAda = Menu(name, 'mnuView;mnuHighlightMode;mnuSources;mnuAda')
-        mnuAllLowerCase = Menu(name, 'mnuEdit;mnuChangeCase;mnuAllLowerCase')
-        mnuAllUpperCase = Menu(name, 'mnuEdit;mnuChangeCase;mnuAllUpperCase')
-        mnuC = Menu(name, 'mnuView;mnuHighlightMode;mnuSources;mnuC')  
-        mnuCSharp = Menu(name, 'mnuView;mnuHighlightMode;mnuSources;mnuC#')
-        mnuCPlus = Menu(name, 'mnuView;mnuHighlightMode;mnuSources;mnuC++')
-        ...
-    frmGedit = Gedit()
+   class Gedit(Window):
+       name = '*gedit'
 
-3. now you can do something like this to select a menuitem:
-    frmGedit.mnuAbout.select()
-    or write this
-    Window('*gedit').Menu('mnuHelp;mnuAbout').select()
+       btncopy = Window.PushButton('btncopy', name)[[BR]]
+       btncut = Window.PushButton('btncut', name)[[BR]]
+       btnfind = Window.PushButton('btnfind', name)[[BR]]
+       btnfindandreplace = Window.PushButton('btnfindandreplace', name)[[BR]]
+       btngtkundo = Window.PushButton('btngtk-undo', name)[[BR]]
+     
+       mnuAbout = Window.MenuItem('mnuHelp;mnuAbout', name)[[BR]]
+       mnuAda = Window.MenuItem('mnuView;mnuHighlightMode;mnuSources;mnuAda', name)[[BR]]
+       mnuAllLowerCase = Window.MenuItem('mnuEdit;mnuChangeCase;mnuAllLowerCase', name)[[BR]]
+       mnuAllUpperCase = Window.MenuItem('mnuEdit;mnuChangeCase;mnuAllUpperCase', name)[[BR]]
+        ...[[BR]]
+    frmGedit = Gedit()[[BR]]
+
+=== now you can do something like this  ===
+   ==== to select a menuitem: ====
+   frmGedit.mnuAbout.select()[[BR]]
+   or write this[[BR]]
+   Window('*gedit').Menu('mnuHelp;mnuAbout').select()[[BR]]
     
-    to click a button:
-    frmGedit.btnfind.click()
-    or write this
-    Window('*gedit').PushButton('btnfind').click()
+   ==== to click a button: ====
+   frmGedit.btnfind.click()[[BR]]
+   or write this[[BR]]
+   Window('*gedit').PushButton('btnfind').click()[[BR]]
 
-4. also you can add your own methods to this class.
-5. enjoy it ;)
+   ==== you can find more wrapped APIs in window.py
 
-Found any bug please email me: tae.ccf(at)gmail.com
+=== also you can add your own methods to this class. ===
+=== That's all, enjoy it ;) ===
+
+===== Found any bug please email me: =====
+tae.ccf(at)gmail.com
