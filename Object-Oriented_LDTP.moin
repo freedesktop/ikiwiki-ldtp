@@ -1,0 +1,68 @@
+Welcome to Object-Oriented LDTP
+
+
+What it is Object-Oriented LDTP?
+
+Currently LDTP support this kind of syntax:
+click('*gedit', btncopy)
+selectmenuitem('*gedit', 'mnuFile;mnuOpen')
+
+it does not support appmap anymore. however I prefer using appmap to maximize its maintainability of our automation script. and I want ldtp have ability to using the following syntax to write script:
+frmgedt.btncopy.click()
+frmgedit.mnuOpen.click()
+and 
+Window('frm*gedit').PushButton('btncopy').click()
+Window('frm*gedit').MenuItem('mnuFile;mnuOpen').pick()    
+
+
+so I write a wrapper for LDTP, it wraps/improves most of LDTP API.
+
+How to use?
+1. use convert.py to generate the window declaration
+   cmd line: 
+       convert windowname output
+   e.g.
+       convert frm*gedit geditclass.py
+   it will generate geditclass.py
+
+2. open the file, you can find the code looks like below:
+
+    class Gedit(Window):
+        name = '*gedit'
+
+        btncopy = Window.PushButton('btncopy', name)
+        btncut = Window.PushButton('btncut', name)
+        btnfind = PushButton(name, 'btnfind')
+        btnfindandreplace = PushButton(name, 'btnfindandreplace')
+        btngtkundo = PushButton(name, 'btngtk-undo')
+        btnnew = PushButton(name, 'btnnew')
+        btnopen = PushButton(name, 'btnopen')
+        btnpaste = PushButton(name, 'btnpaste')
+        btnprint = PushButton(name, 'btnprint')
+        btnredo = PushButton(name, 'btnredo')
+        btnsave = PushButton(name, 'btnsave')
+        
+        mnuAbout = Window.Menu('mnuHelp;mnuAbout', name)
+        mnuAda = Menu(name, 'mnuView;mnuHighlightMode;mnuSources;mnuAda')
+        mnuAllLowerCase = Menu(name, 'mnuEdit;mnuChangeCase;mnuAllLowerCase')
+        mnuAllUpperCase = Menu(name, 'mnuEdit;mnuChangeCase;mnuAllUpperCase')
+        mnuC = Menu(name, 'mnuView;mnuHighlightMode;mnuSources;mnuC')  
+        mnuCSharp = Menu(name, 'mnuView;mnuHighlightMode;mnuSources;mnuC#')
+        mnuCPlus = Menu(name, 'mnuView;mnuHighlightMode;mnuSources;mnuC++')
+        ...
+    frmGedit = Gedit()
+
+3. now you can do something like this to select a menuitem:
+    frmGedit.mnuAbout.select()
+    or write this
+    Window('*gedit').Menu('mnuHelp;mnuAbout').select()
+    
+    to click a button:
+    frmGedit.btnfind.click()
+    or write this
+    Window('*gedit').PushButton('btnfind').click()
+
+4. also you can add your own methods to this class.
+5. enjoy it ;)
+
+Found any bug please email me: tae.ccf(at)gmail.com
