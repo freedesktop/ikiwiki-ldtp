@@ -14,11 +14,11 @@
 
 ["How to develop component functions for LDTP"]
 
-["Howto run pyldtp from vnc session"]
+["Howto run ldtp from vnc session"]
 
-["Howto run pyldtp inside Xvfb"]
+["Howto run ldtp inside Xvfb"]
 
-["Howto run pyldtp inside Xvfb which runs in xinit session"]
+["Howto run ldtp inside Xvfb which runs in xinit session"]
 
 ["Release notes for Evolution-2.5.1 Sanity suite"]
 
