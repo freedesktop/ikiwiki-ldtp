@@ -10,7 +10,7 @@
 
 === Example 1 Adding Contact in Evolution ===
 {{{ 
-ldtprecord -c start -a evolution -p all 
+ldtprecord -c start
 }}}
       Recording is started for the application evolution and all actions are to be recorded.
    
