@@ -33,3 +33,7 @@ Created XML file path path  /tmp/evolution.xml
       The response length and the XML file from server may vary but the python path and xml file path must be the same if the file path given while stopping record is given as mentioned above.
 	   
  * Incase the generated python script or the xml data script has some error in it, then send all three files ( XML from the server , python script generated and the data xml ) to the LDTP developers .The XML from server is really important and incase you forget to add that , then it will be really difficult to debug.
+
+== Known issues ==
+
+[wiki:RecordTODO Recording TO DO]
