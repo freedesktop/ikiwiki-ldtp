@@ -17,3 +17,5 @@
 
  * Password Field . 
    Incase of the password field , try to listen to keyboard and then put the actual content typed by the user.
+
+'''Ref:''' [wiki:RecordHOWTO How to use Recording]
