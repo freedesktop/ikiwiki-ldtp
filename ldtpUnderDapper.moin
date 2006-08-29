@@ -1,4 +1,4 @@
-If you are bulding LDTP under [Ubuntu Dapper http://www.ubuntu.com/], You will need to make a few changes before you compile LDTP.
+If you are bulding LDTP under [http://www.ubuntu.com/ Ubuntu Dapper], You will need to make a few changes before you compile LDTP.
  * Get the Accessibility Dependancies
    * sudo apt-get install at-spi libatk1.0-0 libatspi1.0-0 libgail-common libgail-gnome-module libgail17 libtool libatspi-dev libgail-dev libgail-gnome-dev
  * You could ''optionally'' install the ''at-poke'' and ''python-imaging'' package
