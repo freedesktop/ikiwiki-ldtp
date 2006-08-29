@@ -12,6 +12,6 @@ If you are bulding LDTP under [Ubuntu Dapper http://www.ubuntu.com/], You will n
    * sudo ln -sf /usr/bin/automake-1.9 /usr/bin/automake
    * sudo ln -sf /usr/bin/aclocal-1.9 /usr/bin/aclocal
  * Now continue compiling the package as usual 
-   * ./autogen.sh 
+   * ./autogen.sh --prefix=/usr
    * make 
    * sudo make install
