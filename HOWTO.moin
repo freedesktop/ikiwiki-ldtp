@@ -2,15 +2,15 @@
 
 ["How to setup ldtp in GNU/Linux environment"]
 
+["ldtprunner XML"]
+
+["Data XML"]
+
 [wiki:RecordHOWTO How to use Recording]
 
 ["How to create test scripts for LDTP"]
 
 ["How to write test scripts in python"]
-
-[wiki:Self:LDTPEditor/GeneratingLDTPDataXMLfileformat Generating LDTP Data XML file format]
-
-[wiki:Self:LDTPEditor/GeneratingldtprunnerXMLfileformat Generating ldtprunner XML file format]
 
 [wiki:Self:RecordHOWTO Generating Recorded Code]
 
@@ -35,3 +35,7 @@
 ["Howto generate Application map"]
 
 ["Howto use LDTP Editor"]
+
+[wiki:Self:LDTPEditor/GeneratingLDTPDataXMLfileformat Generating LDTP Data XML file format]
+
+[wiki:Self:LDTPEditor/GeneratingldtprunnerXMLfileformat Generating ldtprunner XML file format]
