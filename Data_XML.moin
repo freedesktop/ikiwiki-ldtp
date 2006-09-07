@@ -10,6 +10,7 @@ We have the following tags in Data XML
  * '''<user defined tags>''' - User defined tags with user defined values. These user defined tags can appear multiple times. If you use LDTP utils XML parser, the values from the user defined tags are returned as a list. So, you can use it with its index. The list index starts from 0.
 
 == Refer ==
- * [wiki:Self:LDTPEditor/GeneratingLDTPDataXMLfileformat Generating LDTP Data XML file format]
  * ["Sample Data XML"]
  * ["Data XML File Parser"]
+Obsolete
+ * [wiki:Self:LDTPEditor/GeneratingLDTPDataXMLfileformat Generating LDTP Data XML file format]
