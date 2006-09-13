@@ -11,11 +11,11 @@ We encourage you to join the project and help us to create robust, reliable and 
 || || ||
 ||<rowbgcolor='#E0E0FF'> ["Docs"] || ["Mailing list"] || ["CVS"] || ["FAQ"] ||
 || || ||
-||<rowbgcolor="#FFFFFF"> ["BeginnersGuide"] || ["Architecture"] || ["HOWTO"] || ["SoC"] ||
+||<rowbgcolor="#FFFFFF"> ["BeginnersGuide"] || ["HOWTO"] || ["Projects using LDTP"] || ["Bugs"] ||
 || || ||
-||<rowbgcolor='#E0E0FF'> ["TeamMembers"] || ["LDTP Demo"] || GNOME ["Testcases"] || [http://ldtp.freedesktop.org/planet Planet LDTP] ||
+||<rowbgcolor='#E0E0FF'> ["TeamMembers"] || ["LDTP Demo"] || [http://ldtp.freedesktop.org/planet Planet LDTP] ||
 || || ||
-||<rowbgcolor="#FFFFFF"> ["UsefulLinks"] || ["Tutorials"] || ["Projects using LDTP"] || ["Bugs"] ||
+||<rowbgcolor="#FFFFFF"> ["UsefulLinks"] || GNOME ["Testcases"] || ["SoC"] || ["Architecture"] || 
 || || ||
 ||<rowbgcolor='#E0E0FF'> ["Release Notes"] || ["Object-Oriented LDTP"] || ["Newsletters"] || ["Tools"] ||
 || || ||
