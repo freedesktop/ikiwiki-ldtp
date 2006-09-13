@@ -24,6 +24,10 @@ How to create ["LDTP test scripts in python"]
 
 ["How to develop component functions for LDTP"]
 
+== Papers about testing ==
+
+[http://safsdev.sourceforge.net/FRAMESDataDrivenTestAutomationFrameworks.htm The White Paper on Keyword Driven Automation Framework]
+
 == Obsolete HOWTOs ==
 
 ["Test-case generation procedure"]
@@ -41,7 +45,3 @@ How to create ["LDTP test scripts in python"]
 ["Release notes for Evolution-2.5.1 Sanity suite"]
 
 ["Howto install ldtp Red Hat 3.4.3-9.EL4"]
-
-== Papers about testing ==
-
-[http://safsdev.sourceforge.net/FRAMESDataDrivenTestAutomationFrameworks.htm The White Paper on Keyword Driven Automation Framework]
