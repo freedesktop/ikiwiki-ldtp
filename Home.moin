@@ -7,13 +7,13 @@ We encourage you to join the project and help us to create robust, reliable and 
 ||||||<tablewidth="100%">'''Linux Desktop Testing Project'''||
 ||
 || || || ||
-||<rowbgcolor='#FFFFFF'> ["About"] || ["News"] || ["Features"] ||
+||<rowbgcolor='#E0FFE0'> ["About"] || ["News"] || ["Features"] ||
 || || || ||
 ||<rowbgcolor='#E0E0FF'> ["Downloads"] || ["CVS"] || ["Docs"] ||
 || || || ||
-||<rowbgcolor="#FFFFFF"> ["HOWTO"] || ["FAQ"] || ["Bugs"] ||
+||<rowbgcolor="#E0FFE0"> ["HOWTO"] || ["FAQ"] || ["Bugs"] ||
 || || || ||
 ||<rowbgcolor='#E0E0FF'> ["Mailing list"] || ["Projects using LDTP"] || ["LDTP Demo"] ||
 || || || ||
-||<rowbgcolor="#FFFFFF"> ["Object-Oriented LDTP"] || ["TeamMembers"] || [http://ldtp.freedesktop.org/planet Planet LDTP] ||
+||<rowbgcolor="#E0FFE0"> ["Object-Oriented LDTP"] || ["TeamMembers"] || [http://ldtp.freedesktop.org/planet Planet LDTP] ||
 || || || ||
