@@ -4,16 +4,18 @@ Make sure that you have the following files in current working directory
 
  - You need to have test scripts to be executed
 
- - You need to have application map
+ - You can have ["Data XML"] - Optional
 
- - You need to have ["Data XML"]
+ - You can have ["ldtprunner XML"] - Optional
 
- - You need to have ["ldtprunner XML"]
+ - Make sure ldtp, ltfx (optional), digwin (optional), ldtprunner, ldtprecord (optional) are installed
 
- - ldtp, ltfx, digwin, ldtprunner, ldtprecord are installed
-
-Invoke:
+If you have ["ldtprunner XML"] then invoke like:
 
  - ldtprunner <ldtprunner XML>
+
+If you have only scripts in the current directory then invoke like:
+
+  - python <script file name.py>
 
 Refer ["How to interpret the log"]
