@@ -1,37 +1,33 @@
 ||||||<tablewidth="100%">'''Download 0.5.0 binary / source for different Linux / Solaris distributions'''||
 ||
-||<rowbgcolor='#FFFFE0'> SuSE 10.1 -- || SLED 10 [http://download.freedesktop.org/ldtp/0.x/0.5.x/ldtp-0.5.0-1.i586.rpm ldtp rpm] ||
+||<rowbgcolor='#E0FFE0'> SuSE 10.1 -- || SLED 10 [http://download.freedesktop.org/ldtp/0.x/0.5.x/ldtp-0.5.0-1.i586.rpm ldtp rpm] ||
 ||
 ||<rowbgcolor='#E0E0FF'> Fedora Core 5 [http://download.freedesktop.org/ldtp/0.x/0.5.x/ldtp-0.5.0-1.i386.rpm ldtp rpm] || Fedora Core 5 with debugging symbols [http://download.freedesktop.org/ldtp/0.x/0.5.x/ldtp-debuginfo-0.5.0-1.i386.rpm ldtp debuginfo rpm] ||
 ||
-||<rowbgcolor='#FFFFE0'> Debian Sid(Unstable) [http://people.freedesktop.org/~prashmohan/latest/debian/ldtp_0.5.0-2_i386.deb ldtp deb] [http://people.freedesktop.org/~prashmohan/latest/debian/python2.4-ldtp_0.5.0-1_i386.deb python2.4-ldtp deb] [http://download.freedesktop.org/ldtp/0.x/0.3.x/ltfx_0.1.6-1_i386-DEBIAN.deb ltfx deb] || Ubuntu (Dapper Drake) [http://download.freedesktop.org/ldtp/0.x/0.5.x/ldtp_0.5.0-2_i386.deb ldtp deb] [http://download.freedesktop.org/ldtp/0.x/0.5.x/python2.4-ldtp_0.5.0-1_i386.deb python2.4-ldtp deb] [http://download.freedesktop.org/ldtp/0.x/0.3.x/ltfx_0.1.6-1_i386-UBUNTU.deb ltfx deb]||
+||<rowbgcolor='#E0FFE0'> Debian Sid(Unstable) [http://people.freedesktop.org/~prashmohan/latest/debian/ldtp_0.5.0-2_i386.deb ldtp deb] [http://people.freedesktop.org/~prashmohan/latest/debian/python2.4-ldtp_0.5.0-1_i386.deb python2.4-ldtp deb] [http://download.freedesktop.org/ldtp/0.x/0.3.x/ltfx_0.1.6-1_i386-DEBIAN.deb ltfx deb] || Ubuntu (Dapper Drake) [http://download.freedesktop.org/ldtp/0.x/0.5.x/ldtp_0.5.0-2_i386.deb ldtp deb] [http://download.freedesktop.org/ldtp/0.x/0.5.x/python2.4-ldtp_0.5.0-1_i386.deb python2.4-ldtp deb] [http://download.freedesktop.org/ldtp/0.x/0.3.x/ltfx_0.1.6-1_i386-UBUNTU.deb ltfx deb]||
 ||
 ||<rowbgcolor='#E0E0FF'> LDTP source [http://download.freedesktop.org/ldtp/0.x/0.5.x/ldtp-source-0.5.0.tar.bz2 LDTP source tar.bz2] || LDTP source [http://download.freedesktop.org/ldtp/0.x/0.5.x/ldtp-source-0.5.0.tar.gz LDTP source tar.gz] ||
 ||
-||<rowbgcolor='#FFFFE0'> Sun Solaris Sparc [http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-sparc.tar.gz gettext] || Sun Solaris Sparc [http://download.freedesktop.org/ldtp/0.x/0.4.x/SUNWpyldtp-s.tar.gz ldtp] ||
+||<rowbgcolor='#E0FFE0'> Sun Solaris Sparc [http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-sparc.tar.gz gettext] || Sun Solaris Sparc [http://download.freedesktop.org/ldtp/0.x/0.4.x/SUNWpyldtp-s.tar.gz ldtp] ||
 ||
 ||<rowbgcolor='#E0E0FF'> Sun Solaris i386 [http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-x86.tar.gz gettext] || Sun Solaris i386 [http://download.freedesktop.org/ldtp/0.x/0.4.x/SUNWpyldtp-x.tar.gz ldtp] ||
-||<rowbgcolor='#FFFFFF'> || ||
-||<rowbgcolor='#FFFFFF'> || ||
 
 ||||||<tablewidth="100%">'''Download LDTP Source''' ||
 ||
-||<rowbgcolor='#E0E0FF'> ["CVS"] || ||
+||<rowbgcolor='#DDFFE0'> ["CVS"] ||
 
 '''Download License'''
 
-Your use of this file is subject to the '''GNU General Public License (GPL)''' unless different license terms
+Your use of this file is subject to the '''GNU Lesser General Public License (LGPL)''' unless different license terms
 accompany the file itself, in which case those terms govern.
 
-||||||<tablewidth="50%"> ||
+||||||<tablewidth="100%"> ||
 ||
-||<bgcolor='#FFFFE0'> ["How to setup ldtp in GNU/Linux environment"] ||<bgcolor='#E0E0FF'> ["BeginnersGuide"] ||
+||<bgcolor='#E0FFE0'> ["How to setup ldtp in GNU/Linux environment"]||<bgcolor='#E0FFE0'> How to create ["LDTP test scripts in python"] ||
 
 ||||||<tablewidth="100%">'''Package maintainer'''||
-||<rowbgcolor='#FFFFE0'> SLED, OpenSuSE RPM - Frank Seidel <fseidel (@) suse (dot) de> ||
-||
-||<rowbgcolor='#E0E0FF'> Debian, Ubuntu package - Prashanth Mohan <prashmohan (@) gmail (dot) com> ||
-||
-||<rowbgcolor='#FFFFE0'> Sun Solaris - Dave Lin <Dave (dot) Lin (@) sun (dot) com> ||
-||
-||<rowbgcolor='#E0E0FF'> Fedora RPM - Ashish Rajasekhar <ashish (@) ashishr (dot) net> ||
+|| || ||
+||<rowbgcolor='#12FFE0'> SLED, OpenSuSE RPM - Frank Seidel <fseidel (@) suse (dot) de> || Debian, Ubuntu package - Prashanth Mohan <prashmohan (@) gmail (dot) com> ||
+|| || ||
+||<rowbgcolor='#12FFE0'> Sun Solaris - Dave Lin <Dave (dot) Lin (@) sun (dot) com> || Fedora RPM - Ashish Rajasekhar <ashish (@) ashishr (dot) net> ||
+|| || ||
