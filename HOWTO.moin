@@ -10,7 +10,7 @@ Script input data ["Data XML"] - Useful to maintain a generic script
 
 [wiki:RecordHOWTO Record user events and generate LDTP scripts]
 
-["How to write LDTP test scripts in python"]
+How to create ["LDTP test scripts in python"]
 
 == Using LDTP in Xvfb environment ==
 
