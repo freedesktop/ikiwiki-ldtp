@@ -1,12 +1,19 @@
 = LDTP test scripts =
 
-== Platform ==
+== Setup ==
+
+ * Download the binary files from ["Downloads"]
+
+ * Or download the source files from ["CVS"] and follow the steps to install ["How to setup LDTP in GNU/Linux environment"]
+
+ * Enable accessibility (Assistive Technology)
+
+=== Platform ===
+
  - Does your platform supported ? Refer - [wiki:Self:FAQ/LDTPsupportedplatforms LDTP supported platforms]
 
  - Any environment dependency to run ldtp ?
    * Yes you need to have '''GNOME 2.10 / KDE 4.0''' and above
-
- - Check whether you have enabled accessibility (Assistive Technology) or not ?
 
 == import LDTP modules ==
 
@@ -77,6 +84,11 @@ If any of the action releated functions (example: selectmenuitem, click, settext
     * Sequencing set of LDTP scripts ["ldtprunner XML"]
     * ["How to execute scripts"]
 
+== Generating LDTP scripts ==
+
+  * ["RecordHOWTO"] - To generate action scripts based on users actions.
+    '''''Note:''''' ''Above mentioned steps is to create scripts manually''
+
 == Test Data ==
 
     * Identify the list of variable arguments and have it in a separate ["Data XML"] file
@@ -86,14 +98,25 @@ If any of the action releated functions (example: selectmenuitem, click, settext
     * List the test scenarios which you are planing to automate - Refer ["Testcases"]
 
 == Reference ==
-    * Existing test scripts - http://cvs.freedesktop.org/ldtp/pyautosuite/
+    * Existing LDTP test scripts - http://cvs.freedesktop.org/ldtp/pyautosuite/
     * If you have any issues in writing scripts, you can contact us either through mail or IRC - Refer ["BeginnersGuide"]
 
 == Filing bugs ==
-   * If existing feature in LDTP does not work, please file a [http://bugzilla.gnome.org/enter_bug.cgi?product=LDTP bug] and select component as pyldtp. Also provide us the steps to reproduce, so that we can fix it
+   * If existing feature in LDTP does not work, please file a [http://bugzilla.gnome.org/enter_bug.cgi?product=LDTP bug] and select component as pyldtp. Also provide us the steps to reproduce, so that we can fix it at the earliest.
    * If new feature needs to be added in LDTP, please file an enhancement [http://bugzilla.gnome.org/enter_bug.cgi?product=LDTP bug]
+
+== LDTP usage help ==
+
+   * Join the LDTP team on IRC for technical help, online.
+     Server  : irc.freenode.net
+     Channel : #ldtp
+
+   * Join the LDTP ["Mailing List"]
+
+   * Refer ["FAQ"], ["HOWTO"]
 
 == Hacking LDTP ==
    * If you are interested in writing a new component function - Refer ["How to develop component functions for LDTP"]
+   * LDTP internal ["Architecture"] page
 
 ''Other Reference'' ["About Appmap"], ["Appmap convention"]
