@@ -1,13 +1,4 @@
 [http://ldtp.freedesktop.org/user-doc/index.html LDTP Python User Manual] - Online HTML
 
-[http://download.freedesktop.org/ldtp/0.x/0.2.x/user-manual.pdf LDTP Python User Manual] - pdf (535 KB)
+How to create ["LDTP test scripts in python"]
 
-["how to write test scripts in python"]
-
-[wiki:Self:LDTPEditor/GeneratingLDTPDataXMLfileformat Generating LDTP Data XML file format]
-
-[wiki:Self:LDTPEditor/GeneratingldtprunnerXMLfileformat Generating ldtprunner XML file format]
-
-[wiki:Self:RecordHOWTO Generating Recorded Code]
-
-["How to execute scripts"] ?
