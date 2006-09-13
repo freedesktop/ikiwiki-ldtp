@@ -1,0 +1,99 @@
+= LDTP test scripts =
+
+== Platform ==
+ - Does your platform supported ? Refer - [wiki:Self:FAQ/LDTPsupportedplatforms LDTP supported platforms]
+
+ - Any environment dependency to run ldtp ?
+   * Yes you need to have '''GNOME 2.10 / KDE 4.0''' and above
+
+ - Check whether you have enabled accessibility (Assistive Technology) or not ?
+
+== import LDTP modules ==
+
+  ''from ldtp import *''
+
+  ''from ldtputils import *''
+  
+  '''Reason''' why we do importing based on the above format instead of 'import ldtp' is, if we do the first one, we can just directly use all the ldtp functions just by calling their name. If we import the module as 'import ldtp', then we need to call the corresponding function as ldtp.<function name>
+  
+'''Example 1:'''
+  
+  ''from ldtp import *''
+
+  ''selectmenuitem ('*-gedit', 'mnuFile;mnuNew')''
+  
+'''Example 2:'''
+  
+  ''import ldtp''
+
+  ''ldtp.selectmenuitem ('*-gedit', 'mnuFile;mnuNew')''
+
+== LDTP API ==
+
+  * Refer [http://ldtp.freedesktop.org/user-doc/index.html LDTP API] page for list of implemented LDTP API's
+
+== Call a function to perform an operation ==
+
+LDTP generally operates on the given object in a particular window.
+
+To select a menu item, you need to call ["selectmenuitem"] function. For example, to select open menu item in gedit application, call the below function
+
+  ''selectmenuitem ('frmUnsavedDocument1-gedit', 'mnuFile;mnuOpen')''
+
+When you call the above a new dialog box will be poped up, you can verify whether the window is opened or not either by ["guiexist"] or by ["waittillguiexist"]
+
+  guiexist function immediately returns either 1 (window exist) or 0 (window does not exist)
+
+  waittillguiexist waits for the window to appear. Wait time out is by default 30 seconds. This default time out can be either increased on decreased using GUI_TIMEOUT
+
+If you want to operate on a push button in a window, you need to call ["click"] function:
+
+To press 'Cancel' button in a GTK Open File Selector dialog
+
+  ''click ('dlgOpenFile', 'btnCancel')''
+
+When you do the above operation the GTK File selector dialog disappears. To verify whether the window actually quits or not use ["waittillguinotexist"] function
+
+If you modify any opened file in gedit, the window title will be modified. To continue operating on the window you need to change your context of operation. Reason: As you are aware that LDTP works based on individual window, the context of window will be changed, when the title changes. To over come this use ["setcontext"] function and when you don't require them use ["releasecontext"]
+
+Edit your current opened file using:
+
+  ''settextvalue ('frmUnsavedDocument1-gedit', 'txt0', 'Testing editing')''
+
+This will change the window title. Note, before doing the above operation, title will be 'Unsaved Document 1 - gedit' and after editing the title will look like '*Unsaved Document 1 - gedit'. To further operate on the same window, use
+
+  ''setcontext ('Unsaved Document 1 - gedit', '*Unsaved Document 1 - gedit')''
+
+So that you can continue using the same window name, for example:
+
+  ''selectmenuitem ('frmUnsavedDocument1-gedit', 'mnuFile;mnuSaveAs')''
+
+The above function will invoke the GTK save dialog box
+
+If any of the action releated functions (example: selectmenuitem, click, settextvalue) fail, an exception is raised. It has to be handled by the program to either continue operating on execution or just halt
+
+== Executing LDTP scripts ==
+
+    * Sequencing set of LDTP scripts ["ldtprunner XML"]
+    * ["How to execute scripts"]
+
+== Test Data ==
+
+    * Identify the list of variable arguments and have it in a separate ["Data XML"] file
+
+== Test cases / Scenarios ==
+
+    * List the test scenarios which you are planing to automate - Refer ["Testcases"]
+
+== Reference ==
+    * Existing test scripts - http://cvs.freedesktop.org/ldtp/pyautosuite/
+    * If you have any issues in writing scripts, you can contact us either through mail or IRC - Refer ["BeginnersGuide"]
+
+== Filing bugs ==
+   * If existing feature in LDTP does not work, please file a [http://bugzilla.gnome.org/enter_bug.cgi?product=LDTP bug] and select component as pyldtp. Also provide us the steps to reproduce, so that we can fix it
+   * If new feature needs to be added in LDTP, please file an enhancement [http://bugzilla.gnome.org/enter_bug.cgi?product=LDTP bug]
+
+== Hacking LDTP ==
+   * If you are interested in writing a new component function - Refer ["How to develop component functions for LDTP"]
+
+''Other Reference'' ["About Appmap"], ["Appmap convention"]
