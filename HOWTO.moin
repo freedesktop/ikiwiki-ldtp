@@ -1,22 +1,18 @@
-== HOWTO Documents ==
+== Using LDTP ==
 
 ["How to setup ldtp in GNU/Linux environment"]
 
-["ldtprunner XML"]
+Sequencing set of LDTP scripts ["ldtprunner XML"]
 
-["Data XML"]
+Running LDTP scripts ["How to execute scripts"]
 
-[wiki:RecordHOWTO How to use Recording]
+Script input data ["Data XML"] - Useful to maintain a generic script
 
-["How to create test scripts for LDTP"]
+[wiki:RecordHOWTO Record user events and generate LDTP scripts]
 
-["How to write test scripts in python"]
+["How to write test scripts in python"] / ["How to create test scripts for LDTP"]
 
-[wiki:Self:RecordHOWTO Generating Recorded Code]
-
-["How to execute scripts"] ?
-
-["How to develop component functions for LDTP"]
+== Using LDTP in Xvfb environment ==
 
 ["Howto run ldtp from vnc session"]
 
@@ -24,9 +20,9 @@
 
 ["Howto run ldtp inside Xvfb which runs in xinit session"]
 
-["Release notes for Evolution-2.5.1 Sanity suite"]
+== Hacking LDTP ==
 
-["Howto install ldtp Red Hat 3.4.3-9.EL4"]
+["How to develop component functions for LDTP"]
 
 == Obsolete HOWTOs ==
 
@@ -39,3 +35,13 @@
 [wiki:Self:LDTPEditor/GeneratingLDTPDataXMLfileformat Generating LDTP Data XML file format]
 
 [wiki:Self:LDTPEditor/GeneratingldtprunnerXMLfileformat Generating ldtprunner XML file format]
+
+["Test-case generation procedure"]
+
+["Release notes for Evolution-2.5.1 Sanity suite"]
+
+["Howto install ldtp Red Hat 3.4.3-9.EL4"]
+
+== Papers about testing ==
+
+[http://safsdev.sourceforge.net/FRAMESDataDrivenTestAutomationFrameworks.htm The White Paper on Keyword Driven Automation Framework]
