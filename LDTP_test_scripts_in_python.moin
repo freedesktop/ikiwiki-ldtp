@@ -119,4 +119,7 @@ If any of the action releated functions (example: selectmenuitem, click, settext
    * If you are interested in writing a new component function - Refer ["How to develop component functions for LDTP"]
    * LDTP internal ["Architecture"] page
 
+== Useful Links ==
+  * ["UsefulLinks"]
+
 ''Other Reference'' ["About Appmap"], ["Appmap convention"]
