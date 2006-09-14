@@ -6,9 +6,9 @@ How to create ["LDTP test scripts in python"]
 
 Running LDTP scripts ["How to execute scripts"]
 
-Sequencing set of LDTP scripts ["ldtprunner XML"]
+Sequencing set of LDTP scripts using ["ldtprunner XML"] file
 
-Script input data ["Data XML"] - Useful to maintain a generic script
+Script input ["Data XML"] file - Useful to maintain a generic script
 
 [wiki:RecordHOWTO Record user events and generate LDTP scripts]
 
