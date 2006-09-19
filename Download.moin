@@ -1,4 +1,8 @@
-||||||<tablewidth="100%">'''Download 0.5.0 binary / source for different Linux / Solaris distributions'''||
+== Download LDTP binary / source for Linux / Solaris distributions ==
+
+LDTP released version - '''0.5.0'''
+
+||||||<tablewidth="100%">||
 ||
 ||<rowbgcolor='#E0FFE0'> SuSE 10.1 -- || SLED 10 [http://download.freedesktop.org/ldtp/0.x/0.5.x/ldtp-0.5.0-1.i586.rpm ldtp rpm] ||
 ||
@@ -12,22 +16,24 @@
 ||
 ||<rowbgcolor='#E0E0FF'> Sun Solaris i386 [http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-x86.tar.gz gettext] || Sun Solaris i386 [http://download.freedesktop.org/ldtp/0.x/0.4.x/SUNWpyldtp-x.tar.gz ldtp] ||
 
-||||||<tablewidth="100%">'''Download LDTP Source''' ||
-||
-||<rowbgcolor='#DDFFE0'> ["CVS"] ||
+== Download LDTP Source ==
 
-'''Download License'''
+  * From ["CVS"]
 
-Your use of this file is subject to the '''GNU Lesser General Public License (LGPL)''' unless different license terms
-accompany the file itself, in which case those terms govern.
+== Download License ==
 
-||||||<tablewidth="100%"> ||
-||
-||<bgcolor='#E0FFE0'> ["How to setup ldtp in GNU/Linux environment"]||<bgcolor='#E0FFE0'> How to create ["LDTP test scripts in python"] ||
+Your use of all the above files are subject to the '''GNU Lesser General Public License (LGPL)''' unless different license terms accompany the file itself, in which case those terms govern.
 
-||||||<tablewidth="100%">'''Package maintainer'''||
+== Package maintainer ==
+
+||||||<tablewidth="100%">||
 || || ||
 ||<rowbgcolor='#12FFE0'> SLED, OpenSuSE RPM - Frank Seidel <fseidel (@) suse (dot) de> || Debian, Ubuntu package - Prashanth Mohan <prashmohan (@) gmail (dot) com> ||
 || || ||
 ||<rowbgcolor='#12FFE0'> Sun Solaris - Dave Lin <Dave (dot) Lin (@) sun (dot) com> || Fedora RPM - Ashish Rajasekhar <ashish (@) ashishr (dot) net> ||
 || || ||
+
+== Next step ==
+
+  * ["How to setup ldtp in GNU/Linux environment"]
+  * How to create ["LDTP test scripts in python"]
