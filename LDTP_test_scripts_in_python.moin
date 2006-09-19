@@ -1,10 +1,10 @@
-= LDTP test scripts =
+= Writing LDTP test scripts in Python scripting language =
 
-== Setup ==
+== Setup LDTP ==
 
  * Download the binary files from ["Downloads"]
 
- * Or download the source files from ["CVS"] and follow the steps to install ["How to setup LDTP in GNU/Linux environment"]
+ * Or download the source files from ["CVS"] and follow the steps to install LDTP in ["GNU/Linux environment"] from source.
 
  * Enable accessibility (Assistive Technology)
 
@@ -86,7 +86,7 @@ If any of the action releated functions (example: selectmenuitem, click, settext
 
 == Generating LDTP scripts ==
 
-  * ["RecordHOWTO"] - To generate action scripts based on users actions.
+  * ["RecordHOWTO"] - To generate scripts based on users actions
     '''''Note:''''' ''Above mentioned steps is to create scripts manually''
 
 == Test Data ==
