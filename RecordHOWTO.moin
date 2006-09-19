@@ -37,3 +37,13 @@ Created XML file path path  /tmp/evolution.xml
 == Known issues ==
 
 [wiki:RecordTODO Recording TO DO]
+
+== Reference ==
+
+ * How to create ["LDTP test scripts in python"]
+
+ * Running LDTP scripts ["How to execute scripts"]
+
+ * Sequencing set of LDTP scripts using ["ldtprunner XML"] file
+
+ * Script input ["Data XML"] file - Useful to maintain a generic script
