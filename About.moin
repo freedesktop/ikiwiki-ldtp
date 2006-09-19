@@ -5,7 +5,6 @@ GNU/LDTP core framework uses ''Appmap'' and the recorded ''test-cases'' to test 
 We encourage you to join the project and help us to create robust, reliable and stable test tool/framework for Unix Desktops. Thanks to '''GNOME''' Accessibility team and '''Sun Microsystems''' Accessibility team for their great work and their continuous support !!!
 
 ||||||<tablewidth="25%">||
-|| ||
 ||<rowbgcolor='#F7F8FF'> Programming Languages: C, python ||
 || ||
 ||<rowbgcolor='#E0E0FF'> Dependencies: cspi-1.0 ||
@@ -13,3 +12,4 @@ We encourage you to join the project and help us to create robust, reliable and 
 ||<rowbgcolor='#F7F8FF'> License: LGPL ||
 || ||
 ||<rowbgcolor='#E0E0FF'> Development Status: Beta ||
+|| ||
