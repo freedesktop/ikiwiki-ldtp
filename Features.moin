@@ -1,3 +1,5 @@
+== LDTP Features ==
+
     *  LDTP concepts are derived from [http://safsdev.sourceforge.net/Default.htm Software Automation Framework Support]
 
     * LDTP supports verification of actions performed (guiexist, verifystate, etc) - ["API Reference"]
@@ -15,3 +17,8 @@
     * User-friendly Text Editor with syntax highlighting for generating and grouping test data ["Howto use LDTP Editor"]
 
     * Objects are identified both [http://gnomebangalore.org/ldtp/index.php/Howto_generate_Application_map statically] and [http://gnomebangalore.org/ldtp/index.php/Remap dynamically]
+
+== Next step ==
+
+  * Setting LDTP in ["GNU/Linux environment"]
+  * How to create ["LDTP test scripts in python"]
