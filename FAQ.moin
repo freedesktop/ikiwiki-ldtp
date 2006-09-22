@@ -24,7 +24,7 @@ Linux Desktop Testing Project (LDTP) was the first Test Automation Framework to 
 
 LDTP is a unique initiative to make Linux Desktops stable and rock solid by running them through rigorous suite of test conditions.
 At the time of writing this document, some of the prominent features of LDTP include
-   * LDTP concepts are derived from [http://staf.sourceforge.net/index.php Software Testing Aus tomation Framework]
+   * LDTP concepts are derived from [http://staf.sourceforge.net/index.php Software Testing Automation Framework]
    * LDTP supports verification of actions performed (guiexist, verifystate, etc)
    * Writing test scripts are very easy, the script writer need not know about the object hierarchy
    * CPU / Memory performance monitoring of application-under-test can be measured
