@@ -8,7 +8,7 @@
    Very rarely cases do occur like Server Type combo box in Evolution Account Creation. Here get_relation_name gives the name which is different from that of appmap name because there are two combo boxes with name Server  Type. This can be differentiated bu using check_name_from_hash_table function. This is implemented for combo box.  Must implement for each and every object
  * Implement get_name_from_hash_table for all objects 
    Seems tables and tree tables are not implemented this function and hence once get_relation_value fails, then the table name becomes null . Must implement this for all objects
- * Try to limit the hash tables created during 
+ * Try to limit the hash tables created at the time of recording as this consumes lot of resource 
  * Password Field . 
    Incase of the password field , try to listen to keyboard and then put the actual content typed by the user.
 
