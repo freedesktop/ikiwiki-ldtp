@@ -1,21 +1,24 @@
 ##language:en
 == TODO for Record ==
 === Server Part ===
- * All the SPI Leaks must be fixed. This is a high priority job which must be done first 
- * Setcontext . 
+ * Keyboard events recording
+ * Setcontext
    To be implemented using a hash table which contains the accessible handle of the window as the key and the window title as the value . Incase the value changes do a setcontext.
- * Check the name from hash table for each of the objects 
+ * Check the name from hash table for each of the objects.
    Very rarely cases do occur like Server Type combo box in Evolution Account Creation. Here get_relation_name gives the name which is different from that of appmap name because there are two combo boxes with name Server  Type. This can be differentiated bu using check_name_from_hash_table function. This is implemented for combo box.  Must implement for each and every object
- * Reduce the number of global variables in the record script
- * Add comments to ldtprecord.c , ldtprecord.py and ldtpcodegen.py and also make the code to gnome standards 
  * Implement get_name_from_hash_table for all objects 
    Seems tables and tree tables are not implemented this function and hence once get_relation_value fails, then the table name becomes null . Must implement this for all objects
  * Try to limit the hash tables created during 
- * Table header not yet implemented
- * Implement a timer in the code so that actual time differnce during the users actions are also recorded and then they are produced the in the generated script
- * Preferences option must be worked upon 
-
  * Password Field . 
    Incase of the password field , try to listen to keyboard and then put the actual content typed by the user.
+
+== Low priority ==
+
+ * Add comments to ldtprecord.c , ldtprecord.py and ldtpcodegen.py and also make the code to gnome standards 
+ * Table header not yet implemented
+
+== Command line options ==
+
+ * Preferences option must be worked upon
 
 '''Ref:''' [wiki:RecordHOWTO How to use Recording]
