@@ -6,7 +6,7 @@
 
  * There is a small issue while recording text area . Whenever a text is to be recorded, after the text is typed , focus must be given to some other text field. This can be done by clicking some other text field. Incase there is only one text field , this can be done clicking outside the text field and then inside again.
 
- * The name given as application must be the name of application and not the    command. For example the command typed maybe evolution but the application which may be running is evolution-2.6 . Similarly in gftp , the application name is gtk-gftp. So better check the application name in at-poke before giving it to record.Incase the application name is wrong , you will get just teststart and testend. No python commands will be obtained in this case.
+ * The name given as application must be the name of application and not the    command. For example the command typed maybe evolution but the application which may be running is evolution-2.6 . Similarly in gftp , the application name is gtk-gftp. So better check the application name in at-poke before giving it to record. Incase the application name is wrong , you will get just teststart and testend. No python commands will be obtained in this case.
 
 === Example 1 Adding Contact in Evolution ===
 {{{ 
@@ -18,9 +18,9 @@ ldtprecord -c start
 
  * After the actions are done , goto the shell again and type
 {{{ 
-ldtprecord -c stop -f /tmp/evolution -i
+ldtprecord -c stop -f /tmp/evolution
 }}}
-      Recording is stopped now. The filename given need not have any extension. Extensions are added automatically . '''NOTE''' Dont use ~/ or ../ or ./ to give the file path. It will be better if you give the absolute path , say something like /home/name/ldtp/record/evo.  The i option is to add license and two more lines saying from ldtp import * and from ldtputils import * to the generated code.
+      Recording is stopped now. The filename given need not have any extension. Extensions are added automatically . '''NOTE''' Dont use ~/ or ../ or ./ to give the file path. It will be better if you give the absolute path , say something like /home/name/ldtp/record/evo.
      
  * If this is done perfectly , then you will get the outout in the shell as something like
 {{{   
@@ -37,6 +37,10 @@ Created XML file path path  /tmp/evolution.xml
 == Known issues ==
 
 [wiki:RecordTODO Recording TO DO]
+
+== Demo of LDTP Recording ==
+
+  * Inside [http://freeshell.in/%7Etaggy/ldtp/ldtpguidemo.html netbeans] editor
 
 == Reference ==
 
