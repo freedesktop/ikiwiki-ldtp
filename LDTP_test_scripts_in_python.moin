@@ -84,6 +84,11 @@ If any of the action releated functions (example: selectmenuitem, click, settext
     * Sequencing set of LDTP scripts ["ldtprunner XML"]
     * ["How to execute scripts"]
 
+== Debugging LDTP issues ==
+
+  * '''export LDTP_DEBUG=1''' to get the list of commands issued from LDTP python to LDTP engine and also to check the return value from LDTP engine. '''''NOTE:''''' This will be handy, if you are not logging the status of execution.
+  * '''export LDTP_DEBUG=2''' and start LDTP engine in a terminal and your scripts from a different terminal. This will give a detailed info of whats happening with the current command.
+
 == Generating LDTP scripts ==
 
   * ["RecordHOWTO"] - To generate scripts based on users actions
