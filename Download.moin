@@ -10,7 +10,7 @@ LDTP released version - '''0.6.0'''
 ||
 ||<rowbgcolor='#E0FFE0'> Debian Sid(Unstable) [http://people.freedesktop.org/~prashmohan/latest/debian/ldtp_0.5.0-2_i386.deb ldtp deb] [http://people.freedesktop.org/~prashmohan/latest/debian/python2.4-ldtp_0.5.0-1_i386.deb python2.4-ldtp deb] [http://download.freedesktop.org/ldtp/0.x/0.3.x/ltfx_0.1.6-1_i386-DEBIAN.deb ltfx deb] || Ubuntu (Dapper Drake) [http://download.freedesktop.org/ldtp/0.x/0.5.x/ldtp_0.5.0-2_i386.deb ldtp deb] [http://download.freedesktop.org/ldtp/0.x/0.5.x/python2.4-ldtp_0.5.0-1_i386.deb python2.4-ldtp deb] [http://download.freedesktop.org/ldtp/0.x/0.3.x/ltfx_0.1.6-1_i386-UBUNTU.deb ltfx deb]||
 ||
-||<rowbgcolor='#E0E0FF'> LDTP source [http://download.freedesktop.org/ldtp/0.x/0.6.x/ldtp-source-0.6.0.tar.bz2 LDTP source tar.bz2] || LDTP source [http://download.freedesktop.org/ldtp/0.x/0.6.x/ldtp-source-0.6.0.tar.gz LDTP source tar.gz] ||
+||<rowbgcolor='#E0E0FF'> LDTP source [http://download.freedesktop.org/ldtp/0.x/0.6.x/ldtp-0.6.0.tar.bz2 LDTP source tar.bz2] || LDTP source [http://download.freedesktop.org/ldtp/0.x/0.6.x/ldtp-0.6.0.tar.gz LDTP source tar.gz] ||
 ||
 ||<rowbgcolor='#E0FFE0'> Sun Solaris Sparc [http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-sparc.tar.gz gettext] || Sun Solaris Sparc [http://download.freedesktop.org/ldtp/0.x/0.4.x/SUNWpyldtp-s.tar.gz ldtp] ||
 ||
