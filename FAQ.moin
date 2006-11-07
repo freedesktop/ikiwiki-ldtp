@@ -7,7 +7,7 @@
 
 == Is LDTP announced ? ==
 
-Linux Desktop Testing Project (LDTP) was the first Test Automation Framework to use AT-SPI !!! LDTP has been open sourced 1 year back.
+Linux Desktop Testing Project (LDTP) was the first Test Automation Framework to use AT-SPI !!! LDTP has been open sourced by January 2005.
   * LDTP 0.1.0 was anounced on [http://lwn.net/Articles/121202/ Friday 28, January 2005]
   * LDTP was showcased and discussed in [http://live.gnome.org/Stuttgart2005_2fLightningTalks GUADEC 2005]
   * Published in [http://opensourcetesting.org/functional.php#GNU/Linux%20Desktop%20Testing%20Project opensourcetesting.org]
@@ -39,6 +39,10 @@ I believe that the goal of another desktop testing framework would be similar to
 LDTP discovers the object both dynamically (using ["remap"]) and statically (using application map - ["Howto generate Application map"])
 
 
+== How to enable accesssibility ==
+
+In gnome-control-center, open 'Assistive Technology' and click 'Enable Assistive technologies' check box. Close and logout once. Accessibility will be enabled in GNOME environment.
+
 == Who uses and supports LDTP ? ==
 
 LDTP community include hackers from:
@@ -47,6 +51,7 @@ LDTP community include hackers from:
    * Openoffice.org QA community
    * KDE QA community
    * Sun, Wipro, Novell/SuSE
+   * Palm Source
 
 And I see increasing number of participation every week in weekly community meetings.
 
