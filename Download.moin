@@ -5,7 +5,7 @@ LDTP released version - '''0.7.0'''
 ||
 ||<rowbgcolor='#E0FFE0'> SuSE 10.2 [http://download.freedesktop.org/ldtp/0.x/0.7.x/ldtp-0.7.0-1.i586-OpenSuSE-10.2.rpm ldtp rpm] || SuSE 10.1 [http://download.freedesktop.org/ldtp/0.x/0.7.x/ldtp-0.7.0-1.i586-suse-10.1.rpm ldtp rpm] ||
 ||
-||<rowbgcolor='#E0E0FF'> Fedora Core 5 [http://download.freedesktop.org/ldtp/0.x/0.7.x/ldtp-0.7.0-1.i386-fc5.rpm ldtp rpm] || Fedora Core 5 with debugging symbols [http://download.freedesktop.org/ldtp/0.x/0.7.x/ldtp-debuginfo-0.7.0-1.i386-fc5.rpm ldtp debuginfo rpm] ||
+||<rowbgcolor='#E0E0FF'> Fedora Core 5 [http://download.freedesktop.org/ldtp/0.x/0.7.x/ldtp-0.7.0-1.i386-fc5.rpm ldtp rpm], [http://download.freedesktop.org/ldtp/0.x/0.7.x/ldtp-debuginfo-0.7.0-1.i386-fc5.rpm ldtp debuginfo rpm] || Fedora Core 6 [http://download.freedesktop.org/ldtp/0.x/0.7.x/ldtp-0.7.0-1.i386-fc6.rpm ldtp rpm], [http://download.freedesktop.org/ldtp/0.x/0.7.x/ldtp-debuginfo-0.7.0-1.i386-fc6.rpm ldtp debuginfo rpm] ||
 ||
 ||<rowbgcolor='#E0FFE0'> Debian Sid(Unstable) [http://people.freedesktop.org/~prashmohan/latest/debian/ldtp_0.5.0-2_i386.deb ldtp deb] [http://people.freedesktop.org/~prashmohan/latest/debian/python2.4-ldtp_0.5.0-1_i386.deb python2.4-ldtp deb] [http://download.freedesktop.org/ldtp/0.x/0.3.x/ltfx_0.1.6-1_i386-DEBIAN.deb ltfx deb] || Ubuntu LTS 6.06 [http://download.freedesktop.org/ldtp/0.x/0.7.x/ldtp-0.7.0-1_i386-ubuntu6.06.deb ldtp deb] [http://download.freedesktop.org/ldtp/0.x/0.3.x/ltfx_0.1.6-1_i386-UBUNTU.deb ltfx deb]||
 ||
