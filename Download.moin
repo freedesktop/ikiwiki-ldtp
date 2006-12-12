@@ -2,9 +2,6 @@
 
 LDTP released version - '''0.7.0'''
 
-||||||<tablewidth="100%">||
-||<rowbgcolor='#E0E0FF'> LDTP source [http://download.freedesktop.org/ldtp/0.x/0.7.x/ldtp-0.7.0.tar.gz LDTP source tar.gz] || ||
-||
 ||
 ||<rowbgcolor='#E0FFE0'> SuSE 10.2 [http://download.freedesktop.org/ldtp/0.x/0.7.x/ldtp-0.7.0-1.i586-OpenSuSE-10.2.rpm ldtp rpm] ||  ||
 ||
@@ -20,6 +17,10 @@ LDTP released version - '''0.7.0'''
 == Download LDTP Source ==
 
   * From ["CVS"]
+
+||||||<tablewidth="100%">||
+||<rowbgcolor='#E0E0FF'> LDTP source [http://download.freedesktop.org/ldtp/0.x/0.7.x/ldtp-0.7.0.tar.gz LDTP source tar.gz] || ||
+||
 
 == Download License ==
 
