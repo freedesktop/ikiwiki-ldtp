@@ -1,11 +1,11 @@
 == Download LDTP binary / source for Linux / Solaris distributions ==
 
-LDTP released version - '''0.7.0'''
+LDTP released version - '''0.8.0'''
 
-||
-||<rowbgcolor='#E0FFE0'> SuSE 10.2 [http://download.freedesktop.org/ldtp/0.x/0.7.x/ldtp-0.7.0-1.i586-OpenSuSE-10.2.rpm ldtp rpm] || SuSE 10.1 [http://download.freedesktop.org/ldtp/0.x/0.7.x/ldtp-0.7.0-1.i586-suse-10.1.rpm ldtp rpm] ||
-||
-||<rowbgcolor='#E0E0FF'> Fedora Core 5 [http://download.freedesktop.org/ldtp/0.x/0.7.x/ldtp-0.7.0-1.i386-fc5.rpm ldtp rpm], [http://download.freedesktop.org/ldtp/0.x/0.7.x/ldtp-debuginfo-0.7.0-1.i386-fc5.rpm ldtp debuginfo rpm] || Fedora Core 6 [http://download.freedesktop.org/ldtp/0.x/0.7.x/ldtp-0.7.0-1.i386-fc6.rpm ldtp rpm], [http://download.freedesktop.org/ldtp/0.x/0.7.x/ldtp-debuginfo-0.7.0-1.i386-fc6.rpm ldtp debuginfo rpm] ||
+''''' SuSE Linux 10.0 / SuSE Linux 10.1 / OpenSuSE 10.2 / OpenSuSE Factory / Fedora 4 / Fedora 5 / Fedora 6 / Madriva 2006 '''''
+
+x86 / x86_64 platforms RPM download location - [http://software.opensuse.org/download/home:/anagappan/]
+
 ||
 ||<rowbgcolor='#E0FFE0'> Debian Sid(Unstable) [http://people.freedesktop.org/~prashmohan/latest/debian/ldtp_0.5.0-2_i386.deb ldtp deb] [http://people.freedesktop.org/~prashmohan/latest/debian/python2.4-ldtp_0.5.0-1_i386.deb python2.4-ldtp deb] [http://download.freedesktop.org/ldtp/0.x/0.3.x/ltfx_0.1.6-1_i386-DEBIAN.deb ltfx deb] || Ubuntu LTS 6.06 [http://download.freedesktop.org/ldtp/0.x/0.7.x/ldtp-0.7.0-1_i386-ubuntu6.06.deb ldtp deb] [http://download.freedesktop.org/ldtp/0.x/0.3.x/ltfx_0.1.6-1_i386-UBUNTU.deb ltfx deb]||
 ||
@@ -19,7 +19,7 @@ LDTP released version - '''0.7.0'''
   * From ["CVS"]
 
 ||||||<tablewidth="100%">||
-||<rowbgcolor='#E0E0FF'> LDTP source [http://download.freedesktop.org/ldtp/0.x/0.7.x/ldtp-0.7.0.tar.gz LDTP source tar.gz] || ||
+||<rowbgcolor='#E0E0FF'> LDTP source [http://download.freedesktop.org/ldtp/0.x/0.8.x/ldtp-0.8.0.tar.gz LDTP source tar.gz] || ||
 ||
 
 == Download License ==
