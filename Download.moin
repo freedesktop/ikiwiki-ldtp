@@ -3,7 +3,7 @@
 LDTP released version - '''0.8.0'''
 
 ||<tablewidth="100%">||
-||<rowbgcolor='#E0FFE0'> SuSE Linux 10.0, 10.1 / OpenSuSE 10.2, Factory / Fedora 4, 5, 6 / Madriva 2006 || [http://download.freedesktop.org/ldtp/0.x/0.8.x/ X86 / X86_64] ||
+||<rowbgcolor='#E0FFE0'> SuSE Linux 10.0, 10.1 / OpenSuSE 10.2, Factory / Fedora 4, 5, 6 / Madriva 2006 || [http://download.freedesktop.org/ldtp/0.x/0.8.x/ X86 / X86_64] RPM ||
 ||<rowbgcolor='#E0E0FF'> [http://packages.debian.org/unstable/devel/ldtp Debian unstable] || [http://download.freedesktop.org/ldtp/0.x/0.8.x/ldtp-0.8.0.ebuild.tar.gz Gentoo package] ||
 ||
 ||<rowbgcolor='#E0FFE0'> Sun Solaris Sparc [http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-sparc.tar.gz gettext], [http://download.freedesktop.org/ldtp/0.x/0.7.x/SUNWpyldtp-s-5.tar.gz ldtp] || Sun Solaris i386 [http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-x86.tar.gz gettext], [http://download.freedesktop.org/ldtp/0.x/0.7.x/SUNWpyldtp-x-5.tar.gz ldtp] ||
