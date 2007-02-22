@@ -4,7 +4,11 @@ LDTP released version - '''0.8.0'''
 
 ''''' SuSE Linux 10.0 / SuSE Linux 10.1 / OpenSuSE 10.2 / OpenSuSE Factory / Fedora 4 / Fedora 5 / Fedora 6 / Madriva 2006 '''''
 
-x86 / x86_64 platforms RPM download location - [http://software.opensuse.org/download/home:/anagappan/]
+x86 / x86_64 platforms - [http://download.freedesktop.org/ldtp/0.x/0.8.x/ RPM]
+
+[http://download.freedesktop.org/ldtp/0.x/0.8.x/ldtp-0.8.0.ebuild.tar.gz Gentoo package]
+
+[http://packages.debian.org/unstable/devel/ldtp Debian unstable]
 
 ||
 ||<rowbgcolor='#E0FFE0'> Debian Sid(Unstable) [http://people.freedesktop.org/~prashmohan/latest/debian/ldtp_0.5.0-2_i386.deb ldtp deb] [http://people.freedesktop.org/~prashmohan/latest/debian/python2.4-ldtp_0.5.0-1_i386.deb python2.4-ldtp deb] [http://download.freedesktop.org/ldtp/0.x/0.3.x/ltfx_0.1.6-1_i386-DEBIAN.deb ltfx deb] || Ubuntu LTS 6.06 [http://download.freedesktop.org/ldtp/0.x/0.7.x/ldtp-0.7.0-1_i386-ubuntu6.06.deb ldtp deb] [http://download.freedesktop.org/ldtp/0.x/0.3.x/ltfx_0.1.6-1_i386-UBUNTU.deb ltfx deb]||
@@ -30,9 +34,9 @@ Your use of all the above files are subject to the '''GNU Lesser General Public 
 
 ||||||<tablewidth="100%">||
 || || ||
-||<rowbgcolor='#12FFE0'> SLED, OpenSuSE RPM - Frank Seidel <fseidel (@) suse (dot) de> || Debian, Ubuntu package - Kartik Mistry <kartik (dot) mistry (@) gmail (dot) com> ||
+||<rowbgcolor='#12FFE0'> RPM - Nagappan A <anagappan (@) novell (dot) de> || Debian, Ubuntu package - Kartik Mistry <kartik (dot) mistry (@) gmail (dot) com> ||
 || || ||
-||<rowbgcolor='#12FFE0'> Sun Solaris - Dave Lin <Dave (dot) Lin (@) sun (dot) com> || Fedora RPM - Ashish Rajasekhar <ashish (@) ashishr (dot) net> ||
+||<rowbgcolor='#12FFE0'> Sun Solaris - Dave Lin <Dave (dot) Lin (@) sun (dot) com> || Gentoo - Navtej Singh <n (dot) s (dot) buttar (@) gmail (dot) com> ||
 || || ||
 
 == Next step ==
