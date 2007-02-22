@@ -6,24 +6,17 @@ LDTP released version - '''0.8.0'''
 
 x86 / x86_64 platforms - [http://download.freedesktop.org/ldtp/0.x/0.8.x/ RPM]
 
-[http://download.freedesktop.org/ldtp/0.x/0.8.x/ldtp-0.8.0.ebuild.tar.gz Gentoo package]
-
-[http://packages.debian.org/unstable/devel/ldtp Debian unstable]
-
+||<tablewidth="100%">||
+||<rowbgcolor='#E0FFE0'> [http://packages.debian.org/unstable/devel/ldtp Debian unstable] || [http://download.freedesktop.org/ldtp/0.x/0.8.x/ldtp-0.8.0.ebuild.tar.gz Gentoo package] ||
 ||
-||<rowbgcolor='#E0FFE0'> Debian Sid(Unstable) [http://people.freedesktop.org/~prashmohan/latest/debian/ldtp_0.5.0-2_i386.deb ldtp deb] [http://people.freedesktop.org/~prashmohan/latest/debian/python2.4-ldtp_0.5.0-1_i386.deb python2.4-ldtp deb] [http://download.freedesktop.org/ldtp/0.x/0.3.x/ltfx_0.1.6-1_i386-DEBIAN.deb ltfx deb] || Ubuntu LTS 6.06 [http://download.freedesktop.org/ldtp/0.x/0.7.x/ldtp-0.7.0-1_i386-ubuntu6.06.deb ldtp deb] [http://download.freedesktop.org/ldtp/0.x/0.3.x/ltfx_0.1.6-1_i386-UBUNTU.deb ltfx deb]||
-||
-||
-||<rowbgcolor='#E0FFE0'> Sun Solaris Sparc [http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-sparc.tar.gz gettext] || Sun Solaris Sparc [http://download.freedesktop.org/ldtp/0.x/0.7.x/SUNWpyldtp-s-5.tar.gz ldtp] ||
-||
-||<rowbgcolor='#E0E0FF'> Sun Solaris i386 [http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-x86.tar.gz gettext] || Sun Solaris i386 [http://download.freedesktop.org/ldtp/0.x/0.7.x/SUNWpyldtp-x-5.tar.gz ldtp] ||
+||<rowbgcolor='#E0E0FF'> Sun Solaris Sparc [http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-sparc.tar.gz gettext], [http://download.freedesktop.org/ldtp/0.x/0.7.x/SUNWpyldtp-s-5.tar.gz ldtp] || Sun Solaris i386 [http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-x86.tar.gz gettext], [http://download.freedesktop.org/ldtp/0.x/0.7.x/SUNWpyldtp-x-5.tar.gz ldtp] ||
 
 == Download LDTP Source ==
 
-  * From ["CVS"]
-
-||||||<tablewidth="100%">||
-||<rowbgcolor='#E0E0FF'> LDTP source [http://download.freedesktop.org/ldtp/0.x/0.8.x/ldtp-0.8.0.tar.gz LDTP source tar.gz] || ||
+||<tablewidth="100%">||
+||<rowbgcolor='#E0FFE0'> LDTP source [http://download.freedesktop.org/ldtp/0.x/0.8.x/ldtp-0.8.0.tar.gz tar.gz] ||
+||
+||<rowbgcolor='#E0E0FF'> From ["CVS"] ||
 ||
 
 == Download License ==
@@ -32,7 +25,7 @@ Your use of all the above files are subject to the '''GNU Lesser General Public 
 
 == Package maintainer ==
 
-||||||<tablewidth="100%">||
+||<tablewidth="100%">||
 || || ||
 ||<rowbgcolor='#12FFE0'> RPM - Nagappan A <anagappan (@) novell (dot) de> || Debian, Ubuntu package - Kartik Mistry <kartik (dot) mistry (@) gmail (dot) com> ||
 || || ||
