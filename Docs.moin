@@ -3,6 +3,10 @@
   * [http://ldtp.freedesktop.org/user-doc/index.html LDTP Python User Manual] - Online HTML
   * [http://download.freedesktop.org/ldtp/0.x/0.8.x/ldtp-doc.tar.bz2 LDTP Python User Manual] - Download HTML tar archive for offline usage
 
+== Documentation License ==
+
+Your use of all the above files are subject to the '''GNU Lesser General Public License (LGPL)''' unless different license terms accompany the file itself, in which case those terms govern.
+
 == Tutorial ==
 
   * Setting LDTP in ["GNU/Linux environment"]
