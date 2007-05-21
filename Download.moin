@@ -2,19 +2,13 @@
 
 LDTP released version - '''0.8.0'''
 
-||<tablewidth="100%">||
-||<rowbgcolor='#E0FFE0'> SuSE Linux 10.0, 10.1 / OpenSuSE 10.2, Factory / Fedora 4, 5, 6 / Madriva 2006 || [http://download.freedesktop.org/ldtp/0.x/0.8.x/ X86 / X86_64] RPM ||
-||<rowbgcolor='#E0E0FF'> [http://packages.debian.org/unstable/devel/ldtp Debian unstable] || [http://download.freedesktop.org/ldtp/0.x/0.8.x/ldtp-0.8.0.ebuild.tar.gz Gentoo package] ||
-||
-||<rowbgcolor='#E0FFE0'> Sun Solaris Sparc [http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-sparc.tar.gz gettext], [http://download.freedesktop.org/ldtp/0.x/0.7.x/SUNWpyldtp-s-5.tar.gz ldtp] || Sun Solaris i386 [http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-x86.tar.gz gettext], [http://download.freedesktop.org/ldtp/0.x/0.7.x/SUNWpyldtp-x-5.tar.gz ldtp] ||
+||SuSE Linux 10.0, 10.1 / OpenSuSE 10.2, Factory / Fedora 4, 5, 6 / Madriva 2006 || [http://download.freedesktop.org/ldtp/0.x/0.8.x/ X86 / X86_64] RPM ||
+||[http://packages.debian.org/unstable/devel/ldtp Debian unstable] || [http://download.freedesktop.org/ldtp/0.x/0.8.x/ldtp-0.8.0.ebuild.tar.gz Gentoo package] ||
+||Sun Solaris Sparc [http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-sparc.tar.gz gettext], [http://download.freedesktop.org/ldtp/0.x/0.7.x/SUNWpyldtp-s-5.tar.gz ldtp] || Sun Solaris i386 [http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-x86.tar.gz gettext], [http://download.freedesktop.org/ldtp/0.x/0.7.x/SUNWpyldtp-x-5.tar.gz ldtp] ||
 
 == Download LDTP Source ==
 
-||<tablewidth="100%">||
-||<rowbgcolor='#E0FFE0'> LDTP source [http://download.freedesktop.org/ldtp/0.x/0.8.x/ldtp-0.8.0.tar.gz tar.gz] ||
-||
-||<rowbgcolor='#E0E0FF'> From ["CVS"] ||
-||
+|| LDTP source [http://download.freedesktop.org/ldtp/0.x/0.8.x/ldtp-0.8.0.tar.gz tar.gz] || From ["CVS"] ||
 
 == Download License ==
 
@@ -22,12 +16,8 @@ Your use of all the above files are subject to the '''GNU Lesser General Public 
 
 == Package maintainer ==
 
-||<tablewidth="100%">||
-|| || ||
-||<rowbgcolor='#12FFE0'> RPM - Nagappan A <anagappan (@) novell (dot) com> || Debian, Ubuntu package - Kartik Mistry <kartik (dot) mistry (@) gmail (dot) com> ||
-|| || ||
-||<rowbgcolor='#12FFE0'> Sun Solaris - Dave Lin <Dave (dot) Lin (@) sun (dot) com> || Gentoo - Navtej Singh <n (dot) s (dot) buttar (@) gmail (dot) com> ||
-|| || ||
+||RPM - Nagappan A <anagappan (@) novell (dot) com> || Debian, Ubuntu package - Kartik Mistry <kartik (dot) mistry (@) gmail (dot) com> ||
+||Sun Solaris - Dave Lin <Dave (dot) Lin (@) sun (dot) com> || Gentoo - Navtej Singh <n (dot) s (dot) buttar (@) gmail (dot) com> ||
 
 == Next step ==
 
