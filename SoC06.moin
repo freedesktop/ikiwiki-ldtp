@@ -1,33 +1,28 @@
- *   . Google Summer of Code '06 - Under GNOME Organization
-Tasks
-
+ * '''Google Summer of Code '06 - Under GNOME Organization'''
+= Tasks =
  * Tinderbox integration
- *   . Evolution automation -- Test Cases
+ * Evolution automation -- ["Test Cases"]
  * LDTP Regression suite
-schedule
-
+= schedule =
  * LDTP integration into jhbuild
 (ScreenCast available at: http://people.freedesktop.org/~prashmohan/soc/screencasts/jhbuild-screencast-low.ogg) (Patch available at http://people.freedesktop.org/~prashmohan/soc/jhbuild.patch)
 
- * Present - June 15th -- Integration of ldtp into jhbuild June 16th - June 22th -- Integration of ldtp into jhautobuild,tinderbox June 22nd - June 30th -- Buffer, error correction, comments, start early work on evolution automation, submit code
+ . Present - June 15th -- Integration of ldtp into jhbuild June 16th - June 22th -- Integration of ldtp into jhautobuild,tinderbox June 22nd - June 30th -- Buffer, error correction, comments, start early work on evolution automation, submit code
  * Evolution Automation
 (Code Available at http://people.freedesktop.org/~prashmohan/soc/evolution/)
 
- * July 1st - July 10th -- Mailer Automation
-  . o
-   . (short screencast at: http://prashblog.be/2006/07/11/evolution-mailer-automation-using-ldtp/)
-  . July 11th - July 20th -- Address, Tasks Automation (Screencast Available at: http://people.freedesktop.org/~prashmohan/soc/screencasts/evolution-addrbook-low.ogg)
-  July 21st - July 31st -- Calendar Automation (Screencast Available at: http://people.freedesktop.org/~prashmohan/soc/screencasts/evolution-calendar-low.ogg) August 1st - August 5th -- Buffer for Evolution Automation,Submit code to ldtp-dev list
+ . July 1st - July 10th    --      Mailer Automation
+  . (short screencast at: http://prashblog.be/2006/07/11/evolution-mailer-automation-using-ldtp/)
+ July 11th - July 20th   --      Address, Tasks Automation (Screencast Available at: http://people.freedesktop.org/~prashmohan/soc/screencasts/evolution-addrbook-low.ogg)
+ July 21st - July 31st   --      Calendar Automation (Screencast Available at: http://people.freedesktop.org/~prashmohan/soc/screencasts/evolution-calendar-low.ogg) August 1st - August 5th --      Buffer for Evolution Automation,Submit code to ldtp-dev list
  * LDTP Regression Suite
 (Code available at: http://people.freedesktop.org/~prashmohan/soc/reg-suite/)
 
- * August 6th - August 15th -- LDTP Regression Suite August 16th -August 20th -- Buffer for all activities August 21st -- Final Submission of Code to ldtp-dev, Google
-Student
+ . August 6th - August 15th -- LDTP Regression Suite August 16th -August 20th -- Buffer for all activities August 21st -- Final Submission of Code to ldtp-dev, Google
+= Student =
+[http://prashblog.be/ Prashanth Mohan]. Final report available at http://people.freedesktop.org/~prashmohan/soc/
 
-Prashanth Mohan. Final report available at http://people.freedesktop.org/~prashmohan/soc/
+= Mentor =
+[http://varadhan.blogspot.com/ Veerapuram Varadhan]
 
-Mentor
-
-Veerapuram Varadhan
-
-Emily Chen
+[http://blogs.sun.com/roller/page/emily Emily Chen]
