@@ -1,32 +1,19 @@
 ||||||<tablewidth="100%">'''Core Team'''||
-||<rowbgcolor='#FFFFE0'> Emily Chen <emily (dot) chen (@) sun (dot) com> || Patrick Gu <Patrick (dot) Gu (@) Sun (dot) COM> ||
-||
-||<rowbgcolor='#E0E0FF'> Nagappan A <nagappan (@) gmail (dot) com> || Venkateswaran S <wenkat (dot) s (@) gmail (dot) com> ||
-||
-||<rowbgcolor='#FFFFE0'> Prem Kumar J <jpremkumar (@) novell (dot) com> || S.Theyagarajan <theyaga (@) gmail (dot) com> ||
-||
-||<rowbgcolor='#E0E0FF'> K.Harishankaran <sp2hari (@) gmail (dot) com> || Varadhan <vvaradhan (@) novell (dot) com> ||
-||
-||<rowbgcolor='#FFFFE0'> Prashanth Mohan <prashmohan (@) gmail (dot) com> || Guofu Xu <Guofu (dot) Xu (@) palmsource (dot) com> ||
-||
+||<rowbgcolor="#FFFFE0"> Emily Chen <emily (dot) chen (@) sun (dot) com> || Patrick Gu <Patrick (dot) Gu (@) Sun (dot) COM> ||
+||<rowbgcolor="#E0E0FF"> Nagappan A <nagappan (@) gmail (dot) com> || Venkateswaran S <wenkat (dot) s (@) gmail (dot) com> ||
+||<rowbgcolor="#FFFFE0"> Prem Kumar J <jpremkumar (@) novell (dot) com> || S.Theyagarajan <theyaga (@) gmail (dot) com> ||
+||<rowbgcolor="#E0E0FF"> K.Harishankaran <sp2hari (@) gmail (dot) com> || Varadhan <vvaradhan (@) novell (dot) com> ||
+||<rowbgcolor="#FFFFE0"> Prashanth Mohan <prashmohan (@) gmail (dot) com> || Guofu Xu <Guofu (dot) Xu (@) palmsource (dot) com> ||
 
 ||||||<tablewidth="100%">'''Active Contributors'''||
-||<rowbgcolor='#FFFFE0'> Khasim Shaheed <khasim.shaheed (@) gmail (dot) com> || Thanikachalam S <thanika_1999 (@) yahoo (dot) com> ||
-||
-||<rowbgcolor='#E0E0FF'> Harry <harry (dot) lu (@) sun (dot) com> || Kaveri <kaveri (dot) murthy (@) hp (dot) com> ||
-||
-||<rowbgcolor='#FFFFE0'> Krishnan R <aparkrish (@) gmail (dot) com> || Alex.Yu <hao (dot) yu (@) palmsource (dot) com> ||
-||
-||<rowbgcolor='#E0E0FF'> Shankar Ganesh <shagan (dot) glare (@) gmail (dot) com> || Raghu Dandin <Raghu (dot) Dandin (@) palmsource (dot) com> ||
-||
-||<rowbgcolor='#FFFFE0'> Tao Miao <Tim (dot) Miao (@) sun (dot) com> || Poornima Nayak <pnayak (@) novell (dot) com> ||
-||
+||<rowbgcolor="#FFFFE0"> Khasim Shaheed <khasim.shaheed (@) gmail (dot) com> || Thanikachalam S <thanika_1999 (@) yahoo (dot) com> ||
+||<rowbgcolor="#E0E0FF"> Harry <harry (dot) lu (@) sun (dot) com> || Kaveri <kaveri (dot) murthy (@) hp (dot) com> ||
+||<rowbgcolor="#FFFFE0"> Krishnan R <aparkrish (@) gmail (dot) com> || Alex.Yu <hao (dot) yu (@) palmsource (dot) com> ||
+||<rowbgcolor="#E0E0FF"> Shankar Ganesh <shagan (dot) glare (@) gmail (dot) com> || Raghu Dandin <Raghu (dot) Dandin (@) palmsource (dot) com> ||
+||<rowbgcolor="#FFFFE0"> Tao Miao <Tim (dot) Miao (@) sun (dot) com> || Poornima Nayak <pnayak (@) novell (dot) com> ||
 
 ||||||<tablewidth="100%">'''Package maintainer'''||
-||<rowbgcolor='#FFFFE0'> SLED, OpenSuSE RPM - Frank Seidel <fseidel (@) suse (dot) de> ||
-||
-||<rowbgcolor='#E0E0FF'> Debian, Ubuntu package - Kartik Mistry <kartik (dot) mistry (@) gmail (dot) com> ||
-||
-||<rowbgcolor='#FFFFE0'> Sun Solaris - Dave Lin <Dave (dot) Lin (@) sun (dot) com> ||
-||
-||<rowbgcolor='#E0E0FF'> Fedora RPM - Ashish Rajasekhar <ashish (@) ashishr (dot) net> ||
+||<rowbgcolor="#FFFFE0"> SLED, OpenSuSE RPM - Frank Seidel <fseidel (@) suse (dot) de> ||
+||<rowbgcolor="#E0E0FF"> Debian, Ubuntu package - Kartik Mistry <kartik (dot) mistry (@) gmail (dot) com> ||
+||<rowbgcolor="#FFFFE0"> Sun Solaris - Dave Lin <Dave (dot) Lin (@) sun (dot) com> ||
+||<rowbgcolor="#E0E0FF"> Fedora RPM - Ashish Rajasekhar <ashish (@) ashishr (dot) net> ||
