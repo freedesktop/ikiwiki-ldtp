@@ -109,7 +109,7 @@ Refer: [http://mail.gnome.org/archives/gnome-accessibility-list/2005-January/msg
 
 == Is there any tutorial available for writing test scripts ? ==
 
-["How_to_create_Test_Scripts_for_PY-LDTP"]
+How to create ["LDTP test scripts in python"]
 
 == After adding new file, when I try to generate rpm, I'm getting error like <new file> not found ? ==
 
