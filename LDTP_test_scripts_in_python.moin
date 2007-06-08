@@ -107,7 +107,7 @@ If any of the action releated functions (example: selectmenuitem, click, settext
     * If you have any issues in writing scripts, you can contact us either through mail or IRC - Refer ["BeginnersGuide"]
 
 == Filing bugs ==
-   * If existing feature in LDTP does not work, please file a [http://bugzilla.gnome.org/enter_bug.cgi?product=LDTP bug] and select component as pyldtp. Also provide us the steps to reproduce, so that we can fix it at the earliest.
+   * If existing feature in LDTP does not work, please file a [http://bugzilla.gnome.org/enter_bug.cgi?product=LDTP bug] and select component as ldtp. Also provide us the steps to reproduce, so that we can fix it at the earliest.
    * If new feature needs to be added in LDTP, please file an enhancement [http://bugzilla.gnome.org/enter_bug.cgi?product=LDTP bug]
 
 == LDTP usage help ==
