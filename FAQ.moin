@@ -111,10 +111,6 @@ Refer: [http://mail.gnome.org/archives/gnome-accessibility-list/2005-January/msg
 
 ["How_to_create_Test_Scripts_for_PY-LDTP"]
 
-== How to generate rpm from pyldtp source ? ==
-
-From command line type: ./setup.py bdist_rpm
-
 == After adding new file, when I try to generate rpm, I'm getting error like <new file> not found ? ==
 
 Rpm distribution module tries to read MANIFEST file in local directory. If this file already exist and if you have added a new file in setup.py, on building you won't get any error. But on creating rpm you will get an error like <you new file name> not found. Remove MANIFEST file in local directory and generate the rpm file.
