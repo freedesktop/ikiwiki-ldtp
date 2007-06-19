@@ -4,8 +4,6 @@ GNU/LDTP core framework uses ''Appmap'' and the recorded ''test-cases'' to test 
 
 We encourage you to join the project and help us to create robust, reliable and stable test tool/framework for Unix Desktops. Thanks to '''GNOME''' Accessibility team and '''Sun Microsystems''' Accessibility team for their great work and their continuous support !!!
 
-||<rowbgcolor="#E0FFE0"> ["About"] || ["News"] || ["Features"] ||
-||<rowbgcolor="#E0E0FF"> ["Download"] || ["CVS"] || ["Docs"] ||
-||<rowbgcolor="#E0FFE0"> ["HOWTO"] || ["FAQ"] || ["Bugs"] ||
-||<rowbgcolor="#E0E0FF"> ["Mailing list"] || ["Projects using LDTP"] || ["LDTP Demo"] ||
-||<rowbgcolor="#E0FFE0"> ["Object-Oriented LDTP"] || ["TeamMembers"] || [http://ldtp.freedesktop.org/planet Planet LDTP] ||
+||<rowbgcolor="#E0FFE0"> ["About"] || ["News"] || ["Features"] || ["Download"] || ["CVS"] || ["Docs"] ||
+||<rowbgcolor="#E0E0FF"> ["HOWTO"] || ["FAQ"] || ["Bugs"] || ["Mailing list"] || ["Projects using LDTP"] || ["LDTP Demo"] ||
+||<rowbgcolor="#E0FFE0"> ["Object-Oriented LDTP"] || ["TeamMembers"] || [http://ldtp.freedesktop.org/planet Planet LDTP] || ["SoC"] || ["Contribute"] || ||
