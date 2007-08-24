@@ -4,7 +4,7 @@
  * Tinderbox Integration
 = schedule =
  * Firefox Automation
-  . Automate most Basic Functional Tests (BFT) cases[http://fromlitmus.mozilla.org/ fromLitmus.mozilla.org]for Firefox Trunk build.
+  . Automate most Basic Functional Tests (BFT) cases from [http://litmus.mozilla.org/ Litmus.mozilla.org]for Firefox Trunk build.
    . Schedule : April 20 - June 30
    Test cases status available [:Firefox Test Cases:here].
  * Tinderbox Integration
