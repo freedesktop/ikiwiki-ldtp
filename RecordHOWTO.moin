@@ -1,6 +1,9 @@
 ##language:en
 Want to use LDTP to test your application? Or do you want to automate the actions you do often? Or are you a GNU/Linux user who want to show “magic” to your friends by recording your actions and playing them back? You can use LDTP for this. But one small issue with LDTP is that you should know the LDTP Python API to write any test suite. But with the new LDTP Editor, this makes your job really simple. A screenshot of the LDTP Editor is shown below.
 
+http://sp2hari.com/wp-content/uploads/2007/11/ldtp-editor.png
+
+
 This is a simple HOWTO for recording and playing back the recorded script.
 
 __Installing LDTP. __
