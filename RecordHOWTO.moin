@@ -35,6 +35,21 @@ For this let us consider recording the actions performed in gcalctool.
  * Run ldtpeditor and gcalctool.
  * Make sure both you have enabled ‘Always on Top’ or both the applications and both the window doesn’t overlap with each other.
  * Click the Start button the LDTP Editor. All actions performed after this are recorded.
+ * Then run hari@hari-laptop:~$ python frisco.py
+ * The actions you performed while recording will be played back again :-)
+ * After clicking record click 'Convert' to get the code converted in LDTP format (It does some post processing, so its required)
+ * Click save button to save generated python script, if 2nd tab is empty, then it will try to get the contents of first tab and store it in the file you specify. If file already exist, it will *OVER-WRITE*
+ * control+c, control+v doesn't work
+ * Sometime the resource will go high as the application map info is collected from the application, so no need to worry. With Thunderbird, the recording really sucks
+ * You need to have GNOME 2.14 and above to use LDTP editor
+
+
+
+Note:: The generated code had many unwanted waittillguiexist. I saw waittillguiexist(”dlg0″) in many places. If your playback is stopped because of this, remove that before running the scripts.
+Sometime the resource will go high as the application map info is collected from the application, so no need to worry.
+
+If you find any issues regarding LDTP Editor, report it to ldtp-dev@lists.freedesktop.org or nagappan@gmail.com or sp2hari@gmail.com
+
 == Known issues ==
 [:RecordTODO:Recording TO DO]
 
