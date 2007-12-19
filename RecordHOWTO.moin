@@ -10,6 +10,12 @@ __Installing LDTP. __
  * Compile the code using ./configure and make
  * If you don’t have the access to install softwares, run the ldtpeditor file in the python folder
  * If you have access to install softwares, then run “make install”
+ * Perform actions in the gcalctool. Check out [http://download.freedesktop.org/ldtp/movies/gcalctool-record.ogg this video] to see the actions i recored in my computer .
+ * After you’re done with the actions in the gcalctool, click the Stop button in the LDTP Editor.
+ * You can see that the ‘Recorded Code’ tab is updated with code as when you perform actions in gcalctool.
+ * Click the convert button in the LDTP Editor. You’ll see that the Generated LDTP Code and Generated LDTP XML tabs are filled with generated code.
+ * The Play button is not working now. I wrote the patch for that yesterday night ;-).
+ * Save the contents of the ‘Generated LDTP Code’ into a python file (for ex frisco.py) . Note that if the file name you specify already exists, then it OVERWRITES the filename without any warning.
 Note::  After installing LDTP Editor, i when i tried to run ldtpeditor, got an error saying
 
 hari@hari-laptop:~/ldtp/ldtp-0.9.2$ ldtpeditor (ldtpeditor:11130): libglade-WARNING **: could not find glade file '/usr/share/local/ldtp/glade/ldtpeditor.glade' Glade file not found
@@ -28,9 +34,7 @@ For this let us consider recording the actions performed in gcalctool.
  * If you are enabling Assistive Technology only now, logout and login again.
  * Run ldtpeditor and gcalctool.
  * Make sure both you have enabled ‘Always on Top’ or both the applications and both the window doesn’t overlap with each other.
- *  Click the Start button the LDTP Editor. All actions performed after this are recorded.
-
-
+ * Click the Start button the LDTP Editor. All actions performed after this are recorded.
 == Known issues ==
 [:RecordTODO:Recording TO DO]
 
