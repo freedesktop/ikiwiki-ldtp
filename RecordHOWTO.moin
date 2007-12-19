@@ -24,6 +24,13 @@ __Recording using LDTP Editor__
 
 For this let us consider recording the actions performed in gcalctool.
 
+ * First make sure Assistive Technology is enabled in your desktop. If you are not sure about this, open gnome-control-center and in that open Assistive Technology Preferences. You should have Enable Assistive Technologies checked to use LDTP.
+ * If you are enabling Assistive Technology only now, logout and login again.
+ * Run ldtpeditor and gcalctool.
+ * Make sure both you have enabled ‘Always on Top’ or both the applications and both the window doesn’t overlap with each other.
+ *  Click the Start button the LDTP Editor. All actions performed after this are recorded.
+
+
 == Known issues ==
 [:RecordTODO:Recording TO DO]
 
