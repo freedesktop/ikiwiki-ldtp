@@ -12,7 +12,18 @@ __Installing LDTP. __
  * If you have access to install softwares, then run “make install”
 Note::  After installing LDTP Editor, i when i tried to run ldtpeditor, got an error saying
 
+hari@hari-laptop:~/ldtp/ldtp-0.9.2$ ldtpeditor
+(ldtpeditor:11130): libglade-WARNING **: could not find glade file '/usr/share/local/ldtp/glade/ldtpeditor.glade'
+Glade file not found
+
 The ldtpeditor.glade file is present in the python folder. I got this error because i compiled the code as ./configure. If i had done it as ‘./configure –prefix=/usr’, then i wouldn’t have got this error. Anyway i copied the file manually to that folder.
+
+hari@hari-laptop:~/ldtp/ldtp-0.9.2$ sudo mkdir -p /usr/share/local/ldtp/glade/
+hari@hari-laptop:~/ldtp/ldtp-0.9.2$ sudo cp python/ldtpeditor.glade /usr/share/local/ldtp/glade/
+hari@hari-laptop:~/ldtp/ldtp-0.9.2$ ldtpeditor
+
+After that when i ran ldtpeditor, it ran without any issues.
+
 == Known issues ==
 [:RecordTODO:Recording TO DO]
 
