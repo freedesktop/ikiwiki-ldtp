@@ -1,5 +1,17 @@
 ##language:en
 Want to use LDTP to test your application? Or do you want to automate the actions you do often? Or are you a GNU/Linux user who want to show “magic” to your friends by recording your actions and playing them back? You can use LDTP for this. But one small issue with LDTP is that you should know the LDTP Python API to write any test suite. But with the new LDTP Editor, this makes your job really simple. A screenshot of the LDTP Editor is shown below.
+
+This is a simple HOWTO for recording and playing back the recorded script.
+
+__Installing LDTP. __
+
+ * Download the lastest LDTP source code from http://people.freedesktop.org/~nagappan/ldtp-0.9.2.tar.gz.
+ * Uncompress the file.
+ * Compile the code using ./configure and make
+ * If you don’t have the access to install softwares, run the ldtpeditor file in the python folder
+ * If you have access to install softwares, then run “make install”
+Note::  After installing LDTP Editor, i when i tried to run ldtpeditor, got an error saying
+
 == Known issues ==
 [:RecordTODO:Recording TO DO]
 
