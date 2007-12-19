@@ -36,17 +36,31 @@ For this let us consider recording the actions performed in gcalctool.
  * Make sure both you have enabled ‘Always on Top’ or both the applications and both the window doesn’t overlap with each other.
  * Click the Start button the LDTP Editor. All actions performed after this are recorded.
  * Then run hari@hari-laptop:~$ python frisco.py
- * The actions you performed while recording will be played back again :-)
+ * The actions you performed while recording will be played back again :)
  * After clicking record click 'Convert' to get the code converted in LDTP format (It does some post processing, so its required)
  * Click save button to save generated python script, if 2nd tab is empty, then it will try to get the contents of first tab and store it in the file you specify. If file already exist, it will *OVER-WRITE*
  * control+c, control+v doesn't work
  * Sometime the resource will go high as the application map info is collected from the application, so no need to worry. With Thunderbird, the recording really sucks
  * You need to have GNOME 2.14 and above to use LDTP editor
+__ LDTP Editor Preferences__
 
+Using the LDTP Prefereces, you can control what all actions you can control. A brief summary about the options given in the Preferences window.
 
-
-Note:: The generated code had many unwanted waittillguiexist. I saw waittillguiexist(”dlg0″) in many places. If your playback is stopped because of this, remove that before running the scripts.
-Sometime the resource will go high as the application map info is collected from the application, so no need to worry.
+ * Listen key events
+This option is not yet implemented. Checking/Unchecking this doesn’t make any difference now.
+ * Listen mouse events
+This option is not yet implemented. Checking/Unchecking this doesn’t make any difference now.
+ * Generate LDTP Code
+Only when if this option is enabled, Convert will generated to LDTP code in the ‘Generated LDTP Code’ tab. This is enabled by default when you run LDTP Editor.
+ * Generate Data XML
+If this option is enabled, the LDTP Editor will generate data XML for the actions you perform.
+ * Generate keyboard events code
+Generates code for the keyboard events you performed during the recording session.
+ * Generate wait time code
+Calculates the delay one takes between each action during the recording session and generates code so that similar time delay is generated while play back.
+ * Generate Memory / CPU statistics.
+The code to generate Memory and CPU statistics will be generated.  You need to install pystatgrab and libstatgrab packages.
+Note:: The generated code had many unwanted waittillguiexist. I saw waittillguiexist(”dlg0″) in many places. If your playback is stopped because of this, remove that before running the scripts. Sometime the resource will go high as the application map info is collected from the application, so no need to worry.
 
 If you find any issues regarding LDTP Editor, report it to ldtp-dev@lists.freedesktop.org or nagappan@gmail.com or sp2hari@gmail.com
 
