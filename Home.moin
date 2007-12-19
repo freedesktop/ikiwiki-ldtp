@@ -5,5 +5,6 @@ GNU/LDTP core framework uses ''Appmap'' and the recorded ''test-cases'' to test 
 We encourage you to join the project and help us to create robust, reliable and stable test tool/framework for Unix Desktops. Thanks to '''GNOME''' Accessibility team and '''Sun Microsystems''' Accessibility team for their great work and their continuous support !!!
 
 ||<rowbgcolor="#e0ffe0"> ["About"] || ["News"] || ["Features"] || [:Download: Binary / Source download] || ["CVS"] || [:Docs: Documentation] ||
-||<rowbgcolor="#e0e0ff"> ["HOWTO"] || ["FAQ"] || ["Bugs"] || ["Mailing list"] || ["Projects using LDTP"] || ["LDTP Demo"] ||
-||<rowbgcolor="#e0ffe0"> ["Object-Oriented LDTP"] || TeamMembers || [http://ldtp.freedesktop.org/planet Planet LDTP] || [:SoC: Google SoC] || ["Contribute"] || [:RecordHOWTO:Record / Playback] ||
+||<rowbgcolor="#e0e0ff"> [:ldtprunner XML:LDTP Runner] || [:Data XML:Data XML] || [:Class pstats:Monitor CPU / Memory] || [:LDTPsupportedplatforms:Platforms] || [:RecordHOWTO:Record / Playback] || ||
+||<rowbgcolor="#e0ffe0"> ["HOWTO"] || ["FAQ"] || ["Bugs"] || ["Mailing list"] || ["Projects using LDTP"] || ["LDTP Demo"] ||
+||<rowbgcolor="#e0e0ff"> ["Object-Oriented LDTP"] || TeamMembers || [http://ldtp.freedesktop.org/planet Planet LDTP] || [:SoC: Google SoC] || ["Contribute"] ||  ||
