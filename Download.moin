@@ -6,7 +6,7 @@
 == Download License ==
 Your use of all the above files are subject to the '''GNU Lesser General Public License (LGPL)''' unless different license terms accompany the file itself, in which case those terms govern.
 == Package maintainer ==
-||RPM - Nagappan A <anagappan (@) novell (dot) com> || Debian, Ubuntu package - Kartik Mistry <kartik (dot) mistry (@) gmail (dot) com> ||
+||RPM - Nagappan A <nagappan (@) gmail (dot) com> || Debian, Ubuntu package - Kartik Mistry <kartik (dot) mistry (@) gmail (dot) com> ||
 ||Sun Solaris - Dave Lin <Dave (dot) Lin (@) sun (dot) com> || Gentoo - Navtej Singh <n (dot) s (dot) buttar (@) gmail (dot) com> ||
 == Next step ==
  * Setting LDTP in ["GNU/Linux environment"]
