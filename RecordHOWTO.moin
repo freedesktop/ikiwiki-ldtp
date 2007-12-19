@@ -3,7 +3,6 @@ Want to use LDTP to test your application? Or do you want to automate the action
 
 http://sp2hari.com/wp-content/uploads/2007/11/ldtp-editor.png
 
-
 This is a simple HOWTO for recording and playing back the recorded script.
 
 __Installing LDTP. __
@@ -29,7 +28,7 @@ hari@hari-laptop:~/ldtp/ldtp-0.9.2$ sudo mkdir -p /usr/share/local/ldtp/glade/ h
 
 After that when i ran ldtpeditor, it ran without any issues.
 
-__Recording using LDTP Editor__
+__Record using LDTP Editor__
 
 For this let us consider recording the actions performed in gcalctool.
 
@@ -38,11 +37,11 @@ For this let us consider recording the actions performed in gcalctool.
  * Run ldtpeditor and gcalctool.
  * Make sure both you have enabled ‘Always on Top’ or both the applications and both the window doesn’t overlap with each other.
  * Click the Start button the LDTP Editor. All actions performed after this are recorded.
- * Then run hari@hari-laptop:~$ python frisco.py
+ * When done click Stop button.
+ * Click 'Convert' to get the code converted in LDTP format (It does some post processing, so its required)
  * The actions you performed while recording will be played back again :)
- * After clicking record click 'Convert' to get the code converted in LDTP format (It does some post processing, so its required)
- * Click save button to save generated python script, if 2nd tab is empty, then it will try to get the contents of first tab and store it in the file you specify. If file already exist, it will *OVER-WRITE*
- * control+c, control+v doesn't work
+ * Click save button to save generated python script, if 2nd tab is empty, then it will try to get the contents of first tab and store it in the file you specify. If file already exist, it will *OVER-WRITE* '''''NOTE:''''' ''control+c, control+v doesn't work''
+ * You can run the saved file from command line like: ''hari@hari-laptop:~$ python frisco.py''
  * Sometime the resource will go high as the application map info is collected from the application, so no need to worry. With Thunderbird, the recording really sucks
  * You need to have GNOME 2.14 and above to use LDTP editor
 __ LDTP Editor Preferences__
