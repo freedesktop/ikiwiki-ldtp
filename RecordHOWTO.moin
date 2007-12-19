@@ -53,7 +53,7 @@ Using the LDTP Prefereces, you can control what all actions you can control. A b
  * Generate keyboard events code ''Generates code for the keyboard events you performed during the recording session.''
  * Generate wait time code ''Calculates the delay one takes between each action during the recording session and generates code so that similar time delay is generated while play back.''
  * Generate Memory / CPU statistics. ''The code to generate Memory and CPU statistics will be generated.  You need to install pystatgrab and libstatgrab packages.''
-Note:: The generated code had many unwanted waittillguiexist. I saw waittillguiexist(”dlg0″) in many places. If your playback is stopped because of this, remove that before running the scripts. Sometime the resource will go high as the application map info is collected from the application, so no need to worry.If you find any issues regarding LDTP Editor, report it to ldtp-dev@lists.freedesktop.org or nagappan@gmail.com or sp2hari@gmail.com
+Note:: The generated code had many unwanted waittillguiexist. I saw waittillguiexist(”dlg0″) in many places. If your playback is stopped because of this, remove that before running the scripts. Sometime the resource will go high as the application map info is collected from the application, so no need to worry.If you find any issues regarding LDTP Editor, report it to ldtp-dev at lists.freedesktop.org or nagappan at gmail dot com or sp2hari at gmail dot com
 
 == Known issues ==
 [:RecordTODO:Recording TO DO]
