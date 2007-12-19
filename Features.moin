@@ -18,6 +18,8 @@
 
     * Objects are identified both [http://gnomebangalore.org/ldtp/index.php/Howto_generate_Application_map statically] and [http://gnomebangalore.org/ldtp/index.php/Remap dynamically]
 
+    * [:RecordHOWTO:Record / Playback]
+
 == Next step ==
 
   * Setting LDTP in ["GNU/Linux environment"]
