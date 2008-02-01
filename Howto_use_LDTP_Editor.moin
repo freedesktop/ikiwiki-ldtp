@@ -1,6 +1,5 @@
-{{{#!javascript
+#!javascript
 alert("Hello World!");
-}}}
 
 [wiki:Self:LDTPEditor/GeneratingldtprunnerXMLfileformat Generating ldtprunner XML file format]
 
