@@ -1,3 +1,7 @@
+{{{#!javascript
+alert("Hello World!");
+}}}
+
 [wiki:Self:LDTPEditor/GeneratingldtprunnerXMLfileformat Generating ldtprunner XML file format]
 
 [wiki:Self:LDTPEditor/GeneratingLDTPDataXMLfileformat Generating LDTP Data XML file format]
