@@ -1,0 +1,18 @@
+== Linux Desktop Testing Project ==
+
+|| '''Check out LDTP source''' || '''Check out Python autosuite test-scripts''' ||
+|| git clone git://anongit.freedesktop.org/git/ldtp/ldtp.git || git clone git://anongit.freedesktop.org/git/ldtp/pyautosuite.git ||
+||'''Checkout LDTP source from freedesktop.org GIT as a developer'''|| '''Browse LDTP Source online''' ||
+|| git clone ssh://nagappan@git.freedesktop.org/git/ldtp/ldtp.git || [http://webcvs.freedesktop.org/ldtp/ Browse LDTP CVS] ||
+
+== Next ==
+
+Setting LDTP in ["GNU/Linux environment"]
+
+How to create ["LDTP test scripts in python"]
+
+== Obsolete CVS modules ==
+
+'''Check out Application map generation utility'''
+
+git clone git://anongit.freedesktop.org/git/ldtp/appmap.git
