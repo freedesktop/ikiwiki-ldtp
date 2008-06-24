@@ -1,20 +1,61 @@
-= Welcome to Object-Oriented LDTP (EXPERIMENTAL) =
+= Object Oriented LDTP bundled with LDTP package =
+
+With this implementation, the code can be like
+
+* Approach 1
+
+{{{#!python
+from ooldtp import *
+
+gedit = context ('*-gedit')
+gedit.component.name = 'btnFind'
+gedit.component.click ()}}}
+
+* Approach 2
+
+{{{#!python
+from ooldtp import *
+
+gedit = context ('*-gedit')
+btnFind = gedit.child ('btnFind')
+btnFind.click ()}}}
+
+* Approach 3
+
+{{{#!python
+from ooldtp import *
+
+gedit = context ('*-gedit')
+gedit.component.click ('btnFind')}}}
+
+* Approach 4
+
+{{{#!python
+from ooldtp import *
+
+gedit = context ('*-gedit')
+gedit.click ('btnFind')}}}
+
+= Welcome to Object-Oriented LDTP (EXPERIMENTAL) by Palm Source =
 
 == What it is Object-Oriented LDTP? ==
 
 Till now LDTP supports this kind of syntax:[[BR]]
-click('*gedit', btncopy)[[BR]]
-selectmenuitem('*gedit', 'mnuFile;mnuOpen')[[BR]]
+{{{#!python
+click('*gedit', btncopy)
+selectmenuitem('*gedit', 'mnuFile;mnuOpen')}}}
 
 it does not support appmap anymore. however I prefer using appmap to maximize its maintainability of our automation script. and I want ldtp have ability to using the following syntax to write script:
 
-frmgedt.btncopy.click()[[BR]]
-frmgedit.mnuOpen.click()[[BR]]
+{{{#!python
+frmgedt.btncopy.click()
+frmgedit.mnuOpen.click()}}}
 
 and
 
-Window('frm*gedit').PushButton('btncopy').click()[[BR]]
-Window('frm*gedit').MenuItem('mnuFile;mnuOpen').pick()[[BR]]
+{{{#!python
+Window('frm*gedit').PushButton('btncopy').click()
+Window('frm*gedit').MenuItem('mnuFile;mnuOpen').pick()}}}
 
 
 so I write a wrapper for LDTP, it wraps/improves most of LDTP API.[[BR]]
@@ -29,34 +70,37 @@ so I write a wrapper for LDTP, it wraps/improves most of LDTP API.[[BR]]
 
 === open the file, you can find the code looks like below: ===
 
+{{{#!python
    from window import *
 
    class Gedit(Window):
        name = '*gedit'
 
-       btncopy = Window.PushButton('btncopy', name)[[BR]]
-       btncut = Window.PushButton('btncut', name)[[BR]]
-       btnfind = Window.PushButton('btnfind', name)[[BR]]
-       btnfindandreplace = Window.PushButton('btnfindandreplace', name)[[BR]]
-       btngtkundo = Window.PushButton('btngtk-undo', name)[[BR]]
+       btncopy = Window.PushButton('btncopy', name)
+       btncut = Window.PushButton('btncut', name)
+       btnfind = Window.PushButton('btnfind', name)
+       btnfindandreplace = Window.PushButton('btnfindandreplace', name)
+       btngtkundo = Window.PushButton('btngtk-undo', name)
      
-       mnuAbout = Window.MenuItem('mnuHelp;mnuAbout', name)[[BR]]
-       mnuAda = Window.MenuItem('mnuView;mnuHighlightMode;mnuSources;mnuAda', name)[[BR]]
-       mnuAllLowerCase = Window.MenuItem('mnuEdit;mnuChangeCase;mnuAllLowerCase', name)[[BR]]
-       mnuAllUpperCase = Window.MenuItem('mnuEdit;mnuChangeCase;mnuAllUpperCase', name)[[BR]]
-        ...[[BR]]
-   frmGedit = Gedit()[[BR]]
+       mnuAbout = Window.MenuItem('mnuHelp;mnuAbout', name)
+       mnuAda = Window.MenuItem('mnuView;mnuHighlightMode;mnuSources;mnuAda', name)
+       mnuAllLowerCase = Window.MenuItem('mnuEdit;mnuChangeCase;mnuAllLowerCase', name)
+       mnuAllUpperCase = Window.MenuItem('mnuEdit;mnuChangeCase;mnuAllUpperCase', name)
+       # ...
+   frmGedit = Gedit()}}}
 
 === now you can do something like this  ===
    ==== to select a menuitem: ====
-   frmGedit.mnuAbout.select()[[BR]]
-   or write this[[BR]]
-   Window('*gedit').Menu('mnuHelp;mnuAbout').select()[[BR]]
+{{{#!python
+   frmGedit.mnuAbout.select()
+   or write this
+   Window('*gedit').Menu('mnuHelp;mnuAbout').select()}}}
     
    ==== to click a button: ====
-   frmGedit.btnfind.click()[[BR]]
-   or write this[[BR]]
-   Window('*gedit').PushButton('btnfind').click()[[BR]]
+{{{#!python
+   frmGedit.btnfind.click()
+   or write this
+   Window('*gedit').PushButton('btnfind').click()}}}
 
    ==== you can find more wrapped APIs in window.py ====
 
