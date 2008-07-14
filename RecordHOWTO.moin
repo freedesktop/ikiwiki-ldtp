@@ -7,7 +7,7 @@ This is a simple HOWTO for recording and playing back the recorded script.
 
 __Installing LDTP. __
 
- * Download the lastest LDTP source code from ["CVS"]
+ * Download the lastest LDTP source code from ["GIT"]
  * Compile the code using ./configure and make
  * If you don’t have the access to install softwares, run the ldtpeditor file in the python folder
  * If you have access to install softwares, then run “make install”
