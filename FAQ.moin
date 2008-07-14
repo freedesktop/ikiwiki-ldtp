@@ -17,7 +17,7 @@ Linux Desktop Testing Project (LDTP) was the first Test Automation Framework to 
 
   * LDTP is Linux desktop agnostic. It aims at delivering an umbrella of test suites for Linux Desktop projects which includes the top ones like GNOME,
   KDE, Mozilla, Openoffice.org etc. This increases wide-spread acceptance of LDTP as a de-facto desktop testing framework.
-  * Based on the inputs recevied from some of the prominent members of the GNOME and KDE community, LDTP has been hosted on [http://cvs.freedesktop.org/ldtp freedesktop.org]
+  * Based on the inputs recevied from some of the prominent members of the GNOME and KDE community, LDTP has been hosted on [http://anongit.freedesktop.org/git/ldtp freedesktop.org]
   * However, LDTP currently uses the [http://bugzilla.gnome.org/enter_bug.cgi?product=LDTP GNOME bugzilla] for bug tracking, thanks to [http://tieguy.org/blog/index.cgi Luis Villa] for making this available.
 
 == How is LDTP different from other desktop testing frameworks ? ==
