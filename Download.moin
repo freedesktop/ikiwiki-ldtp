@@ -1,6 +1,6 @@
 == Download LDTP binary / source for Linux or Solaris distributions (released version - 1.2.0) ==
 ||OpenSuSE 10.2, 10.3, Factory / Fedora 6, 7, 8 / RHEL5 / CentOS5 || [http://download.opensuse.org/repositories/home:/anagappan/ X86 / X86_64] RPM ||
-||[http://packages.debian.org/unstable/devel/ldtp Debian unstable] || [http://download.freedesktop.org/ldtp/1.x/1.2.x/ldtp-1.2.0.ebuild.tar.gz Gentoo package] ||
+||[http://packages.debian.org/unstable/devel/ldtp Debian unstable] || [http://download.freedesktop.org/ldtp/1.x/1.2.x/gentoo/ldtp-1.2.0.ebuild.tar.gz Gentoo package] ||
 ||Sun Solaris Sparc [http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-sparc.tar.gz gettext], [http://download.freedesktop.org/ldtp/0.x/0.7.x/SUNWpyldtp-s-5.tar.gz ldtp] || Sun Solaris i386 [http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-x86.tar.gz gettext], [http://download.freedesktop.org/ldtp/0.x/0.7.x/SUNWpyldtp-x-5.tar.gz ldtp] ||
 || LDTP [http://download.freedesktop.org/ldtp/1.x/1.2.x/ldtp-1.2.0.tar.gz source] || From ["GIT"] ||
 == Download License ==
