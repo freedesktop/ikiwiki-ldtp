@@ -50,7 +50,6 @@ __For this let us consider recording the actions performed in gcalctool. __
  * You can run the saved file from command line like: ''hari@hari-laptop:~$ python frisco.py''
  * Sometime the resource will go high as the application map info is collected from the application, so no need to worry. With Thunderbird, the recording really sucks.
  LDTP Editor Preferences__ __
-
 __Using the LDTP Preferences, you can control what all actions you can control. A brief summary about the options given in the Preferences window. __
 
  * __Listen key events ''This option is not yet implemented. Checking/Unchecking this doesn’t make any difference now.'' __
@@ -62,7 +61,36 @@ __Using the LDTP Preferences, you can control what all actions you can control. 
  * Generate Memory / CPU statistics. ''The code to generate Memory and CPU statistics will be generated.  You need to install pystatgrab and libstatgrab packages.''
  * ''Edit App List: with this option you can edit the names of the windows ldtpeditor supports. For more on how to customize window support see LDTP Editor Wildcard Support.''
 === LDTP Editor Wildcard Support (new) ===
-Reasons to add window support to ldtpeditor __Ldtpeditor recognizes all windows it records by the window name. I ignores the white spaces, so if you are working with Xchat you will find lines like these recorded: click ("frmXChat:shrink@FreeNode/#mandriva(+tncPz)", "tbtnT") click ("frmXChat:shrink@FreeNode/#opensocial(+sn)", "tbtnS") Here "frmXChat:shrink@FreeNode/#mandriva(+tncPz)" and "frmXChat:shrink@FreeNode/#opensocial(+sn)" are the window names. It is this window name that the LDTP engine later uses when you play the coverted python scripts. You will notice that as you continue recording, the window name changes. So if the window name is not exactly the same when you are playing the converted code, ldtpeditor gives and error. To overcome this difficulty we introduce the feature of window name support. This feature takes advantage of the LDTP engine's ability to recognise windows using wildcards. So when we the window name 'XChat' in the "Supported Application" list, here is what the ldtpeditor records: click ("*XChat*", "tbtnT") click ("*XChat*", "tbtnS") Thus the converted code runs even when the window name changes as long as it contains the string "XChat". To help ldtpeditor recognise the application you are working with follow the following very simple steps: First recognise the string which almost always is contained in your window name (in our example above its "XChat"). Drop the white spaces, so "Mozilla Firefox" becomes "MozillaFirefox". Make sure its unique to your window and is not contained in other windows open when you play your converted script. If such a window exists which may cause trouble while playing, close it! Click Edit App List in Preference window. You will see a treeview of all supported applications. Click on Add '''''Note:''''' The generated code had many unwanted waittillguiexist. I saw waittillguiexist (”dlg0″) in many places. If your playback is stopped because of this, remove that before running the scripts. Sometime the resource will go high as the application map info is collected from the application, so no need to worry.If you find any issues regarding LDTP Editor, report it to ldtp-dev at lists.freedesktop.org or nagappan at gmail dot com or sp2hari at gmail dot com __
+__Reasons to add window support to ldtpeditor ____
+__
+
+Ldtpeditor recognizes all windows it records by the window name. It ignores the white spaces, so if you are working with Xchat you will find lines like these recorded:
+
+{{{
+click ("frmXChat:shrink@FreeNode/#mandriva(+tncPz)", "tbtnT")
+click ("frmXChat:shrink@FreeNode/#opensocial(+sn)", "tbtnS") }}}
+Here "''frmXChat:shrink@FreeNode/#mandriva(+tncPz)''" and "frmXChat:shrink@FreeNode/#opensocial(+sn)" are the window names. It is this window name that the LDTP engine later uses when you play the converted python scripts. You will notice that as you continue recording, the window name changes. So if the window name is not exactly the same when you are playing the converted code, ldtpeditor gives and error.
+
+To overcome this difficulty we introduce the feature of window name support. This feature takes advantage of the LDTP engine's ability to recognise windows using wildcards.
+
+So when we add the window name 'XChat' in the "Supported Application" list, here is what the ldtpeditor records:
+
+{{{
+click ("*XChat*", "tbtnT")
+click ("*XChat*", "tbtnS")
+}}}
+Thus the converted code runs even when the window name changes as long as it contains the string "XChat".
+
+To help ldtpeditor recognize the application you are working with follow the following very simple steps:
+
+ * First recognize the string which almost always is contained in your window name (in our example above its "XChat"). Drop the white spaces, so "Mozilla Firefox" becomes "MozillaFirefox". Make sure its unique to your window and is not contained in other windows open when you play your converted script. If such a window exists which may cause trouble while playing, close it!
+ * Click Edit App List in Preference window. You will see a treeview of all supported applications.
+ * Click on Add'''''.'''''
+ * Type in the string which identifies your window and click OK.
+ * You will find the string you typed in in the list. Click OK to save it or Cancel otherwise.
+ * Feel free to delete any window name which you think is not required in the list.
+ * Record and Play as you normally do. You will find that is the Window name is present in any recorded string, its gets wildcard-ed B-)
+'''''Note:''''' The generated code had many unwanted waittillguiexist. I saw waittillguiexist (”dlg0″) in many p__l__aces. If your playback is stopped because of this, remove that before running the scripts. Sometime the resource will go high as the application map info is collected from the application, so no need to worry.If you find any issues regarding LDTP Editor, report it to ldtp-dev at__ lists.freedesktop.org or nagappan at gmail dot com or sp2hari at gmail dot com __
 
 == Known issues ==
 [:RecordTODO:Recording TO DO]
