@@ -7,7 +7,7 @@ This is a simple HOWTO for recording and playing back the recorded script.
 
 __Requirements:__ __
 
- * __ldtp with ldtpeditor installed __
+ * ldtp with ldtpeditor installed__ __
  * GNOME 2.14 or above
  * Assistive Technology enabled
 Installing LDTP. __ __
@@ -61,8 +61,7 @@ __Using the LDTP Preferences, you can control what all actions you can control. 
  * Generate Memory / CPU statistics. ''The code to generate Memory and CPU statistics will be generated.  You need to install pystatgrab and libstatgrab packages.''
  * ''Edit App List: with this option you can edit the names of the windows ldtpeditor supports. For more on how to customize window support see LDTP Editor Wildcard Support.''
 === LDTP Editor Wildcard Support (new) ===
-__Reasons to add window support to ldtpeditor ____
-__
+__Reasons to add window support to ldtpeditor ____ __
 
 Ldtpeditor recognizes all windows it records by the window name. It ignores the white spaces, so if you are working with Xchat you will find lines like these recorded:
 
