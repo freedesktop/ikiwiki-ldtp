@@ -5,56 +5,64 @@ http://farm4.static.flickr.com/3264/2681930335_4b3b260f81.jpg
 
 This is a simple HOWTO for recording and playing back the recorded script.
 
-__Installing LDTP. __
+__Requirements:__ __
 
- * Download the lastest LDTP source code from ["GIT"]
+ * __ldtp with ldtpeditor installed __
+ * GNOME 2.14 or above
+ * Assistive Technology enabled
+Installing LDTP. __ __
+
+ * __Download the lastest LDTP source code from ["GIT"] __
  * Compile the code using ./configure and make
  * If you don’t have the access to install softwares, run the ldtpeditor file in the python folder
  * If you have access to install softwares, then run “make install”
- * Perform actions in the gcalctool. Check out [http://download.freedesktop.org/ldtp/movies/gcalctool-record.ogg this video] to see the actions i recored in my computer .
+ * Perform actions in the gcalctool. Check out [http://download.freedesktop.org/ldtp/movies/gcalctool-record.ogg this video] to see the actions i recorded in my computer .
  * After you’re done with the actions in the gcalctool, click the Stop button in the LDTP Editor.
  * You can see that the ‘Recorded Code’ tab is updated with code as when you perform actions in gcalctool.
  * Click the convert button in the LDTP Editor. You’ll see that the Generated LDTP Code and Generated LDTP XML tabs are filled with generated code.
- * The Play button is not working now. I wrote the patch for that yesterday night ;-).
- * Save the contents of the ‘Generated LDTP Code’ into a python file (for ex frisco.py) . Note that if the file name you specify already exists, then it OVERWRITES the filename without any warning.
-Note::  After installing LDTP Editor, i when i tried to run ldtpeditor, got an error saying
+ * Hit the play button and see the converted code play in the same order you recoded your actions.
+ * Save the contents of the ‘Generated LDTP Code’ into a python file (for ex frisco.py). ('''Note:''' that if the file name you specify already exists, then it OVERWRITES the filename without any warning)
+Note::  After installing LDTP Editor, when I tried to run ldtpeditor, I got an error sayin:
 
-hari@hari-laptop:~/ldtp/ldtp-0.9.2$ ldtpeditor (ldtpeditor:11130): libglade-WARNING **: could not find glade file '/usr/share/local/ldtp/glade/ldtpeditor.glade' Glade file not found
+{{{
+hari@hari-laptop:~/ldtp/ldtp-0.9.2$ ldtpeditor (ldtpeditor:11130): libglade-WARNING **: could not find glade file '/usr/share/local/ldtp/glade/ldtpeditor.glade' Glade file not found }}}
+The ldtpeditor.glade file is present in the python folder. I got this error because I compiled the code as ./configure. If I had done it as ‘./configure –prefix=/usr’, then I wouldn’t have got this error. Anyway I copied the file manually to that folder.
 
-The ldtpeditor.glade file is present in the python folder. I got this error because i compiled the code as ./configure. If i had done it as ‘./configure –prefix=/usr’, then i wouldn’t have got this error. Anyway i copied the file manually to that folder.
+{{{
+hari@hari-laptop:~/ldtp/ldtp-0.9.2$ sudo mkdir -p /usr/share/local/ldtp/glade/
+hari@hari-laptop:~/ldtp/ldtp-0.9.2$ sudo cp python/ldtpeditor.glade /usr/share/local/ldtp/glade/
+hari@hari-laptop:~/ldtp/ldtp-0.9.2$ ldtpeditor }}}
+After that when I ran ldtpeditor, it ran without any issues.
 
-hari@hari-laptop:~/ldtp/ldtp-0.9.2$ sudo mkdir -p /usr/share/local/ldtp/glade/ hari@hari-laptop:~/ldtp/ldtp-0.9.2$ sudo cp python/ldtpeditor.glade /usr/share/local/ldtp/glade/ hari@hari-laptop:~/ldtp/ldtp-0.9.2$ ldtpeditor
+Record using LDTP Editor__ __
 
-After that when i ran ldtpeditor, it ran without any issues.
+__For this let us consider recording the actions performed in gcalctool. __
 
-__Record using LDTP Editor__
-
-For this let us consider recording the actions performed in gcalctool.
-
- * First make sure Assistive Technology is enabled in your desktop. If you are not sure about this, open gnome-control-center and in that open Assistive Technology Preferences. You should have Enable Assistive Technologies checked to use LDTP.
+ * __First make sure Assistive Technology is enabled in your desktop. If you are not sure about this, open gnome-control-center and in that open Assistive Technology Preferences. You should have Enable Assistive Technologies checked to use LDTP. __
  * If you are enabling Assistive Technology only now, logout and login again.
  * Run ldtpeditor and gcalctool.
- * Make sure both you have enabled ‘Always on Top’ or both the applications and both the window doesn’t overlap with each other.
- * Click the Start button the LDTP Editor. All actions performed after this are recorded.
+ * Make sure both you have enabled ‘Always on Top’ or both the applications and both the window doesn’t overlap with each other(just to get a clear view of whats going on).
+ * Click the Start button the LDTP Editor. All actions performed on gcalctool after this are recorded.
  * When done click Stop button.
  * Click 'Convert' to get the code converted in LDTP format (It does some post processing, so its required)
  * The actions you performed while recording will be played back again :)
  * Click save button to save generated python script, if 2nd tab is empty, then it will try to get the contents of first tab and store it in the file you specify. If file already exist, it will *OVER-WRITE* '''''NOTE:''''' ''control+c, control+v doesn't work''
  * You can run the saved file from command line like: ''hari@hari-laptop:~$ python frisco.py''
- * Sometime the resource will go high as the application map info is collected from the application, so no need to worry. With Thunderbird, the recording really sucks
- * You need to have GNOME 2.14 and above to use LDTP editor
-__ LDTP Editor Preferences__
+ * Sometime the resource will go high as the application map info is collected from the application, so no need to worry. With Thunderbird, the recording really sucks.
+ LDTP Editor Preferences__ __
 
-Using the LDTP Prefereces, you can control what all actions you can control. A brief summary about the options given in the Preferences window.
+__Using the LDTP Preferences, you can control what all actions you can control. A brief summary about the options given in the Preferences window. __
 
- * Listen key events ''This option is not yet implemented. Checking/Unchecking this doesn’t make any difference now.''
+ * __Listen key events ''This option is not yet implemented. Checking/Unchecking this doesn’t make any difference now.'' __
  * Listen mouse events ''This option is not yet implemented. Checking/Unchecking this doesn’t make any difference now.''
  * Generate LDTP Code ''Only when if this option is enabled, Convert will generated to LDTP code in the ‘Generated LDTP Code’ tab. This is enabled by default when you run LDTP Editor.''
  * Generate Data XML ''If this option is enabled, the LDTP Editor will generate data XML for the actions you perform.''
  * Generate keyboard events code ''Generates code for the keyboard events you performed during the recording session.''
  * Generate wait time code ''Calculates the delay one takes between each action during the recording session and generates code so that similar time delay is generated while play back.''
  * Generate Memory / CPU statistics. ''The code to generate Memory and CPU statistics will be generated.  You need to install pystatgrab and libstatgrab packages.''
-'''''Note:''''' The generated code had many unwanted waittillguiexist. I saw waittillguiexist (”dlg0″) in many places. If your playback is stopped because of this, remove that before running the scripts. Sometime the resource will go high as the application map info is collected from the application, so no need to worry.If you find any issues regarding LDTP Editor, report it to ldtp-dev at lists.freedesktop.org or nagappan at gmail dot com or sp2hari at gmail dot com
+ * ''Edit App List: with this option you can edit the names of the windows ldtpeditor supports. For more on how to customize window support see LDTP Editor Wildcard Support.''
+=== LDTP Editor Wildcard Support (new) ===
+Reasons to add window support to ldtpeditor __Ldtpeditor recognizes all windows it records by the window name. I ignores the white spaces, so if you are working with Xchat you will find lines like these recorded: click ("frmXChat:shrink@FreeNode/#mandriva(+tncPz)", "tbtnT") click ("frmXChat:shrink@FreeNode/#opensocial(+sn)", "tbtnS") Here "frmXChat:shrink@FreeNode/#mandriva(+tncPz)" and "frmXChat:shrink@FreeNode/#opensocial(+sn)" are the window names. It is this window name that the LDTP engine later uses when you play the coverted python scripts. You will notice that as you continue recording, the window name changes. So if the window name is not exactly the same when you are playing the converted code, ldtpeditor gives and error. To overcome this difficulty we introduce the feature of window name support. This feature takes advantage of the LDTP engine's ability to recognise windows using wildcards. So when we the window name 'XChat' in the "Supported Application" list, here is what the ldtpeditor records: click ("*XChat*", "tbtnT") click ("*XChat*", "tbtnS") Thus the converted code runs even when the window name changes as long as it contains the string "XChat". To help ldtpeditor recognise the application you are working with follow the following very simple steps: First recognise the string which almost always is contained in your window name (in our example above its "XChat"). Drop the white spaces, so "Mozilla Firefox" becomes "MozillaFirefox". Make sure its unique to your window and is not contained in other windows open when you play your converted script. If such a window exists which may cause trouble while playing, close it! Click Edit App List in Preference window. You will see a treeview of all supported applications. Click on Add '''''Note:''''' The generated code had many unwanted waittillguiexist. I saw waittillguiexist (”dlg0″) in many places. If your playback is stopped because of this, remove that before running the scripts. Sometime the resource will go high as the application map info is collected from the application, so no need to worry.If you find any issues regarding LDTP Editor, report it to ldtp-dev at lists.freedesktop.org or nagappan at gmail dot com or sp2hari at gmail dot com __
 
 == Known issues ==
 [:RecordTODO:Recording TO DO]
