@@ -12,7 +12,7 @@ __Requirements:__ __
  * Assistive Technology enabled
 Installing LDTP. __ __
 
- * __Download the lastest LDTP source code from ["GIT"] __
+ * Download the lastest LDTP source code from__ ["GIT"] __
  * Compile the code using ./configure and make
  * If you don’t have the access to install softwares, run the ldtpeditor file in the python folder
  * If you have access to install softwares, then run “make install”
@@ -36,9 +36,9 @@ After that when I ran ldtpeditor, it ran without any issues.
 
 Record using LDTP Editor__ __
 
-__For this let us consider recording the actions performed in gcalctool. __
+For this let us consider recording the actions performed in gcalctool.
 
- * __First make sure Assistive Technology is enabled in your desktop. If you are not sure about this, open gnome-control-center and in that open Assistive Technology Preferences. You should have Enable Assistive Technologies checked to use LDTP. __
+ * First make sure Assistive Technology is enabled in your desktop. If you are not sure about this, open gnome-control-center and in that open Assistive Technology Preferences. You should have Enable Assistive Technologies checked to use LDTP.
  * If you are enabling Assistive Technology only now, logout and login again.
  * Run ldtpeditor and gcalctool.
  * Make sure both you have enabled ‘Always on Top’ or both the applications and both the window doesn’t overlap with each other(just to get a clear view of whats going on).
@@ -50,9 +50,9 @@ __For this let us consider recording the actions performed in gcalctool. __
  * You can run the saved file from command line like: ''hari@hari-laptop:~$ python frisco.py''
  * Sometime the resource will go high as the application map info is collected from the application, so no need to worry. With Thunderbird, the recording really sucks.
  LDTP Editor Preferences__ __
-__Using the LDTP Preferences, you can control what all actions you can control. A brief summary about the options given in the Preferences window. __
+Using the LDTP Preferences, you can control what all actions you can control. A brief summary about the options given in the Preferences window.
 
- * __Listen key events ''This option is not yet implemented. Checking/Unchecking this doesn’t make any difference now.'' __
+ * Listen key events ''This option is not yet implemented. Checking/Unchecking this doesn’t make any difference now.''
  * Listen mouse events ''This option is not yet implemented. Checking/Unchecking this doesn’t make any difference now.''
  * Generate LDTP Code ''Only when if this option is enabled, Convert will generated to LDTP code in the ‘Generated LDTP Code’ tab. This is enabled by default when you run LDTP Editor.''
  * Generate Data XML ''If this option is enabled, the LDTP Editor will generate data XML for the actions you perform.''
@@ -61,7 +61,7 @@ __Using the LDTP Preferences, you can control what all actions you can control. 
  * Generate Memory / CPU statistics. ''The code to generate Memory and CPU statistics will be generated.  You need to install pystatgrab and libstatgrab packages.''
  * ''Edit App List: with this option you can edit the names of the windows ldtpeditor supports. For more on how to customize window support see LDTP Editor Wildcard Support.''
 === LDTP Editor Wildcard Support (new) ===
-__Reasons to add window support to ldtpeditor ____ __
+Reasons to add window support to ldtpeditor __ __
 
 Ldtpeditor recognizes all windows it records by the window name. It ignores the white spaces, so if you are working with Xchat you will find lines like these recorded:
 
