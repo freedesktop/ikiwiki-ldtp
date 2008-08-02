@@ -2,6 +2,8 @@
 
 ||<rowbgcolor="#FFFFE0"> '''Check out LDTP source''' || '''Check out Python auto-suite test-scripts''' ||
 ||<rowbgcolor="#E0E0FF"> git clone git://anongit.freedesktop.org/git/ldtp/ldtp.git || git clone git://anongit.freedesktop.org/git/ldtp/pyautosuite.git ||
+||<rowbgcolor="#FFFFE0"> '''Check out LDTP source via http proxy''' || '''Check out Python auto-suite test-scripts via http proxy''' ||
+||<rowbgcolor="#E0E0FF"> git clone http://anongit.freedesktop.org/git/ldtp/ldtp.git || git clone http://anongit.freedesktop.org/git/ldtp/pyautosuite.git ||
 ||<rowbgcolor="#FFFFE0"> '''Checkout LDTP source from freedesktop.org GIT as a developer'''||  ||
 ||<rowbgcolor="#E0E0FF"> git clone ssh://username@git.freedesktop.org/git/ldtp/ldtp.git ||  ||
 
