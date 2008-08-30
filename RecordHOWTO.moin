@@ -1,7 +1,7 @@
 ##language:en
 Want to use LDTP to test your application? Or do you want to automate the actions you do often? Or are you a GNU/Linux user who want to show “magic” to your friends by recording your actions and playing them back? You can use LDTP for this. But one small issue with LDTP is that you should know the LDTP Python API to write any test suite. But with the new LDTP Editor, this makes your job really simple. A screenshot of the LDTP Editor is shown below.
 
-attachment:file:///home/shrink/Desktop/Screenshot.png
+http://farm4.static.flickr.com/3123/2810015513_68257528f7.jpg
 
 This is a simple HOWTO for recording and playing back the recorded script.
 
@@ -91,18 +91,17 @@ To help ldtpeditor recognize the application you are working with follow the fol
  * Record and Play as you normally do. You will find that is the Window name is present in any recorded string, its gets wildcard-ed B-)
 '''''LDTP Editor Object Oriented LDTP (OOLDTP) Support (new):'''''
 
-LDTP Editor can now generate ooldtp  scripts when the "Generate ooldtp scripts" option is selected in preferences.'''''
-'''''
+LDTP Editor can now generate ooldtp  scripts when the "Generate ooldtp scripts" option is selected in preferences.''''' '''''
 
 Normal LDTP Scripts:
 
-Object Oriented LDTP Scripts:''''''''''
+Object Oriented LDTP Scripts:'''''''''' '''
 
-''''' '''''
+'''''''''''' ''''' '''
 
-''''' '''''
+'''''''''''' ''''' '''
 
-'''''Note:''''' The generated code had many unwanted waittillguiexist. I saw waittillguiexist (”dlg0″) in many p__l__aces. If your playback is stopped because of this, remove that before running the scripts. Sometime the resource will go high as the application map info is collected from the application, so no need to worry.If you find any issues regarding LDTP Editor, report it to ldtp-dev at__ lists.freedesktop.org or nagappan at gmail dot com or sp2hari at gmail dot com __
+''''''''''''Note:''''' The generated code had many unwanted waittillguiexist. I saw waittillguiexist (”dlg0″) in many p__l__aces. If your playback is stopped because of this, remove that before running the scripts. Sometime the resource will go high as the application map info is collected from the application, so no need to worry.If you find any issues regarding LDTP Editor, report it to ldtp-dev at__ lists.freedesktop.org or nagappan at gmail dot com or sp2hari at gmail dot com __ '''
 
 == Known issues ==
 [:RecordTODO:Recording TO DO]
