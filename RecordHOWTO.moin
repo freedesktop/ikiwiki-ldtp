@@ -94,6 +94,7 @@ To help ldtpeditor recognize the application you are working with follow the fol
 LDTP Editor can now generate ooldtp  scripts when the "Generate ooldtp scripts" option is selected in preferences.''''' '''''
 
 '''Normal LDTP Scripts:'''
+
 {{{
 from ldtp import *
 from ldtputils import *
@@ -109,6 +110,7 @@ except LdtpExecutionError, msg:
 raise
 }}}
 '''Object Oriented LDTP Scripts:'''''' '''
+
 {{{
 from ldtp import *
 from ldtputils import *
@@ -126,13 +128,10 @@ try:
 except LdtpExecutionError, msg:
     raise
 }}}
- ''' '''
+----
+''''' ''' '''''''''''''''''''' ''''' ''' ''
 
-'''''''''''' ''''' ''' ''
-
-'''''''''''''''''' ''''' ''' ''
-
-''''''''''''''Note:''''' The generated code had many unwanted waittillguiexist. I saw waittillguiexist (”dlg0″) in many p__l__aces. If your playback is stopped because of this, remove that before running the scripts. Sometime the resource will go high as the application map info is collected from the application, so no need to worry.If you find any issues regarding LDTP Editor, report it to ldtp-dev at__ lists.freedesktop.org or nagappan at gmail dot com or sp2hari at gmail dot com __ ''' '' ''
+''''''''''''''''''Note:''''' The generated code had many unwanted waittillguiexist. I saw waittillguiexist (”dlg0″) in many p__l__aces. If your playback is stopped because of this, remove that before running the scripts. Sometime the resource will go high as the application map info is collected from the application, so no need to worry.If you find any issues regarding LDTP Editor, report it to ldtp-dev at__ lists.freedesktop.org or nagappan at gmail dot com or sp2hari at gmail dot com __ ''' '' ''
 
 == Known issues ==
 [:RecordTODO:Recording TO DO]
