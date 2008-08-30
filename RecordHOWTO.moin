@@ -93,15 +93,52 @@ To help ldtpeditor recognize the application you are working with follow the fol
 
 LDTP Editor can now generate ooldtp  scripts when the "Generate ooldtp scripts" option is selected in preferences.''''' '''''
 
-Normal LDTP Scripts:
+'''Normal LDTP Scripts:'''
 
-Object Oriented LDTP Scripts:'''''''''' '''
+from ldtp import *
+from ldtputils import *
+<pre>
+try:
+    selectrow ("*BuddyList*", "ttbl0", "Ashim Paul")
+    selectrow ("*BuddyList*", "ttbl0", "D. Dhinesh\nProxy War..")
+    waittillguinotexist ("*BuddyList*")
+    waittillguiexist ("*XChat*")
+    click ("*XChat*", "btnConnect")
+    selectmenuitem ("*XChat*", "mnuChannelTab")
+    waittillguinotexist ("*XChat*")
+except LdtpExecutionError, msg:
+    raise
+</pre>
 
-'''''''''''' ''''' '''
+'''Object Oriented LDTP Scripts:''''''
+'''
 
-'''''''''''' ''''' '''
+<pre>
 
-''''''''''''Note:''''' The generated code had many unwanted waittillguiexist. I saw waittillguiexist (”dlg0″) in many p__l__aces. If your playback is stopped because of this, remove that before running the scripts. Sometime the resource will go high as the application map info is collected from the application, so no need to worry.If you find any issues regarding LDTP Editor, report it to ldtp-dev at__ lists.freedesktop.org or nagappan at gmail dot com or sp2hari at gmail dot com __ '''
+from ldtp import *
+from ldtputils import *
+from ooldtp import *
+try:
+    BuddyList = context("*BuddyList*")
+    BuddyList.selectrow ("ttbl0", "Ashim Paul")
+    BuddyList.selectrow ("ttbl0", "D. Dhinesh\nProxy War..")
+    BuddyList.waittillguinotexist ()
+    XChat = context("*XChat*")
+    XChat.waittillguiexist ()
+    XChat.click ("btnConnect")
+    XChat.selectmenuitem ("mnuChannelTab")
+    XChat.waittillguinotexist ()
+except LdtpExecutionError, msg:
+    raise
+</pre>
+
+''' '''
+
+'''''''''''' ''''' ''' ''
+
+'''''''''''''' ''''' '''
+
+''''''''''''Note:''''' The generated code had many unwanted waittillguiexist. I saw waittillguiexist (”dlg0″) in many p__l__aces. If your playback is stopped because of this, remove that before running the scripts. Sometime the resource will go high as the application map info is collected from the application, so no need to worry.If you find any issues regarding LDTP Editor, report it to ldtp-dev at__ lists.freedesktop.org or nagappan at gmail dot com or sp2hari at gmail dot com __ ''' ''
 
 == Known issues ==
 [:RecordTODO:Recording TO DO]
