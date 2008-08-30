@@ -1,7 +1,7 @@
 ##language:en
 Want to use LDTP to test your application? Or do you want to automate the actions you do often? Or are you a GNU/Linux user who want to show “magic” to your friends by recording your actions and playing them back? You can use LDTP for this. But one small issue with LDTP is that you should know the LDTP Python API to write any test suite. But with the new LDTP Editor, this makes your job really simple. A screenshot of the LDTP Editor is shown below.
 
-http://farm4.static.flickr.com/3264/2681930335_4b3b260f81.jpg
+attachment:file:///home/shrink/Desktop/Screenshot.png
 
 This is a simple HOWTO for recording and playing back the recorded script.
 
@@ -61,7 +61,7 @@ Using the LDTP Preferences, you can control what all actions you can control. A 
  * Generate Memory / CPU statistics. ''The code to generate Memory and CPU statistics will be generated.  You need to install pystatgrab and libstatgrab packages.''
  * ''Edit App List: with this option you can edit the names of the windows ldtpeditor supports. For more on how to customize window support see LDTP Editor Wildcard Support.''
 === LDTP Editor Wildcard Support (new) ===
-Reasons to add window support to ldtpeditor __ __
+''Reasons to add window support to ldtpeditor:'' __ __
 
 Ldtpeditor recognizes all windows it records by the window name. It ignores the white spaces, so if you are working with Xchat you will find lines like these recorded:
 
@@ -89,6 +89,19 @@ To help ldtpeditor recognize the application you are working with follow the fol
  * You will find the string you typed in in the list. Click OK to save it or Cancel otherwise.
  * Feel free to delete any window name which you think is not required in the list.
  * Record and Play as you normally do. You will find that is the Window name is present in any recorded string, its gets wildcard-ed B-)
+'''''LDTP Editor Object Oriented LDTP (OOLDTP) Support (new):'''''
+
+LDTP Editor can now generate ooldtp  scripts when the "Generate ooldtp scripts" option is selected in preferences.'''''
+'''''
+
+Normal LDTP Scripts:
+
+Object Oriented LDTP Scripts:''''''''''
+
+''''' '''''
+
+''''' '''''
+
 '''''Note:''''' The generated code had many unwanted waittillguiexist. I saw waittillguiexist (”dlg0″) in many p__l__aces. If your playback is stopped because of this, remove that before running the scripts. Sometime the resource will go high as the application map info is collected from the application, so no need to worry.If you find any issues regarding LDTP Editor, report it to ldtp-dev at__ lists.freedesktop.org or nagappan at gmail dot com or sp2hari at gmail dot com __
 
 == Known issues ==
