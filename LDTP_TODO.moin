@@ -1,0 +1,3 @@
+* Port LDTP to Python from existing C implementation - http://bugzilla.gnome.org/show_bug.cgi?id=360928
+* Improve LDTP recording
+* Add populating widget information in LDTP editor - Will be useful for some one to write scripts
