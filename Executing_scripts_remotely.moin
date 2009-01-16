@@ -12,7 +12,12 @@ $ ldtp --script-engine
 
 Default port 23456
 
- . $ ldtp -s -p 12345 or $ ldtp --script-engine --port=12345
+$ ldtp -s -p 12345
+
+or
+
+$ ldtp --script-engine --port=12345
+
 from remote machine, in shell, you need to set LDTP_SERVER_ADDR with the remote server IP address or resolvable machine name (DNS entry).
 
 export LDTP_SERVER_ADDR=xx.xx.xx.xx
