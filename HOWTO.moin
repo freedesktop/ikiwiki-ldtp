@@ -12,6 +12,8 @@ Script input ["Data XML"] file - Useful to maintain a generic script
 
 [wiki:RecordHOWTO Record user events and generate LDTP scripts]
 
+["Executing scripts remotely"]
+
 == Using LDTP in Xvfb environment ==
 
 ["Howto run ldtp from vnc session"]
