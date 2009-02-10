@@ -8,27 +8,10 @@ With this implementation, the code can be like
 from ooldtp import *
 
 gedit = context ('*-gedit')
-gedit.component.name = 'btnFind'
-gedit.component.click ()}}}
-
-* Approach 2
-
-{{{#!python
-from ooldtp import *
-
-gedit = context ('*-gedit')
-btnFind = gedit.child ('btnFind')
+btnFind = gedit.getchild ('btnFind')
 btnFind.click ()}}}
 
-* Approach 3
-
-{{{#!python
-from ooldtp import *
-
-gedit = context ('*-gedit')
-gedit.component.click ('btnFind')}}}
-
-* Approach 4
+* Approach 2
 
 {{{#!python
 from ooldtp import *
