@@ -12,7 +12,7 @@ Your use of all the above files are subject to the '''GNU Lesser General Public 
 ||<rowbgcolor="#E0E0FF"> Debian, Ubuntu package - Kartik Mistry <kartik (dot) mistry (@) gmail (dot) com> ||
 ||<rowbgcolor="#FFFFE0"> Sun Solaris - Dave Lin <Dave (dot) Lin (@) sun (dot) com> ||
 ||<rowbgcolor="#E0E0FF"> Fedora / Mandriva RPM - Nagappan A <nalagappan (@) vmware (dot) com> ||
-||<rowbgcolor="#FFFFE0"> Gentoo ebuild - Navtej Singh <n (dot) s (dot) buttar (@) gmail (dot) com> and <jingcheng01 (@) gmail (dot) com> ||
+||<rowbgcolor="#FFFFE0"> Gentoo ebuild - Navtej Singh <n (dot) s (dot) buttar (@) gmail (dot) com> and Jing Cheng <jingcheng01 (@) gmail (dot) com> ||
 == Next step ==
  * Setting LDTP in ["GNU/Linux environment"]
  * How to create ["LDTP test scripts in python"]
