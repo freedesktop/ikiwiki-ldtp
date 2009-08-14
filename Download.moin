@@ -1,4 +1,4 @@
-== Download LDTP binary / source for Linux or Solaris distributions (released version - 1.7.0) ==
+== Download LDTP binary / source for Linux or Solaris distributions (released version - 1.7.1) ==
 ||||||<tablewidth="100%">'''Package'''||
 ||<rowbgcolor="#e0ffe0"> OpenSuSE / Fedora / RHEL5 / CentOS5 / Mandriva / Ubuntu / Debian Etch || [http://download.opensuse.org/repositories/home:/anagappan/ X86 / X86_64] RPM / DEB ||
 ||<rowbgcolor="#E0E0FF"> [http://packages.debian.org/unstable/devel/ldtp Debian unstable] || [http://download.freedesktop.org/ldtp/1.x/1.5.x/gentoo/ldtp-1.5.1.ebuild Gentoo package] ||
