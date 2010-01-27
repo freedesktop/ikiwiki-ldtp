@@ -1,9 +1,9 @@
-== Download LDTP binary / source for Linux or Solaris distributions (released version - 2.0.1) ==
+== Download LDTP binary / source for Linux or Solaris distributions (released version - 2.0.2) ==
 ||||||<tablewidth="100%">'''Package'''||
-||<rowbgcolor="#e0ffe0"> OpenSuSE / Fedora / RHEL5 / CentOS5 / Mandriva / Ubuntu / Debian Etch || [http://download.opensuse.org/repositories/home:/anagappan/ X86 / X86_64] RPM / DEB ||
+||<rowbgcolor="#e0ffe0"> OpenSuSE / Fedora / RHEL5 / CentOS5 / Mandriva / Ubuntu / Debian Etch || [http://download.opensuse.org/repositories/home:/anagappan:/ldtp2:/rpm/ X86 / X86_64] RPM / DEB ||
 ||<rowbgcolor="#E0E0FF"> [http://packages.debian.org/unstable/devel/ldtp Debian unstable] || [http://download.freedesktop.org/ldtp/1.x/1.5.x/gentoo/ldtp-1.5.1.ebuild Gentoo package] ||
 ||<rowbgcolor="#e0ffe0"> Sun Solaris Sparc [http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-sparc.tar.gz gettext], [http://download.freedesktop.org/ldtp/1.x/1.7.x/SFEldtp-1.7.1-sparc.tar.gz ldtp] || Sun Solaris i386 [http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-x86.tar.gz gettext], [http://download.freedesktop.org/ldtp/1.x/1.7.x/SFEldtp-1.7.1-x86.tar.gz ldtp] ||
-||<rowbgcolor="#E0E0FF"> LDTP [http://download.freedesktop.org/ldtp/2.x/2.0.x/ldtp-2.0.1.tar.gz source] || From ["GIT"] ||
+||<rowbgcolor="#E0E0FF"> LDTP [http://download.freedesktop.org/ldtp/2.x/2.0.x/ldtp-2.0.2.tar.gz source] || From ["GIT"] ||
 == Download License ==
 Your use of all the above files are subject to the '''GNU Lesser General Public License (LGPL)''' unless different license terms accompany the file itself, in which case those terms govern.
 == Package maintainer ==
