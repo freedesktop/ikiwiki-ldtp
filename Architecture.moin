@@ -1,12 +1,12 @@
 = LDTP Overall Architecture =
 
-http://ldtp.freedesktop.org/LDTP-Overall-Arch.png
+{{http://ldtp.freedesktop.org/LDTP-Overall-Arch.png}}
 
 = LDTP Internals =
 
-http://ldtp.freedesktop.org/LDTP-Engine.png
+{{http://ldtp.freedesktop.org/LDTP-Engine.png}}
 
-LDTP Clients can talk to LDTP engine with the set of LDTP Command Transfer Protocol (LDTPCTP) as defined in the ["Docs"] section. LDTP
+LDTP Clients can talk to LDTP engine with the set of LDTP Command Transfer Protocol (LDTPCTP) as defined in the [[Docs]] section. LDTP
 client wraps the LDTP Command Transfer Protcol based on the programming language (example:
 separate python client, maybe in future we can have Mono / Java / Perl
 based clients). Communication between the client and server takes place
@@ -55,4 +55,4 @@ be based on regular expression.
 
 Logs the execution status in XML format
 
- * [http://freedesktop.org/~nagappan/LDTP-slides.pdf LDTP slides] presented in FOSS.IN/2005 - pdf format
+ * [[http://freedesktop.org/~nagappan/LDTP-slides.pdf|LDTP slides]] presented in FOSS.IN/2005 - pdf format
