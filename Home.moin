@@ -1,14 +1,14 @@
 The GNU/Linux Desktop (GUI Application) Testing Project (GNU LDTP) aims to produce a high quality test automation framework with cutting-edge tools that can be used to test and improve the GNU/Linux or Solaris desktops. It uses the '''Accessibility''' libraries to discover through the application's user interface. The framework also has tools to record test-cases based on user actions in an application.
 
-GNU LDTP is a GNU/Linux / Unix GUI application testing tool. It runs on GNU/Linux, Solaris, FreeBSD and Embedded environments ([http://www.access-company.com/about/opensource/contributions.html Palm source]).
+GNU LDTP is a GNU/Linux / Unix GUI application testing tool. It runs on GNU/Linux, Solaris, FreeBSD and Embedded environments ([[http://www.access-company.com/about/opensource/contributions.html|Palm source]]).
 
 The GNU LDTP core framework uses ''Appmap'' and the recorded ''test-cases'' to test an application and then gives the status of each test-case as output. As of now, GNU LDTP can test any GNOME-based GUI applications, which are accessibility-enabled, Mozilla, Openoffice.org, any Java application (should have a UI based on swing) and KDE 4.0 applications based on QT 4.0 (based on the press releases by KDE).
 
 We encourage you to join the project and help us to create a robust, reliable and stable test tool/framework for Unix Desktops. Thanks to '''GNOME''' Accessibility team and '''Sun Microsystems''' Accessibility team for their great work and their continuous support.
 
-''If you are a '''beginner''' LDTP user, we recommend that you read the '''GNU LDTP Tutorial''' [http://download.freedesktop.org/ldtp/doc/ldtp-tutorial.pdf PDF]''
+''If you are a '''beginner''' LDTP user, we recommend that you read the '''GNU LDTP Tutorial''' [[http://download.freedesktop.org/ldtp/doc/ldtp-tutorial.pdf|PDF]]''
 
-||<rowbgcolor="#e0ffe0"> ["About"] || ["News"] || ["Features"] || [:Download: Binary / Source download] || ["GIT"] || [:Docs: Documentation] ||
-||<rowbgcolor="#e0e0ff"> [:ldtprunner XML:LDTP Runner] || [:Data XML:Data XML] || [:Class pstats:Monitor CPU / Memory] || [:RecordHOWTO:Record / Playback] || ["Contribute"] || [http://ldtp.myfastforum.org/index.php LDTP forum] ||
-||<rowbgcolor="#e0ffe0"> ["HOWTO"] || ["FAQ"] || ["Bugs"] || ["Mailing list / IRC"] || ["Projects using LDTP"] || ["LDTP Demo"] ||
-||<rowbgcolor="#e0e0ff"> ["Object-Oriented LDTP"] || TeamMembers || [http://ldtp.freedesktop.org/planet Planet LDTP] || [:SoC: Google SoC] || [:FAQ/LDTPsupportedplatforms:Platforms] || ["LDTP TODO"] ||
+||<rowbgcolor="#e0ffe0"> [[About]] || [[News]] || [[Features]] || [[Download| Binary / Source download]] || [[GIT]] || [[Docs| Documentation]] ||
+||<rowbgcolor="#e0e0ff"> [[ldtprunner_XML|LDTP Runner]] || [[Data_XML]] || [[Class_pstats|Monitor CPU / Memory]] || [[RecordHOWTO|Record / Playback]] || [[Contribute]] || [[http://ldtp.myfastforum.org/index.php|LDTP forum]] ||
+||<rowbgcolor="#e0ffe0"> [[HOWTO]] || [[FAQ]] || [[Bugs]] || [[Mailing list / IRC]] || [[Projects_using_LDTP]] || [[LDTP_Demo]] ||
+||<rowbgcolor="#e0e0ff"> [[Object-Oriented_LDTP]] || TeamMembers || [[http://ldtp.freedesktop.org/planet|Planet LDTP]] || [[SoC| Google SoC]] || [[FAQ/LDTPsupportedplatforms|Platforms]] || [[LDTP_TODO]] ||
