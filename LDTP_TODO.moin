@@ -4,7 +4,7 @@ We have initial code checked in to the GIT repository, though this code path wil
 
 ===== Improve LDTP recording =====
 
-Check [:RecordTODO:Recording TO DO]
+Check [[RecordTODO|Recording TO DO]]
 
 ===== Populate widget information in LDTP editor - Will be useful for the script writers =====
 
