@@ -1,49 +1,49 @@
 == Using LDTP ==
 
-Setting LDTP in ["GNU/Linux environment"]
+Setting LDTP in [[GNU/Linux_environment]]
 
-How to create ["LDTP test scripts in python"]
+How to create [[LDTP_test_scripts_in_python]]
 
-Running LDTP scripts ["How to execute scripts"]
+Running LDTP scripts [[How_to_execute_scripts]]
 
-Sequencing set of LDTP scripts using ["ldtprunner XML"] file
+Sequencing set of LDTP scripts using [[ldtprunner_XML]] file
 
-Script input ["Data XML"] file - Useful to maintain a generic script
+Script input [[Data_XML]] file - Useful to maintain a generic script
 
-[wiki:RecordHOWTO Record user events and generate LDTP scripts]
+[[RecordHOWTO|Record user events and generate LDTP scripts]]
 
-["Executing scripts remotely"]
+[[Executing_scripts_remotely]]
 
 == Using LDTP in Xvfb environment ==
 
-["Howto run ldtp from vnc session"]
+[[Howto_run_ldtp_from_vnc_session]]
 
-["Howto run ldtp inside Xvfb"]
+[[Howto_run_ldtp_inside_Xvfb]]
 
-["Howto run ldtp inside Xvfb which runs in xinit session"]
+[[Howto_run_ldtp_inside_Xvfb_which_runs_in_xinit_session]]
 
 == Hacking LDTP ==
 
-["How to develop component functions for LDTP"]
+[[How_to_develop_component_functions_for_LDTP]]
 
 == Papers about testing ==
 
-[http://safsdev.sourceforge.net/FRAMESDataDrivenTestAutomationFrameworks.htm The White Paper on Keyword Driven Automation Framework]
+[[http://safsdev.sourceforge.net/FRAMESDataDrivenTestAutomationFrameworks.htm|The White Paper on Keyword Driven Automation Framework]]
 
 == Obsolete HOWTOs ==
 
-["Test-case generation procedure"]
+[[Test-case_generation_procedure]]
 
-["Howto generate Application map"]
+[[Howto_generate_Application_map]]
 
-["Howto use LDTP Editor"]
+[[Howto_use_LDTP_Editor]]
 
-[wiki:Self:LDTPEditor/GeneratingLDTPDataXMLfileformat Generating LDTP Data XML file format]
+[[LDTPEditor/GeneratingLDTPDataXMLfileformat|Generating LDTP Data XML file format]]
 
-[wiki:Self:LDTPEditor/GeneratingldtprunnerXMLfileformat Generating ldtprunner XML file format]
+[[LDTPEditor/GeneratingldtprunnerXMLfileformat|Generating ldtprunner XML file format]]
 
-["Test-case generation procedure"]
+[[Test-case_generation_procedure]]
 
-["Release notes for Evolution-2.5.1 Sanity suite"]
+[[Release_notes_for_Evolution-2.5.1_Sanity_suite]]
 
-["Howto install ldtp Red Hat 3.4.3-9.EL4"]
+[[Howto_install_ldtp_Red_Hat_3.4.3-9.EL4]]
