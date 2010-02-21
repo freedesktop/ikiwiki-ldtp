@@ -14,7 +14,7 @@ If radio button is already in checked state, then this function will uncheck (un
 
 If radio button is already in unchecked state, then this function will check (set) it.
 
-Refer: [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/pyldtp/radio_button.c radio_button.c]
+Refer: [[http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/pyldtp/radio_button.c|radio_button.c]]
 
 '''''Check Box'''''
 
@@ -22,25 +22,25 @@ If check box is already in checked state, then this function will uncheck (unset
 
 If check box is already in unchecked state, then this function will check (set) it.
 
-Refer: [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/pyldtp/check_box.c check_box.c]
+Refer: [[http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/pyldtp/check_box.c|check_box.c]]
 
 '''''Push Button'''''
 
 If push button state is enabled, then click on the object.
 
-Refer: [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/pyldtp/push_button.c push_button.c]
+Refer: [[http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/pyldtp/push_button.c|push_button.c]]
 
 '''''Toggle Button'''''
 
 Click on the toggle button.
 
-Refer: [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/pyldtp/toggle_button.c toggle_button.c]
+Refer: [[http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/pyldtp/toggle_button.c|toggle_button.c]]
 
 '''''Combo Box'''''
 
 Clicks on combo box, drop down list of combo box will be visible if not already else drop down list of combo box closes.
 
-Refer: [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/pyldtp/combo_box.c combo_box.c]
+Refer: [[http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/pyldtp/combo_box.c|combo_box.c]]
 
 == Examples ==
 
