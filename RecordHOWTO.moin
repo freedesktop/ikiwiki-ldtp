@@ -1,7 +1,7 @@
 ##language:en
 Want to use LDTP to test your application? Or do you want to automate the actions you do often? Or are you a GNU/Linux user who want to show “magic” to your friends by recording your actions and playing them back? You can use LDTP for this. But one small issue with LDTP is that you should know the LDTP Python API to write any test suite. But with the new LDTP Editor, this makes your job really simple. A screenshot of the LDTP Editor is shown below.
 
-http://farm4.static.flickr.com/3123/2810015513_68257528f7.jpg
+{{http://farm4.static.flickr.com/3123/2810015513_68257528f7.jpg}}
 
 This is a simple HOWTO for recording and playing back the recorded script.
 
@@ -12,11 +12,11 @@ __Requirements:__ __
  * Assistive Technology enabled
 Installing LDTP. __ __
 
- * Download the lastest LDTP source code from__ ["GIT"] __
+ * Download the lastest LDTP source code from__ [[GIT]] __
  * Compile the code using ./configure and make
  * If you don’t have the access to install softwares, run the ldtpeditor file in the python folder
  * If you have access to install softwares, then run “make install”
- * Perform actions in the gcalctool. Check out [http://download.freedesktop.org/ldtp/movies/gcalctool-record.ogg this video] to see the actions i recorded in my computer .
+ * Perform actions in the gcalctool. Check out [[http://download.freedesktop.org/ldtp/movies/gcalctool-record.ogg|this video]] to see the actions i recorded in my computer .
  * After you’re done with the actions in the gcalctool, click the Stop button in the LDTP Editor.
  * You can see that the ‘Recorded Code’ tab is updated with code as when you perform actions in gcalctool.
  * Click the convert button in the LDTP Editor. You’ll see that the Generated LDTP Code and Generated LDTP XML tabs are filled with generated code.
@@ -134,12 +134,12 @@ except LdtpExecutionError, msg:
 ''''''''''''''''''Note:''''' The generated code had many unwanted waittillguiexist. I saw waittillguiexist (”dlg0″) in many p__l__aces. If your playback is stopped because of this, remove that before running the scripts. Sometime the resource will go high as the application map info is collected from the application, so no need to worry.If you find any issues regarding LDTP Editor, report it to ldtp-dev at__ lists.freedesktop.org or nagappan at gmail dot com or sp2hari at gmail dot com __ ''' '' ''
 
 == Known issues ==
-[:RecordTODO:Recording TO DO]
+[[RecordTODO|Recording TO DO]]
 
 == Demo of LDTP Recording ==
- * Inside [http://freeshell.in/~taggy/ldtp/ldtpguidemo.html netbeans] editor
+ * Inside [[http://freeshell.in/~taggy/ldtp/ldtpguidemo.html|netbeans]] editor
 == Reference ==
- * How to create ["LDTP test scripts in python"]
- * Running LDTP scripts ["How to execute scripts"]
- * Sequencing set of LDTP scripts using ["ldtprunner XML"] file
- * Script input ["Data XML"] file - Useful to maintain a generic script
+ * How to create [[LDTP_test_scripts_in_python]]
+ * Running LDTP scripts [[How_to_execute_scripts]]
+ * Sequencing set of LDTP scripts using [[ldtprunner_XML]] file
+ * Script input [[Data_XML]] file - Useful to maintain a generic script
