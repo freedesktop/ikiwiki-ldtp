@@ -9,7 +9,7 @@ We can handle dynamically created widgets (meaning widgets created at run time) 
 Please not that the <application-name> should be same as the one given as the commmand-line argument for appmap generation.
 
 == Implementation ==
-It uses the same logic that appmap module uses to generate appmap. Please refer to the following link for the source code of the remap functionality [http://cvs.freedesktop.org/ldtp/pyldtp/remap.c?view=markup remap.c]
+It uses the same logic that appmap module uses to generate appmap. Please refer to the following link for the source code of the remap functionality [[http://cvs.freedesktop.org/ldtp/pyldtp/remap.c?view=markup|remap.c]]
 
 == Examples ==
 
