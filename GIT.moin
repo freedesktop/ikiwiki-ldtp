@@ -9,7 +9,7 @@ LDTPv2
 ||<rowbgcolor="#FFFFE0"> '''Checkout LDTPv2 source from freedesktop.org GIT as a developer'''||  ||
 ||<rowbgcolor="#E0E0FF"> git clone ssh://username@git.freedesktop.org/git/ldtp/ldtp2.git ||  ||
 ||<rowbgcolor="#FFFFE0"> '''Browse Source online''' || ||
-||<rowbgcolor="#E0E0FF"> [http://cgit.freedesktop.org/ldtp/ldtp2/tree/ LDTP] || ||
+||<rowbgcolor="#E0E0FF"> [[http://cgit.freedesktop.org/ldtp/ldtp2/tree/|LDTP]] || ||
 
 LDTPv1
 
@@ -20,15 +20,15 @@ LDTPv1
 ||<rowbgcolor="#FFFFE0"> '''Checkout LDTP source from freedesktop.org GIT as a developer'''||  ||
 ||<rowbgcolor="#E0E0FF"> git clone ssh://username@git.freedesktop.org/git/ldtp/ldtp.git ||  ||
 ||<rowbgcolor="#FFFFE0"> '''Browse Source online''' || ||
-||<rowbgcolor="#E0E0FF"> [http://cgit.freedesktop.org/ldtp/ldtp/tree/ LDTP] || ||
-||<rowbgcolor="#E0E0FF"> [http://cgit.freedesktop.org/ldtp/pyautosuite/tree Python autosuite] || ||
-||<rowbgcolor="#E0E0FF"> [http://cgit.freedesktop.org/ldtp/a11y-test-suite/tree a11y-test-suite] || ||
+||<rowbgcolor="#E0E0FF"> [[http://cgit.freedesktop.org/ldtp/ldtp/tree/|LDTP]] || ||
+||<rowbgcolor="#E0E0FF"> [[http://cgit.freedesktop.org/ldtp/pyautosuite/tree|Python autosuite]] || ||
+||<rowbgcolor="#E0E0FF"> [[http://cgit.freedesktop.org/ldtp/a11y-test-suite/tree|a11y-test-suite]] || ||
 
 == Next ==
 
-Setting LDTP in ["GNU/Linux environment"]
+Setting LDTP in [[GNU/Linux_environment]]
 
-How to create ["LDTP test scripts in python"]
+How to create [[LDTP_test_scripts_in_python]]
 
 == Obsolete CVS modules ==
 
