@@ -23,7 +23,7 @@ gedit.click ('btnFind')}}}
 
 == What it is Object-Oriented LDTP? ==
 
-Till now LDTP supports this kind of syntax:[[BR]]
+Till now LDTP supports this kind of syntax:<<BR>>
 {{{#!python
 click('*gedit', btncopy)
 selectmenuitem('*gedit', 'mnuFile;mnuOpen')}}}
@@ -41,7 +41,7 @@ Window('frm*gedit').PushButton('btncopy').click()
 Window('frm*gedit').MenuItem('mnuFile;mnuOpen').pick()}}}
 
 
-so I write a wrapper for LDTP, it wraps/improves most of LDTP API.[[BR]]
+so I write a wrapper for LDTP, it wraps/improves most of LDTP API.<<BR>>
 
 == How to use? ==
 === use convert.py to generate the window declaration ===
