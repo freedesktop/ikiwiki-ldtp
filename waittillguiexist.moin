@@ -6,7 +6,7 @@ waittillguiexist ('<window name>')
 
 If the given window name exist, this function returns 1. If window doesnot exist, then this function returns 0. Difference between [[guiexist]] and waitguiexist is, waitguiexist waits for maximum 30 seconds. Still the window doesn't appear, then 0 is returned. We can set the environment variable 'GUI_TIMEOUT' to change the default waiting time.
 
-Ref: [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/pyldtp/ldtp.c ldtp.c]
+Ref: [[http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/pyldtp/ldtp.c|ldtp.c]]
 
 == Implementation ==
 
