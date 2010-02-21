@@ -42,4 +42,4 @@ Example:
 
  - Once the application map for a particular application is complete, it is in the appmap directory with the extension .map (for example application map for gedit is gedit.map). Copy the appmap of that application and save it in the input directory.
 
-More details about internals of appmap refer ["About Appmap"]
+More details about internals of appmap refer [[About_Appmap]]
