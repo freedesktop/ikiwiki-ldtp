@@ -8,7 +8,7 @@ Release the last context set.
 
 == Implementation ==
 
-Release the existing (last) context set using ["setcontext"] function.
+Release the existing (last) context set using [[setcontext]] function.
 
 == Examples ==
 
