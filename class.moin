@@ -8,7 +8,7 @@ Example: gedit={class=frame, app_name=gedit}
 
 class keyword, is used to identify the object type.
 
-Refer: [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/pyldtp/gui.c gui.c], [http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/appmap/parser.c parser.c]
+Refer: [[http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/pyldtp/gui.c|gui.c]], [[http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/appmap/parser.c|parser.c]]
 
 
-Check all the ["class keywords"] implemented
+Check all the [[class_keywords]] implemented
