@@ -1,15 +1,15 @@
-[http://safsdev.sourceforge.net/FRAMESDataDrivenTestAutomationFrameworks.htm The White Paper on Keyword Driven Automation Framework]
+[[http://safsdev.sourceforge.net/FRAMESDataDrivenTestAutomationFrameworks.htm|The White Paper on Keyword Driven Automation Framework]]
 
-["How to write test scripts in python"] / ["How to create Test Scripts for LDTP"]
+[[How_to_write_test_scripts_in_python]] / [[How_to_create_Test_Scripts_for_LDTP]]
 
-["How to develop component functions for LDTP"]
+[[How_to_develop_component_functions_for_LDTP]]
 
-["Test-case generation procedure"]
+[[Test-case_generation_procedure]]
 
-[wiki:RecordHOWTO How to use Recording]
+[[RecordHOWTO|How to use Recording]]
 
 '''Absolete:'''
 
-["Howto generate Application map"]
+[[Howto_generate_Application_map]]
 
-["Howto use LDTP Editor"]
+[[Howto_use_LDTP_Editor]]
