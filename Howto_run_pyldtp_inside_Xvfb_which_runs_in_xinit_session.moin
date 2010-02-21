@@ -1,8 +1,8 @@
 == Steps based on SuSE 9.3 ==
 
- * Install [ftp://ftp.univie.ac.at/systems/linux/suse/i386/supplementary/X/Xorg/Xorg-X11R6.8.2/i386/suse92/xorg-x11-Xvfb-6.8.2-35.1.i586.rpm Xvfb]
- * Install [http://linux01.gwdg.de/~pbleser/rpm-navigation.php?cat=%2FNetwork/x11vnc/ x11vnc] for SuSE / NLD
- * [http://www.xfree86.org/4.0.1/Xvfb.1.html#toc6 Start Xvfb]
+ * Install [[ftp://ftp.univie.ac.at/systems/linux/suse/i386/supplementary/X/Xorg/Xorg-X11R6.8.2/i386/suse92/xorg-x11-Xvfb-6.8.2-35.1.i586.rpm|Xvfb]]
+ * Install [[http://linux01.gwdg.de/~pbleser/rpm-navigation.php?cat=%2FNetwork/x11vnc/|x11vnc]] for SuSE / NLD
+ * [[http://www.xfree86.org/4.0.1/Xvfb.1.html#toc6|Start Xvfb]]
  * Created .xinitrc in home directory
  * Content of .xinitrc
     * $ cat ~/.xinitrc
@@ -42,6 +42,6 @@ The idea is to not use Xvfb, but to use Xorg or XFree86 directly using the "dumm
 
 Previously to do this one had to patch the Xorg or XFree86 server to not do VT switching.  However, I have come up with a hack that uses LD_PRELOAD with a stock X server to disable the VT switching.
 
-It is here: [http://www.karlrunge.com/x11vnc/Xdummy Xdummy script]
+It is here: [[http://www.karlrunge.com/x11vnc/Xdummy|Xdummy script]]
 
-More info on the method [http://www.karlrunge.com/x11vnc/#faq-xvfb is here].
+More info on the method [[http://www.karlrunge.com/x11vnc/#faq-xvfb|is here]].
