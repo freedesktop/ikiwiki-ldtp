@@ -16,15 +16,15 @@
  * Reason for XML format is, its easy to parse ;)
 
 == Reference ==
- * ["Sample Data XML"]
- * ["Data XML File Parser"]
+ * [[Sample_Data_XML]]
+ * [[Data_XML_File_Parser]]
 
 === Optional Reference ===
 
- * How to create ["LDTP test scripts in python"]
- * Running LDTP scripts ["How to execute scripts"]
- * Sequencing set of LDTP scripts using ["ldtprunner XML"] file
+ * How to create [[LDTP_test_scripts_in_python]]
+ * Running LDTP scripts [[How_to_execute_scripts]]
+ * Sequencing set of LDTP scripts using [[ldtprunner_XML]] file
 
 Obsolete
 
- * [wiki:Self:LDTPEditor/GeneratingLDTPDataXMLfileformat Generating LDTP Data XML file format]
+ * [[LDTPEditor/GeneratingLDTPDataXMLfileformat|Generating LDTP Data XML file format]]
