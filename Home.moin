@@ -6,7 +6,7 @@ The GNU LDTP core framework uses ''Appmap'' and the recorded ''test-cases'' to t
 
 We encourage you to join the project and help us to create a robust, reliable and stable test tool/framework for Unix Desktops. Thanks to '''GNOME''' Accessibility team and '''Sun Microsystems''' Accessibility team for their great work and their continuous support.
 
-''If you are a '''beginner''' LDTP user, we recommend that you read the '''GNU LDTP Tutorial''' [[http://download.freedesktop.org/ldtp/doc/ldtp-tutorial.pdf|PDF]]''
+''If you are a LDTP '''beginner''', we recommend you to read the '''GNU LDTP Tutorial''' [[http://download.freedesktop.org/ldtp/doc/ldtp-tutorial.pdf|PDF]]''
 
 ||<rowbgcolor="#e0ffe0"> [[About]] || [[News]] || [[Features]] || [[Download| Binary / Source download]] || [[GIT]] || [[Docs| Documentation]] ||
 ||<rowbgcolor="#e0e0ff"> [[HOWTO]] || [[FAQ]] || [[Bugs]] || [[Mailing list / IRC]] || [[Projects_using_LDTP]] || [[LDTP_Demo]] ||
