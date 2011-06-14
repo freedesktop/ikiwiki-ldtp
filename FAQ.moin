@@ -151,3 +151,7 @@ Check [[ldtpUnderDapper]]. You will need automake 1.9 and aclocal 1.9 installed.
 == Recommended GNOME Version ==
 
 [[http://www.gnome.org|GNOME]] 2.10 and above
+
+== With LDTPv2 I get ResponseNotReady ==
+
+If proxy environment variable is set, you might get this, unset it. eg: 'unset http_proxy'
