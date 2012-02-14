@@ -2,7 +2,7 @@ The GNU/Linux Desktop (GUI Application) Testing Project (GNU LDTP) aims to produ
 
 GNU LDTP is a GNU/Linux / Unix GUI application testing tool. It runs on GNU/Linux, Solaris, FreeBSD and Embedded environments ([[http://www.access-company.com/about/opensource/contributions.html|Palm source]]).
 
-The GNU LDTP core framework uses ''Appmap'' and the recorded ''test-cases'' to test an application and then gives the status of each test-case as output. As of now, GNU LDTP can test any GNOME-based GUI applications, which are accessibility-enabled, Mozilla, Openoffice.org, any Java application (should have a UI based on swing) and KDE 4.0 applications based on QT 4.0 (based on the press releases by KDE).
+As of now, GNU LDTP can test any GNOME-based GUI applications, which are accessibility-enabled, Mozilla, Openoffice.org, any Java application (should have a UI based on swing) and KDE 4.x applications based on QT 4.8. LDTP can be used to perform functional, regression testing, so on.. of GUIs built out of the above mentioned GNOME, KDE and Java technologies.
 
 We encourage you to join the project and help us to create a robust, reliable and stable test tool/framework for Unix Desktops. Thanks to '''GNOME''' Accessibility team and '''Sun Microsystems''' Accessibility team for their great work and their continuous support.
 
