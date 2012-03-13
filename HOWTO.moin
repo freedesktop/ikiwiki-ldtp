@@ -4,14 +4,6 @@ Setting LDTP in [[GNU/Linux_environment]]
 
 How to create [[LDTP_test_scripts_in_python]]
 
-Running LDTP scripts [[How_to_execute_scripts]]
-
-Sequencing set of LDTP scripts using [[ldtprunner_XML]] file
-
-Script input [[Data_XML]] file - Useful to maintain a generic script
-
-[[RecordHOWTO|Record user events and generate LDTP scripts]]
-
 [[Executing_scripts_remotely]]
 
 == Using LDTP in Xvfb environment ==
@@ -31,6 +23,14 @@ Script input [[Data_XML]] file - Useful to maintain a generic script
 [[http://safsdev.sourceforge.net/FRAMESDataDrivenTestAutomationFrameworks.htm|The White Paper on Keyword Driven Automation Framework]]
 
 == Obsolete HOWTOs ==
+
+Running LDTP scripts [[How_to_execute_scripts]]
+
+Sequencing set of LDTP scripts using [[ldtprunner_XML]] file
+
+Script input [[Data_XML]] file - Useful to maintain a generic script
+
+[[RecordHOWTO|Record user events and generate LDTP scripts]]
 
 [[Test-case_generation_procedure]]
 
