@@ -2,14 +2,14 @@
 
 LDTPv2
 
-||<rowbgcolor="#FFFFE0"> '''Check out LDTPv2 source''' || '''Check out Python auto-suite test-scripts''' ||
-||<rowbgcolor="#E0E0FF"> git clone git://anongit.freedesktop.org/git/ldtp/ldtp2.git || git clone git://anongit.freedesktop.org/git/ldtp/pyautosuite.git ||
-||<rowbgcolor="#FFFFE0"> '''Check out LDTPv2 source via http proxy''' || '''Check out Python auto-suite test-scripts via http proxy''' ||
-||<rowbgcolor="#E0E0FF"> git clone http://anongit.freedesktop.org/git/ldtp/ldtp2.git || git clone http://anongit.freedesktop.org/git/ldtp/pyautosuite.git ||
-||<rowbgcolor="#FFFFE0"> '''Checkout LDTPv2 source from freedesktop.org GIT as a developer'''||  ||
-||<rowbgcolor="#E0E0FF"> git clone ssh://username@git.freedesktop.org/git/ldtp/ldtp2.git ||  ||
+||<rowbgcolor="#FFFFE0"> '''Check out LDTPv2 source''' || '''Check out Windows LDTP''' ||
+||<rowbgcolor="#E0E0FF"> git clone git://anongit.freedesktop.org/git/ldtp/ldtp2.git || git clone git://github.com/ldtp/winldtp.git ||
+||<rowbgcolor="#FFFFE0"> '''Check out LDTPv2 source via http proxy''' || '''Check out Windows LDTP via http proxy''' ||
+||<rowbgcolor="#E0E0FF"> git clone http://anongit.freedesktop.org/git/ldtp/ldtp2.git || https://github.com/ldtp/winldtp.git ||
+||<rowbgcolor="#FFFFE0"> '''Checkout LDTPv2 source from freedesktop.org GIT as a developer'''|| '''Checkout Windows LDTP source from github as a developer''' ||
+||<rowbgcolor="#E0E0FF"> git clone ssh://username@git.freedesktop.org/git/ldtp/ldtp2.git || git@github.com:ldtp/winldtp.git ||
 ||<rowbgcolor="#FFFFE0"> '''Browse Source online''' || ||
-||<rowbgcolor="#E0E0FF"> [[http://cgit.freedesktop.org/ldtp/ldtp2/tree/|LDTP]] || ||
+||<rowbgcolor="#E0E0FF"> [[http://cgit.freedesktop.org/ldtp/ldtp2/tree/|LDTP]] || [[https://github.com/ldtp/winldtp|Windows LDTP]] ||
 
 LDTPv1
 
