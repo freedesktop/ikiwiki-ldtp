@@ -3,13 +3,13 @@
 LDTPv2
 
 ||<rowbgcolor="#FFFFE0"> '''Check out LDTPv2 source''' || '''Check out Windows LDTP''' ||
-||<rowbgcolor="#E0E0FF"> git clone git://anongit.freedesktop.org/git/ldtp/ldtp2.git || git clone git://github.com/ldtp/winldtp.git ||
+||<rowbgcolor="#E0E0FF"> git clone git://anongit.freedesktop.org/git/ldtp/ldtp2.git || git clone git://github.com/ldtp/cobra.git ||
 ||<rowbgcolor="#FFFFE0"> '''Check out LDTPv2 source via http proxy''' || '''Check out Windows LDTP via http proxy''' ||
-||<rowbgcolor="#E0E0FF"> git clone http://anongit.freedesktop.org/git/ldtp/ldtp2.git || https://github.com/ldtp/winldtp.git ||
+||<rowbgcolor="#E0E0FF"> git clone http://anongit.freedesktop.org/git/ldtp/ldtp2.git || https://github.com/ldtp/cobra.git ||
 ||<rowbgcolor="#FFFFE0"> '''Checkout LDTPv2 source from freedesktop.org GIT as a developer'''|| '''Checkout Windows LDTP source from github as a developer''' ||
-||<rowbgcolor="#E0E0FF"> git clone ssh://username@git.freedesktop.org/git/ldtp/ldtp2.git || git@github.com:ldtp/winldtp.git ||
+||<rowbgcolor="#E0E0FF"> git clone ssh://username@git.freedesktop.org/git/ldtp/ldtp2.git || git@github.com:ldtp/cobra.git ||
 ||<rowbgcolor="#FFFFE0"> '''Browse Source online''' || ||
-||<rowbgcolor="#E0E0FF"> [[http://cgit.freedesktop.org/ldtp/ldtp2/tree/|LDTP]] || [[https://github.com/ldtp/winldtp|Windows LDTP]] ||
+||<rowbgcolor="#E0E0FF"> [[http://cgit.freedesktop.org/ldtp/ldtp2/tree/|LDTP]] || [[https://github.com/ldtp/cobra|Cobra - Windows LDTP]] ||
 
 LDTPv1
 
