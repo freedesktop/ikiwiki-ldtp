@@ -15,4 +15,4 @@ Tests can be written in Python or with [[https://github.com/RedHatQE/gnome.ldtp|
 ||<rowbgcolor="#e0ffe0"> [[About]] || [[News]] || [[Features]] || [[Download| Binary / Source download]] || [[GIT]] || [[Docs| Documentation]] ||
 ||<rowbgcolor="#e0e0ff"> [[HOWTO]] || [[FAQ]] || [[Bugs]] || [[Mailing list / IRC]] || [[Projects_using_LDTP]] || [[LDTP_Demo]] ||
 ||<rowbgcolor="#e0ffe0"> [[Object-Oriented_LDTP]] || TeamMembers || [[http://ldtp.freedesktop.org/planet|Planet LDTP]] || [[SoC| Google SoC]] || [[FAQ/LDTPsupportedplatforms|Platforms]] || [[LDTP_TODO]] ||
-||<rowbgcolor="#e0e0ff"> [[Contribute]] || [[http://ldtp.myfastforum.org/index.php|LDTP forum]] || || || || ||
+||<rowbgcolor="#e0e0ff"> [[Contribute]] || [[http://ldtp.myfastforum.org/index.php|LDTP forum]] || [[Companies using LDTP]] || || || ||
