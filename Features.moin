@@ -8,7 +8,7 @@
 
     * CPU / Memory performance monitoring of application-under-test can be measured - [[Class_pstats]]
 
-== Deprecated == 
+== Deprecated ==
 
     * From the XML log, we can gather [[http://lists.freedesktop.org/archives/ldtp-dev/2005-October/000031.html|HTML report]] using XSLT
 
