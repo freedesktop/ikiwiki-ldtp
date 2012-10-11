@@ -2,13 +2,13 @@
 
  * Linux version is known to work on GNOME / KDE (QT >= 4.8) / Java Swing / LibreOffice / Mozilla application on all major Linux distribution.
  * Windows version is known to work on application written in .NET / C++ / Java / QT on Windows XP SP3 / Windows 7 / Windows 8 development version.
- * Mac version is currently under development and verified only on OS X Lion. Where ever PyATOM runs, LDTP should work on it.
+ * Mac version is currently under development on OS X Lion/Mountain Lion. Where ever ATOMac runs, LDTP should work on it.
 
 The GNU/Linux Desktop (GUI Application) Testing Project (GNU LDTP) aimed at producing high quality test automation framework and cutting-edge tools that can be used to test and improve the GNU/Linux or Solaris desktops. It uses the '''Accessibility''' libraries to discover through the application's user interface.
 
 '''Supported OS'''
 
-GNU LDTP is a GNU/Linux / Unix GUI application testing tool. It runs on GNU/Linux, Windows, Mac, Solaris, FreeBSD and Embedded environments ([[http://www.access-company.com/about/opensource/contributions.html|Palm source]]).
+GNU LDTP is a GNU/Linux / Unix GUI application testing tool. It runs on GNU/Linux, Windows, Mac, Solaris, FreeBSD, NetBSD and Embedded environments ([[http://www.access-company.com/about/opensource/contributions.html|Palm source]]).
 
 '''Supported application'''
 
