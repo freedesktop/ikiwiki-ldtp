@@ -28,7 +28,6 @@ If port number is changed in the ldtp server, then LDTP_SERVER_PORT environment 
 
 Now start executing the test scripts using ldtprunner or from a python prompt or from a shell.
 
- * $ ldtprunner test.xml
  * $ python testscript.py
  * $ python
   . >>> from ldtp import *
