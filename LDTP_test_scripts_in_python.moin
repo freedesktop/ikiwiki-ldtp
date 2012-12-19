@@ -103,7 +103,7 @@ If any of the action releated functions (example: selectmenuitem, click, settext
     * List the test scenarios which you are planing to automate - Refer [[Testcases]]
 
 == Reference ==
-    * Existing LDTP test scripts - http://cvs.freedesktop.org/ldtp/pyautosuite/
+    * Existing LDTP test scripts - http://cgit.freedesktop.org/ldtp/pyautosuite/
     * If you have any issues in writing scripts, you can contact us either through mail or IRC - Refer [[BeginnersGuide]]
 
 == Filing bugs ==
