@@ -10,6 +10,7 @@ LDTPv2
 ||<rowbgcolor="#E0E0FF"> git clone ssh://username@git.freedesktop.org/git/ldtp/ldtp2.git || git clone git@github.com:ldtp/cobra.git ||
 ||<rowbgcolor="#FFFFE0"> '''Browse Source online''' || ||
 ||<rowbgcolor="#E0E0FF"> [[http://cgit.freedesktop.org/ldtp/ldtp2/tree/|LDTP]] || [[https://github.com/ldtp/cobra|Cobra - Windows LDTP]] ||
+||<rowbgcolor="#FFFFE0"> [[https://github.com/ldtp/pyatom|PyATOM]]|| ||
 
 LDTPv1
 
