@@ -1,4 +1,4 @@
-== Download LDTP binary / source for Linux or Solaris distributions (released version - 3.0.0) ==
+== Download LDTP binary / source for Windows or Linux or Mac OSX (released version - 3.0.0/3.0.0/1.0.1 respectively) ==
 ||||||<tablewidth="100%">'''Package'''||
 ||<rowbgcolor="#e0ffe0"> SLES / SLED / openSUSE / Fedora / RHEL / CentOS / Mandriva || [[http://download.opensuse.org/repositories/home:/anagappan:/ldtp2:/rpm/|X86 / X86_64]] RPM ||
 ||<rowbgcolor="#e0ffe0"> Ubuntu / Debian Etch || [[http://download.opensuse.org/repositories/home:/anagappan:/ldtp2:/deb/|X86 / X86_64]] DEB ||
