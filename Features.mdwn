@@ -1,0 +1,22 @@
+
+
+## LDTP Features
+
+         * LDTP concepts are derived from [[Software Automation Framework Support|http://safsdev.sourceforge.net/Default.htm]] 
+         * LDTP supports verification of actions performed (guiexist, verifystate, etc) - [[API Reference|Docs]] 
+         * Writing test scripts are very easy, the script writer need not know about the object hierarchy 
+         * CPU / Memory performance monitoring of application-under-test can be measured - [[Class_pstats|Class_pstats]] 
+
+## Deprecated
+
+         * From the XML log, we can gather [[HTML report|http://lists.freedesktop.org/archives/ldtp-dev/2005-October/000031.html]] using XSLT 
+         * Group based execution, which provides precise control on the flow of test-script execution - [[ldtprunner_XML|ldtprunner_XML]] 
+         * Scripts can be written as a reusable component and for that the data can be stored / retrieved in XML - [[Data_XML|Data_XML]] 
+         * User-friendly Text Editor with syntax highlighting for generating and grouping test data [[Howto_use_LDTP_Editor|Howto_use_LDTP_Editor]] 
+         * Objects are identified both [[statically|http://gnomebangalore.org/ldtp/index.php/Howto_generate_Application_map]] and [[dynamically|http://gnomebangalore.org/ldtp/index.php/Remap]] 
+         * [[Record / Playback|RecordHOWTO]] 
+
+## Next step
+
+   * Setting LDTP in [[GNU/Linux_environment|GNU/Linux_environment]] 
+   * How to create [[LDTP_test_scripts_in_python|LDTP_test_scripts_in_python]] 
