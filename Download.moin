@@ -1,0 +1,22 @@
+== Download LDTP binary / source for Windows/Linux/Mac OSX (released version - 3.0.0/3.0.0/1.0.1 respectively) ==
+||||||<tablewidth="100%">'''Package'''||
+||<rowbgcolor="#e0ffe0"> SLES / SLED / openSUSE / Fedora / RHEL / CentOS / Mandriva || [[http://download.opensuse.org/repositories/home:/anagappan:/ldtp2:/rpm/|X86 / X86_64]] RPM ||
+||<rowbgcolor="#e0ffe0"> Ubuntu / Debian Etch || [[http://download.opensuse.org/repositories/home:/anagappan:/ldtp2:/deb/|X86 / X86_64]] DEB ||
+||<rowbgcolor="#E0E0FF"> [[http://packages.debian.org/unstable/devel/ldtp|Debian unstable]] || [[http://download.freedesktop.org/ldtp/1.x/1.5.x/gentoo/ldtp-1.5.1.ebuild|Gentoo package]] ||
+||<rowbgcolor="#e0ffe0"> Sun Solaris Sparc [[http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-sparc.tar.gz|gettext]], [[http://download.freedesktop.org/ldtp/1.x/1.7.x/SFEldtp-1.7.1-sparc.tar.gz|ldtp]] || Sun Solaris i386 [[http://download.freedesktop.org/ldtp/0.x/0.2.x/gettext-0.14.5-x86.tar.gz|gettext]], [[http://download.freedesktop.org/ldtp/1.x/1.7.x/SFEldtp-1.7.1-x86.tar.gz|ldtp]] ||
+||<rowbgcolor="#E0E0FF"> LDTP [[http://download.freedesktop.org/ldtp/3.x/3.0.x/ldtp-3.0.0.tar.gz|source]] || From [[GIT]] ||
+||<rowbgcolor="#e0ffe0"> Cobra - Windows LDTP [[https://github.com/ldtp/cobra|source]] || [[http://code.google.com/p/cobra-winldtp/downloads/list|Cobra - Win LDTP binary]] ||
+||<rowbgcolor="#E0E0FF"> PyATOM (Mac LDTP) [[https://github.com/ldtp/pyatom|source]] || PyATOM (Mac LDTP) [[http://pypi.python.org/pypi/atomac/|binary]] ||
+== Download License ==
+Your use of all the above files are subject to the '''GNU Lesser General Public License (LGPL)''' unless different license terms accompany the file itself, in which case those terms govern.
+== Package maintainer ==
+||||||<tablewidth="100%">'''Package maintainer'''||
+||<rowbgcolor="#FFFFE0"> SLED, OpenSuSE RPM - Frank Seidel <fseidel (@) suse (dot) de> ||
+||<rowbgcolor="#E0E0FF"> Debian, Ubuntu package - Kartik Mistry <kartik (dot) mistry (@) gmail (dot) com> ||
+||<rowbgcolor="#FFFFE0"> Sun Solaris - Dave Lin <Dave (dot) Lin (@) sun (dot) com> and Tim Miao <Tim (dot) Miao (@) sun (dot) com> ||
+||<rowbgcolor="#E0E0FF"> Fedora / Mandriva RPM - Nagappan Alagappan <nagappan (@) gmail (dot) com> ||
+||<rowbgcolor="#FFFFE0"> Gentoo ebuild - Navtej Singh <n (dot) s (dot) buttar (@) gmail (dot) com> and Jing Cheng <jingcheng01 (@) gmail (dot) com> ||
+||<rowbgcolor="#E0E0FF"> Windows Binary - Nagappan Alagappan <nagappan (@) gmail (dot) com> ||
+== Next step ==
+ * Setting LDTP in [[GNU/Linux_environment]]
+ * How to create [[LDTP_test_scripts_in_python]]
