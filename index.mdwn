@@ -39,3 +39,5 @@ We encourage you to join the project and help us to create a robust, reliable an
  [[Object-Oriented_LDTP|Object-Oriented_LDTP]]  |  [[TeamMembers|TeamMembers]]  |  [[Planet LDTP|http://ldtp.freedesktop.org/planet]]  |  [[Google SoC|SoC]]  |  [[Platforms|FAQ/LDTPsupportedplatforms]]  |  [[LDTP_TODO|LDTP_TODO]] 
  [[Contribute|Contribute]]  |  [[LDTP forum|http://ldtp.myfastforum.org/index.php]]  |  [[Companies using LDTP|Companies using LDTP]]  |   |   |  
 """]]
+
+This wiki is undergoing [[conversion]]. If you have a fd.o shell account, you can help!
