@@ -1,0 +1,21 @@
+
+
+## How to execute LDTP scripts
+
+Make sure that you have the following files in current working directory 
+
+* You need to have test scripts to be executed 
+* You can have [[Data_XML|Data_XML]] - Optional 
+* You can have [[ldtprunner_XML|ldtprunner_XML]] - Optional 
+* Make sure ldtp, ltfx (optional), digwin (optional), ldtprunner, ldtprecord (optional) are installed 
+If you have [[ldtprunner_XML|ldtprunner_XML]] then invoke like: 
+
+* $ _ldtprunner <ldtprunner XML>_ 
+If you have only scripts in the current directory then invoke like: 
+
+   * $ _python <script file name.py>_ 
+
+## Reference
+
+   * How to create [[LDTP_test_scripts_in_python|LDTP_test_scripts_in_python]] 
+   * Refer [[How_to_interpret_the_log|How_to_interpret_the_log]] 
