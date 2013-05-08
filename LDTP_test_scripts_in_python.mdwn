@@ -1,0 +1,112 @@
+
+
+# Writing LDTP test scripts in Python scripting language
+
+
+## Setup LDTP
+
+* Download the binary files from [[Download|Download]] 
+* Or download the source files from [[GIT|GIT]] and follow the steps to install LDTP in [[GNU/Linux_environment|GNU/Linux_environment]] from source. 
+* Enable accessibility (Assistive Technology) 
+
+### Platform
+
+* - Does your platform supported ? Refer - [[LDTP supported platforms|FAQ/LDTPsupportedplatforms]] - Any environment dependency to run ldtp ? 
+      * Yes you need to have **GNOME 2.10 / KDE 4.0** and above 
+
+## import LDTP modules
+
+   * _from ldtp import *_ _from ldtputils import *_ **Reason** why we do importing based on the above format instead of 'import ldtp' is, if we do the first one, we can just directly use all the ldtp functions just by calling their name. If we import the module as 'import ldtp', then we need to call the corresponding function as ldtp.<function name> 
+**Example 1:** 
+
+   * _from ldtp import *_ _selectmenuitem ('*-gedit', 'mnuFile;mnuNew')_ 
+**Example 2:** 
+
+   * _import ldtp_ _ldtp.selectmenuitem ('*-gedit', 'mnuFile;mnuNew')_ 
+
+## LDTP API
+
+   * Refer [[LDTP API|http://ldtp.freedesktop.org/user-doc/index.html]] page for list of implemented LDTP API's 
+
+## Call a function to perform an operation
+
+LDTP generally operates on the given object in a particular window. 
+
+To select a menu item, you need to call [[selectmenuitem|selectmenuitem]] function. For example, to select open menu item in gedit application, call the below function 
+
+   * _selectmenuitem ('frmUnsavedDocument1-gedit', 'mnuFile;mnuOpen')_ 
+When you call the above a new dialog box will be poped up, you can verify whether the window is opened or not either by [[guiexist|guiexist]] or by [[waittillguiexist|waittillguiexist]] 
+
+   * guiexist function immediately returns either 1 (window exist) or 0 (window does not exist) waittillguiexist waits for the window to appear. Wait time out is by default 30 seconds. This default time out can be either increased on decreased using GUI_TIMEOUT 
+If you want to operate on a push button in a window, you need to call [[click|click]] function: 
+
+To press 'Cancel' button in a GTK Open File Selector dialog 
+
+   * _click ('dlgOpenFile', 'btnCancel')_ 
+When you do the above operation the GTK File selector dialog disappears. To verify whether the window actually quits or not use [[waittillguinotexist|waittillguinotexist]] function 
+
+If you modify any opened file in gedit, the window title will be modified. To continue operating on the window you need to change your context of operation. Reason: As you are aware that LDTP works based on individual window, the context of window will be changed, when the title changes. To over come this use [[setcontext|setcontext]] function and when you don't require them use [[releasecontext|releasecontext]] 
+
+Edit your current opened file using: 
+
+   * _settextvalue ('frmUnsavedDocument1-gedit', 'txt0', 'Testing editing')_ 
+This will change the window title. Note, before doing the above operation, title will be 'Unsaved Document 1 - gedit' and after editing the title will look like '*Unsaved Document 1 - gedit'. To further operate on the same window, use 
+
+   * _setcontext ('Unsaved Document 1 - gedit', '*Unsaved Document 1 - gedit')_ 
+So that you can continue using the same window name, for example: 
+
+   * _selectmenuitem ('frmUnsavedDocument1-gedit', 'mnuFile;mnuSaveAs')_ 
+The above function will invoke the GTK save dialog box 
+
+If any of the action releated functions (example: selectmenuitem, click, settextvalue) fail, an exception is raised. It has to be handled by the program to either continue operating on execution or just halt 
+
+
+## Executing LDTP scripts
+
+         * Sequencing set of LDTP scripts [[ldtprunner_XML|ldtprunner_XML]] 
+         * [[How_to_execute_scripts|How_to_execute_scripts]] 
+
+## Debugging LDTP issues
+
+   * **export LDTP_DEBUG=1** to get the list of commands issued from LDTP python to LDTP engine and also to check the return value from LDTP engine. _**NOTE:**_ This will be handy, if you are not logging the status of execution. 
+   * **export LDTP_DEBUG=2** and start LDTP engine in a terminal and your scripts from a different terminal. This will give a detailed info of whats happening with the current command. 
+
+## Generating LDTP scripts
+
+   * [[RecordHOWTO|RecordHOWTO]] - To generate scripts based on users actions 
+         * _**Note:**_ _Above mentioned steps is to create scripts manually_ 
+
+## Test Data
+
+         * Identify the list of variable arguments and have it in a separate [[Data_XML|Data_XML]] file 
+
+## Test cases / Scenarios
+
+         * List the test scenarios which you are planing to automate - Refer [[Testcases|Testcases]] 
+
+## Reference
+
+         * Existing LDTP test scripts - [[http://cgit.freedesktop.org/ldtp/pyautosuite/|http://cgit.freedesktop.org/ldtp/pyautosuite/]] 
+         * If you have any issues in writing scripts, you can contact us either through mail or IRC - Refer [[BeginnersGuide|BeginnersGuide]] 
+
+## Filing bugs
+
+      * If existing feature in LDTP does not work, please file a [[bug|http://bugzilla.gnome.org/enter_bug.cgi?product=LDTP]] and select component as ldtp. Also provide us the steps to reproduce, so that we can fix it at the earliest. 
+      * If new feature needs to be added in LDTP, please file an enhancement [[bug|http://bugzilla.gnome.org/enter_bug.cgi?product=LDTP]] 
+
+## LDTP usage help
+
+      * Join the LDTP team on IRC for technical help, online. 
+            * Server  : irc.freenode.net Channel : #ldtp 
+      * Join the LDTP [[Mailing_List|Mailing_List]] 
+      * Refer [[FAQ|FAQ]], [[HOWTO|HOWTO]] 
+
+## Hacking LDTP
+
+      * If you are interested in writing a new component function - Refer [[How_to_develop_component_functions_for_LDTP|How_to_develop_component_functions_for_LDTP]] 
+      * LDTP internal [[Architecture|Architecture]] page 
+
+## Useful Links
+
+   * [[UsefulLinks|UsefulLinks]] 
+_Other Reference_ [[About_Appmap|About_Appmap]], [[Appmap convention|Appmap convention]] 
