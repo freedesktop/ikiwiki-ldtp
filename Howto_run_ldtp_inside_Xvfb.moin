@@ -1,0 +1,17 @@
+== Steps based on SuSE 9.3 ==
+
+ - Install [[ftp://ftp.univie.ac.at/systems/linux/suse/i386/supplementary/X/Xorg/Xorg-X11R6.8.2/i386/suse92/xorg-x11-Xvfb-6.8.2-35.1.i586.rpm|Xvfb]]
+
+ - [[http://www.xfree86.org/4.0.1/Xvfb.1.html#toc6|Start Xvfb]]
+
+ - I used '''Xvfb :1 -screen 0 1024x768x24 -ac -noreset -v -fbdir /tmp/'''
+
+ - Opened one terminal and cd to pyautosuite/gedit directory
+
+ - export DISPLAY=localhost:1
+
+ - run gedit (gedit &)
+
+ - commented launchapp ('gedit') in gedit.py. Because this takes 100% CPU. Needs investigation
+
+ - start test-script (./gedit.py)
