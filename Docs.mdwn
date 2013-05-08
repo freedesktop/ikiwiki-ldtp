@@ -1,0 +1,20 @@
+
+
+## LDTP reference manual
+
+   * [[LDTP Python User API Manual|UserAPIManual]] - Wiki (_**NOTE:** Not complete, For now you can use Online HTML_) 
+   * [[LDTP Python User API Manual|http://ldtp.freedesktop.org/user-doc/index.html]] - Online HTML 
+   * [[Java User API Manual|http://ldtp.freedesktop.org/javadoc/]] 
+   * [[LDTP Python User API Manual|http://download.freedesktop.org/ldtp/1.x/1.1.x/ldtp-doc.tar.bz2]] - Download HTML tar archive for offline usage 
+   * LDTP Tutorial [[PDF|http://download.freedesktop.org/ldtp/doc/ldtp-tutorial.pdf]] / [[ODF|http://download.freedesktop.org/ldtp/doc/ldtp-tutorial.odt]] 
+   * [[LDTP Editor|http://nagappanal.blogspot.com/2007/11/linux-desktop-testing-project-editor.html]] 
+
+## Documentation License
+
+Your use of all the above files are subject to the **GNU Lesser General Public License (LGPL)** unless different license terms accompany the file itself, in which case those terms govern. 
+
+
+## Tutorial
+
+   * Setting LDTP in [[GNU/Linux_environment|GNU/Linux_environment]] 
+   * How to create [[LDTP_test_scripts_in_python|LDTP_test_scripts_in_python]] 
