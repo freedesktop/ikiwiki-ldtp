@@ -1,0 +1,47 @@
+== Steps based on SuSE 9.3 ==
+
+ * Install [[ftp://ftp.univie.ac.at/systems/linux/suse/i386/supplementary/X/Xorg/Xorg-X11R6.8.2/i386/suse92/xorg-x11-Xvfb-6.8.2-35.1.i586.rpm|Xvfb]]
+ * Install [[http://linux01.gwdg.de/~pbleser/rpm-navigation.php?cat=%2FNetwork/x11vnc/|x11vnc]] for SuSE / NLD
+ * [[http://www.xfree86.org/4.0.1/Xvfb.1.html#toc6|Start Xvfb]]
+ * Created .xinitrc in home directory
+ * Content of .xinitrc
+    * $ cat ~/.xinitrc
+    * gnome-session
+ * I issued '''xinit -- /usr/X11R6/bin/Xvfb :1 -screen 0 1024x768x24 -fbdir /tmp :1''' command from one terminal
+ * Logged into a terminal and cd to pyautosuite/gedit directory
+ * export DISPLAY=localhost:1
+ * run gedit (gedit &)
+ * commented launchapp ('gedit') in gedit.py. Because this takes 100% CPU. '''Needs investigation'''
+ * Start test-script (./gedit.py)
+ * Started '''x11vnc -display :1''' in one terminal
+ * Started '''vncviewer localhost:0''' in another terminal
+
+''Now I got the complete Xvfb in vncviewer !!!''
+
+== Readonly vnc session ==
+
+ * Start '''x11vnc -display :1 -viewonly'''
+
+== Shared vnc session ==
+
+ * Start '''x11vnc -display :1 -shared'''
+
+== Read directly from frame buffer file ==
+
+ * start '''x11vnc -display :1 -rawfb map:/tmp/Xvfb_screen0'''
+
+== Don't disconnect even if vnc session got disconnected ==
+
+ * start '''x11vnc -display :1 -forever'''
+
+== Some anonymous user has left the following info, looks very useful ==
+
+I have recently come up with an improvement to the x11vnc + Xvfb technique that may have useful application in a testing framework.
+
+The idea is to not use Xvfb, but to use Xorg or XFree86 directly using the "dummy" device driver.  The advantage this has over Xvfb is that the X server is closer to the real one in use. (e.g. has RANDR, RENDER,etc.,extensions).
+
+Previously to do this one had to patch the Xorg or XFree86 server to not do VT switching.  However, I have come up with a hack that uses LD_PRELOAD with a stock X server to disable the VT switching.
+
+It is here: [[http://www.karlrunge.com/x11vnc/Xdummy|Xdummy script]]
+
+More info on the method [[http://www.karlrunge.com/x11vnc/#faq-xvfb|is here]].
