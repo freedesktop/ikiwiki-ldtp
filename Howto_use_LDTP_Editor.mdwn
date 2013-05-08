@@ -1,0 +1,21 @@
+
+
+# Obsolete
+
+[[Generating ldtprunner XML file format|LDTPEditor/GeneratingldtprunnerXMLfileformat]] 
+
+[[Generating LDTP Data XML file format|LDTPEditor/GeneratingLDTPDataXMLfileformat]] 
+
+
+## LDTP Editor dependancy
+
+[[pygtk|http://www.pygtk.org]] 
+
+[[python|http://www.python.org]] 
+
+
+## Where can I get the LDTP Editor ?
+
+In [[Downloads|Downloads]] page, latest released LDTP editor is available. 
+
+You can also download the current development version of LDTP editor from [[GIT|GIT]]. 
