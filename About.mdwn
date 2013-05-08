@@ -1,0 +1,41 @@
+
+_**Cross Platform GUI Test Automation tool**_ Linux version is [[LDTP|http://ldtp.freedesktop.org]], Windows version is [[Cobra|https://github.com/ldtp/cobra]] and Mac version is [[PyATOM|https://github.com/pyatom/pyatom]]. 
+
+* Linux GUI testing is known to work on GNOME / KDE (QT >= 4.8) / Java Swing / [[LibreOffice|LibreOffice]] / Mozilla application on all major Linux distribution 
+* Windows GUI testing is known to work on application written in .NET / C++ / Java / QT on Windows XP SP3 / Vista SP2 / Windows 7 / Windows 8 
+* Mac GUI testing is known to work on OS X Snow Leopard/Lion/Mountain Lion. Where ever ATOMac runs, LDTP should work on it 
+The GNU/Linux Desktop (GUI Application) Testing Project (GNU LDTP) aimed at producing high quality test automation framework and cutting-edge tools that can be used to test and improve the GNU/Linux or Solaris desktops. It uses the **Accessibility** libraries to discover through the application's user interface. 
+
+**Supported OS** 
+
+GNU LDTP is a GNU/Linux / Unix GUI application testing tool. It runs on GNU/Linux, Windows, Mac, Solaris, FreeBSD, NetBSD and Embedded environments ([[Palm source|http://www.access-company.com/about/opensource/contributions.html]]). 
+
+**Supported application** 
+
+As of now, GNU LDTP can test any GNOME-based GUI applications, which are accessibility-enabled, Mozilla, Openoffice.org, any Java application (should have a UI based on swing), KDE 4.x applications based on QT 4.8, Windows applications. LDTP can be used to perform functional, regression testing, so on.. of GUIs built out of the above mentioned GNOME, KDE, Windows and Java technologies. 
+
+**Supported language** 
+
+* [[Python|http://ldtp.freedesktop.org/user-doc/index.html]] 
+* [[Java|http://ldtp.freedesktop.org/javadoc/]] 
+* [[Ruby|http://ldtp.freedesktop.org/user-doc/index.html]] 
+* [[Perl|http://ldtp.freedesktop.org/user-doc/index.html]] 
+* [[C#|http://ldtp.freedesktop.org/user-doc/index.html]] 
+* [[VB.NET|http://ldtp.freedesktop.org/user-doc/index.html]] 
+* [[PowerShell|http://ldtp.freedesktop.org/user-doc/index.html]] 
+* [[Clojure|https://github.com/RedHatQE/gnome.ldtp]] 
+**Tutorial** 
+
+_If you are a LDTP **beginner**, we recommend you to read the **GNU LDTP Tutorial** [[PDF|http://download.freedesktop.org/ldtp/doc/ldtp-tutorial.pdf]]_ 
+
+**Credit** 
+
+VMware open sources Cobra - Windows version of LDTP works on Windows XP SP3 / Vista SP2 / Windows 7 SP1 / Windows 8. 
+
+We encourage you to join the project and help us to create a robust, reliable and stable test tool/framework for Windows/Linux/Mac Desktops. Thanks to **GNOME** Accessibility team and **Microsoft** Accessibility team for their great work and their continuous support. 
+[[!table header="no" class="mointable" data="""
+ [[About|About]]  |  [[News|News]]  |  [[Features|Features]]  |  [[Binary / Source download|Download]]  |  [[GIT|GIT]]  |  [[Documentation|Docs]] 
+ [[HOWTO|HOWTO]]  |  [[FAQ|FAQ]]  |  [[Bugs|Bugs]]  |  [[Mailing list / IRC|Mailing list / IRC]]  |  [[Projects_using_LDTP|Projects_using_LDTP]]  |  [[LDTP_Demo|LDTP_Demo]] 
+ [[Object-Oriented_LDTP|Object-Oriented_LDTP]]  |  [[TeamMembers|TeamMembers]]  |  [[Planet LDTP|http://ldtp.freedesktop.org/planet]]  |  [[Google SoC|SoC]]  |  [[Platforms|FAQ/LDTPsupportedplatforms]]  |  [[LDTP_TODO|LDTP_TODO]] 
+ [[Contribute|Contribute]]  |  [[LDTP forum|http://ldtp.myfastforum.org/index.php]]  |  [[Companies using LDTP|Companies using LDTP]]  |   |   |  
+"""]]
