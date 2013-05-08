@@ -1,0 +1,35 @@
+
+In LDTP you can execute the test scripts from a remote location. Say, the ldtp execution engine can run on a remote test server and you can execute the test scripts from your development box. 
+
+Steps to follow: 
+
+Start LDTP engine (manually) in remote location with the following options 
+
+_$ ldtp **-s**_ 
+
+or 
+
+_$ ldtp **--script-engine **_ 
+
+_Default port 23456 _ 
+
+_$ ldtp -s **-p 12345** _ 
+
+or 
+
+_$ ldtp --script-engine **--port=12345** _ 
+
+from remote machine, in shell, you need to set LDTP_SERVER_ADDR with the remote server IP address or resolvable machine name (DNS entry). 
+
+_**export LDTP_SERVER_ADDR=xx.xx.xx.xx** _ 
+
+If port number is changed in the ldtp server, then LDTP_SERVER_PORT environment variable has to be set 
+
+_**export LDTP_SERVER_PORT=12345** _ 
+
+Now start executing the test scripts using ldtprunner or from a python prompt or from a shell. 
+
+* $ python testscript.py 
+* $ python 
+   * >>> from ldtp import * 
+   * >>> click ("*-gedit", "btnFind") 
