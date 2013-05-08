@@ -1,0 +1,22 @@
+
+Install x11vnc for SuSE / NLD from [[x11vnc|http://linux01.gwdg.de/~pbleser/rpm-navigation.php?cat=%2FNetwork/x11vnc/]] 
+
+Install vnc2swf for SuSE / NLD from [[vnc2swf|http://linux01.gwdg.de/~pbleser/rpm-navigation.php?cat=Multimedia/vnc2swf/]] 
+
+_**Only for first time**_ 
+
+Start vncserver once 
+
+Edit ~/.vnc/xstartup and modify the last entry to gnome-session & 
+
+_Make sure that no other instance of gnome-session is running with the same user name_ 
+
+kill the current running vncserver (command: vncserver -kill :1 # assuming that the display started in :1) 
+
+_**Every time**_ 
+
+start vncserver 
+
+Howto use [[vnc2swf|http://www.unixuser.org/~euske/vnc2swf/vnc2swf.html]] 
+
+Configuring an [[XDMCP Server For VNC|http://www.linux-mag.com/content/view/1298/2205/]] 
