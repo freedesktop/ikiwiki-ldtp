@@ -1,0 +1,13 @@
+
+There are many ways you can contribute to LDTP ! 
+
+* [[Download|Download]] LDTP and install them 
+* Report [[Bugs|Bugs]] when you find them 
+* Submit patches 
+There are many exciting (new) projects that you can contribute to: 
+
+* Help us to improve the Website 
+* Write / Improve [[documentation|Docs]] 
+* Write test scripts for [[GNOME|http://www.gnome.org]] / [[Mozilla|http://www.mozilla.org]] using [[Testcases|Testcases]] 
+* Improve LDTP recording 
+* Improve LDTP engine performance 
