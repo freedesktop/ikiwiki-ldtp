@@ -1,0 +1,13 @@
+===== Port LDTP to Python from existing C implementation - http://bugzilla.gnome.org/show_bug.cgi?id=360928 =====
+
+We have initial code checked in to the GIT repository, though this code path will not be executed by default.
+
+===== Improve LDTP recording =====
+
+Check [[RecordTODO|Recording TO DO]]
+
+===== Populate widget information in LDTP editor - Will be useful for the script writers =====
+
+Similar to at-poke / accerciser, but with the information based on LDTP naming convention.
+
+''If you have any other ideas, please feel free to contact Nagappan Alagappan <nagappan (@) gmail (dot) com>''
