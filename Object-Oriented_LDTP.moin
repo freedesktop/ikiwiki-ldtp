@@ -4,7 +4,7 @@ With this implementation, the code can be like
 
 * Approach 1
 
-{{{#!python
+{{{
 from ooldtp import *
 
 gedit = context ('*-gedit')
@@ -13,7 +13,7 @@ btnFind.click ()}}}
 
 * Approach 2
 
-{{{#!python
+{{{
 from ooldtp import *
 
 gedit = context ('*-gedit')
@@ -24,19 +24,19 @@ gedit.click ('btnFind')}}}
 == What it is Object-Oriented LDTP? ==
 
 Till now LDTP supports this kind of syntax:<<BR>>
-{{{#!python
+{{{
 click('*gedit', btncopy)
 selectmenuitem('*gedit', 'mnuFile;mnuOpen')}}}
 
 it does not support appmap anymore. however I prefer using appmap to maximize its maintainability of our automation script. and I want ldtp have ability to using the following syntax to write script:
 
-{{{#!python
+{{{
 frmgedt.btncopy.click()
 frmgedit.mnuOpen.click()}}}
 
 and
 
-{{{#!python
+{{{
 Window('frm*gedit').PushButton('btncopy').click()
 Window('frm*gedit').MenuItem('mnuFile;mnuOpen').pick()}}}
 
@@ -53,7 +53,7 @@ so I write a wrapper for LDTP, it wraps/improves most of LDTP API.<<BR>>
 
 === open the file, you can find the code looks like below: ===
 
-{{{#!python
+{{{
    from window import *
 
    class Gedit(Window):
@@ -74,13 +74,13 @@ so I write a wrapper for LDTP, it wraps/improves most of LDTP API.<<BR>>
 
 === now you can do something like this  ===
    ==== to select a menuitem: ====
-{{{#!python
+{{{
    frmGedit.mnuAbout.select()
    or write this
    Window('*gedit').Menu('mnuHelp;mnuAbout').select()}}}
     
    ==== to click a button: ====
-{{{#!python
+{{{
    frmGedit.btnfind.click()
    or write this
    Window('*gedit').PushButton('btnfind').click()}}}
