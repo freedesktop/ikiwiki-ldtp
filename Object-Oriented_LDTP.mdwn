@@ -1,28 +1,21 @@
-
-
 # Object Oriented LDTP bundled with LDTP package
 
 With this implementation, the code can be like 
 
-* Approach 1 
+Approach 1 
 
+    from ooldtp import *
+    
+    gedit = context ('*-gedit')
+    btnFind = gedit.getchild ('btnFind')
+    btnFind.click ()
 
-[[!format txt """
-from ooldtp import *
+Approach 2 
 
-gedit = context ('*-gedit')
-btnFind = gedit.getchild ('btnFind')
-btnFind.click ()
-"""]]
-* Approach 2 
-
-
-[[!format txt """
-from ooldtp import *
-
-gedit = context ('*-gedit')
-gedit.click ('btnFind')
-"""]]
+    from ooldtp import *
+    
+    gedit = context ('*-gedit')
+    gedit.click ('btnFind')
 
 # Welcome to Object-Oriented LDTP (EXPERIMENTAL) by Palm Source
 
@@ -31,24 +24,19 @@ gedit.click ('btnFind')
 
 Till now LDTP supports this kind of syntax:  
  
-[[!format txt """
-click('*gedit', btncopy)
-selectmenuitem('*gedit', 'mnuFile;mnuOpen')
-"""]]
+    click('*gedit', btncopy)
+    selectmenuitem('*gedit', 'mnuFile;mnuOpen')
+
 it does not support appmap anymore. however I prefer using appmap to maximize its maintainability of our automation script. and I want ldtp have ability to using the following syntax to write script: 
 
+    frmgedt.btncopy.click()
+    frmgedit.mnuOpen.click()
 
-[[!format txt """
-frmgedt.btncopy.click()
-frmgedit.mnuOpen.click()
-"""]]
 and 
 
+    Window('frm*gedit').PushButton('btncopy').click()
+    Window('frm*gedit').MenuItem('mnuFile;mnuOpen').pick()
 
-[[!format txt """
-Window('frm*gedit').PushButton('btncopy').click()
-Window('frm*gedit').MenuItem('mnuFile;mnuOpen').pick()
-"""]]
 so I write a wrapper for LDTP, it wraps/improves most of LDTP API.  
  
 
@@ -58,56 +46,49 @@ so I write a wrapper for LDTP, it wraps/improves most of LDTP API.
 
 ### use convert.py to generate the window declaration
 
-      * cmd line:  
-                  * convert windowname output e.g. 
-                  * convert frm*gedit geditclass.py it will generate geditclass.py 
+* cmd line:  
+    * convert windowname output e.g. 
+    * convert frm*gedit geditclass.py it will generate geditclass.py 
 
 ### open the file, you can find the code looks like below:
 
-
-[[!format txt """
-   from window import *
-
-   class Gedit(Window):
-       name = '*gedit'
-
-       btncopy = Window.PushButton('btncopy', name)
-       btncut = Window.PushButton('btncut', name)
-       btnfind = Window.PushButton('btnfind', name)
-       btnfindandreplace = Window.PushButton('btnfindandreplace', name)
-       btngtkundo = Window.PushButton('btngtk-undo', name)
-     
-       mnuAbout = Window.MenuItem('mnuHelp;mnuAbout', name)
-       mnuAda = Window.MenuItem('mnuView;mnuHighlightMode;mnuSources;mnuAda', name)
-       mnuAllLowerCase = Window.MenuItem('mnuEdit;mnuChangeCase;mnuAllLowerCase', name)
-       mnuAllUpperCase = Window.MenuItem('mnuEdit;mnuChangeCase;mnuAllUpperCase', name)
-       # ...
-   frmGedit = Gedit()
-"""]]
+    from window import *
+ 
+    class Gedit(Window):
+        name = '*gedit'
+ 
+        btncopy = Window.PushButton('btncopy', name)
+        btncut = Window.PushButton('btncut', name)
+        btnfind = Window.PushButton('btnfind', name)
+        btnfindandreplace = Window.PushButton('btnfindandreplace', name)
+        btngtkundo = Window.PushButton('btngtk-undo', name)
+      
+        mnuAbout = Window.MenuItem('mnuHelp;mnuAbout', name)
+        mnuAda = Window.MenuItem('mnuView;mnuHighlightMode;mnuSources;mnuAda', name)
+        mnuAllLowerCase = Window.MenuItem('mnuEdit;mnuChangeCase;mnuAllLowerCase', name)
+        mnuAllUpperCase = Window.MenuItem('mnuEdit;mnuChangeCase;mnuAllUpperCase', name)
+        # ...
+    frmGedit = Gedit()
 
 ### now you can do something like this
 
-      * ==== to select a menuitem: ==== 
+To select a menuitem:
 
-[[!format txt """
-   frmGedit.mnuAbout.select()
-   or write this
-   Window('*gedit').Menu('mnuHelp;mnuAbout').select()
-"""]]
-      * ==== to click a button: ==== 
+    frmGedit.mnuAbout.select()
+    or write this
+    Window('*gedit').Menu('mnuHelp;mnuAbout').select()
 
-[[!format txt """
-   frmGedit.btnfind.click()
-   or write this
-   Window('*gedit').PushButton('btnfind').click()
-"""]]
-      * ==== you can find more wrapped APIs in window.py ==== 
+To click a button:
+
+    frmGedit.btnfind.click()
+    or write this
+    Window('*gedit').PushButton('btnfind').click()
+
+You can find more wrapped APIs in window.py
 
 ### also you can add your own methods to this class.
 
-
 ### That's all, enjoy it ;)
-
 
 ##### Found any bug please email me:
 
