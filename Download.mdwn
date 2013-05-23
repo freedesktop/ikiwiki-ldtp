@@ -1,6 +1,6 @@
 
 
-## Download LDTP binary / source for Windows/Linux/Mac OSX (released version - 3.0.0/3.5.0/1.0.1 respectively)
+## Download LDTP binary / source for Windows/Linux/Mac OSX (released version - 3.5.0/3.5.0/1.0.1 respectively)
 [[!table header="no" class="mointable" data="""
 **Package**|||
  SLES / SLED / openSUSE / Fedora / RHEL / CentOS / Mandriva  |  [[X86 / X86_64|http://download.opensuse.org/repositories/home:/anagappan:/ldtp2:/rpm/]] RPM 
