@@ -1,0 +1,15 @@
+
+If you are bulding LDTP under [[Ubuntu Dapper|http://www.ubuntu.com/]], You will need to make a few changes before you compile LDTP. 
+
+* Get the Accessibility Dependancies 
+      * sudo apt-get install at-spi libatk1.0-0 libatspi1.0-0 libgail-common libgail-gnome-module libgail17 libtool libatspi-dev libgail-dev libgail-gnome-dev 
+* You could _optionally_ install the _at-poke_ and _python-imaging_ package 
+      * sudo apt-get install at-poke python-imaging 
+* Get _automake 1.9_ and _aclocal 1.9_ 
+      * sudo apt-get install automake1.9 
+* Choose automake1.9 over automake1.4 
+      * sudo update-alternatives --config automake 
+* Now continue compiling the package as usual  
+      * ./autogen.sh --prefix=/usr 
+      * make  
+      * sudo make install 
