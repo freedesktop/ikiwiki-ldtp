@@ -1,0 +1,164 @@
+
+Want to use LDTP to test your application? Or do you want to automate the actions you do often? Or are you a GNU/Linux user who want to show “magic” to your friends by recording your actions and playing them back? You can use LDTP for this. But one small issue with LDTP is that you should know the LDTP Python API to write any test suite. But with the new LDTP Editor, this makes your job really simple. A screenshot of the LDTP Editor is shown below. 
+
+[[!img http://farm4.static.flickr.com/3123/2810015513_68257528f7.jpg] 
+
+This is a simple HOWTO for recording and playing back the recorded script. 
+
+<ins>Requirements:</ins> <ins> 
+
+* ldtp with ldtpeditor installed</ins> <ins> 
+* GNOME 2.14 or above 
+* Assistive Technology enabled 
+Installing LDTP. </ins> <ins> 
+
+* Download the lastest LDTP source code from</ins> [[GIT|GIT]] <ins> 
+* Compile the code using ./configure and make 
+* If you don’t have the access to install softwares, run the ldtpeditor file in the python folder 
+* If you have access to install softwares, then run “make install” 
+* Perform actions in the gcalctool. Check out [[this video|http://download.freedesktop.org/ldtp/movies/gcalctool-record.ogg]] to see the actions i recorded in my computer . 
+* After you’re done with the actions in the gcalctool, click the Stop button in the LDTP Editor. 
+* You can see that the ‘Recorded Code’ tab is updated with code as when you perform actions in gcalctool. 
+* Click the convert button in the LDTP Editor. You’ll see that the Generated LDTP Code and Generated LDTP XML tabs are filled with generated code. 
+* Hit the play button and see the converted code play in the same order you recoded your actions. 
+* Save the contents of the ‘Generated LDTP Code’ into a python file (for ex frisco.py). (**Note:** that if the file name you specify already exists, then it OVERWRITES the filename without any warning) 
+Note::  After installing LDTP Editor, when I tried to run ldtpeditor, I got an error sayin: 
+
+
+[[!format txt """
+hari@hari-laptop:~/ldtp/ldtp-0.9.2$ ldtpeditor (ldtpeditor:11130): libglade-WARNING **: could not find glade file '/usr/share/local/ldtp/glade/ldtpeditor.glade' Glade file not found 
+"""]]
+The ldtpeditor.glade file is present in the python folder. I got this error because I compiled the code as ./configure. If I had done it as ‘./configure –prefix=/usr’, then I wouldn’t have got this error. Anyway I copied the file manually to that folder. 
+
+
+[[!format txt """
+hari@hari-laptop:~/ldtp/ldtp-0.9.2$ sudo mkdir -p /usr/share/local/ldtp/glade/
+hari@hari-laptop:~/ldtp/ldtp-0.9.2$ sudo cp python/ldtpeditor.glade /usr/share/local/ldtp/glade/
+hari@hari-laptop:~/ldtp/ldtp-0.9.2$ ldtpeditor 
+"""]]
+After that when I ran ldtpeditor, it ran without any issues. 
+
+Record using LDTP Editor</ins> <ins> 
+
+For this let us consider recording the actions performed in gcalctool. 
+
+* First make sure Assistive Technology is enabled in your desktop. If you are not sure about this, open gnome-control-center and in that open Assistive Technology Preferences. You should have Enable Assistive Technologies checked to use LDTP. 
+* If you are enabling Assistive Technology only now, logout and login again. 
+* Run ldtpeditor and gcalctool. 
+* Make sure both you have enabled ‘Always on Top’ or both the applications and both the window doesn’t overlap with each other(just to get a clear view of whats going on). 
+* Click the Start button the LDTP Editor. All actions performed on gcalctool after this are recorded. 
+* When done click Stop button. 
+* Click 'Convert' to get the code converted in LDTP format (It does some post processing, so its required) 
+* The actions you performed while recording will be played back again :) 
+* Click save button to save generated python script, if 2nd tab is empty, then it will try to get the contents of first tab and store it in the file you specify. If file already exist, it will *OVER-WRITE* _**NOTE:**_ _control+c, control+v doesn't work_ 
+* You can run the saved file from command line like: _hari@hari-laptop:~$ python frisco.py_ 
+* Sometime the resource will go high as the application map info is collected from the application, so no need to worry. With Thunderbird, the recording really sucks. LDTP Editor Preferences</ins> <ins> 
+Using the LDTP Preferences, you can control what all actions you can control. A brief summary about the options given in the Preferences window. 
+
+* Listen key events _This option is not yet implemented. Checking/Unchecking this doesn’t make any difference now._ 
+* Listen mouse events _This option is not yet implemented. Checking/Unchecking this doesn’t make any difference now._ 
+* Generate LDTP Code _Only when if this option is enabled, Convert will generated to LDTP code in the ‘Generated LDTP Code’ tab. This is enabled by default when you run LDTP Editor._ 
+* Generate Data XML _If this option is enabled, the LDTP Editor will generate data XML for the actions you perform._ 
+* Generate keyboard events code _Generates code for the keyboard events you performed during the recording session._ 
+* Generate wait time code _Calculates the delay one takes between each action during the recording session and generates code so that similar time delay is generated while play back._ 
+* Generate Memory / CPU statistics. _The code to generate Memory and CPU statistics will be generated.  You need to install pystatgrab and libstatgrab packages._ 
+* _Edit App List: with this option you can edit the names of the windows ldtpeditor supports. For more on how to customize window support see LDTP Editor Wildcard Support._ 
+
+### LDTP Editor Wildcard Support (new)
+
+_Reasons to add window support to ldtpeditor:_ </ins> <ins> 
+
+Ldtpeditor recognizes all windows it records by the window name. It ignores the white spaces, so if you are working with Xchat you will find lines like these recorded: 
+
+
+[[!format txt """
+click ("frmXChat:shrink@FreeNode/#mandriva(+tncPz)", "tbtnT")
+click ("frmXChat:shrink@FreeNode/#opensocial(+sn)", "tbtnS") 
+"""]]
+Here "_frmXChat:shrink@FreeNode/#mandriva(+tncPz)_" and "frmXChat:shrink@FreeNode/#opensocial(+sn)" are the window names. It is this window name that the LDTP engine later uses when you play the converted python scripts. You will notice that as you continue recording, the window name changes. So if the window name is not exactly the same when you are playing the converted code, ldtpeditor gives and error. 
+
+To overcome this difficulty we introduce the feature of window name support. This feature takes advantage of the LDTP engine's ability to recognise windows using wildcards. 
+
+So when we add the window name 'XChat' in the "Supported Application" list, here is what the ldtpeditor records: 
+
+
+[[!format txt """
+click ("*XChat*", "tbtnT")
+click ("*XChat*", "tbtnS")
+"""]]
+Thus the converted code runs even when the window name changes as long as it contains the string "XChat". 
+
+To help ldtpeditor recognize the application you are working with follow the following very simple steps: 
+
+* First recognize the string which almost always is contained in your window name (in our example above its "XChat"). Drop the white spaces, so "Mozilla Firefox" becomes "[[MozillaFirefox|MozillaFirefox]]". Make sure its unique to your window and is not contained in other windows open when you play your converted script. If such a window exists which may cause trouble while playing, close it! 
+* Click Edit App List in Preference window. You will see a treeview of all supported applications. 
+* Click on Add_**.**_ 
+* Type in the string which identifies your window and click OK. 
+* You will find the string you typed in in the list. Click OK to save it or Cancel otherwise. 
+* Feel free to delete any window name which you think is not required in the list. 
+* Record and Play as you normally do. You will find that is the Window name is present in any recorded string, its gets wildcard-ed B-) 
+_**LDTP Editor Object Oriented LDTP (OOLDTP) Support (new):**_ 
+
+LDTP Editor can now generate ooldtp  scripts when the "Generate ooldtp scripts" option is selected in preferences._** **_ 
+
+**Normal LDTP Scripts:** 
+
+
+[[!format txt """
+from ldtp import *
+from ldtputils import *
+try:
+selectrow ("*BuddyList*", "ttbl0", "Ashim Paul")
+selectrow ("*BuddyList*", "ttbl0", "D. Dhinesh\nProxy War..")
+waittillguinotexist ("*BuddyList*")
+waittillguiexist ("*XChat*")
+click ("*XChat*", "btnConnect")
+selectmenuitem ("*XChat*", "mnuChannelTab")
+waittillguinotexist ("*XChat*")
+except LdtpExecutionError, msg:
+raise
+"""]]
+**Object Oriented LDTP Scripts:**** ** 
+
+
+[[!format txt """
+from ldtp import *
+from ldtputils import *
+from ooldtp import *
+try:
+    BuddyList = context("*BuddyList*")
+    BuddyList.selectrow ("ttbl0", "Ashim Paul")
+    BuddyList.selectrow ("ttbl0", "D. Dhinesh\nProxy War..")
+    BuddyList.waittillguinotexist ()
+    XChat = context("*XChat*")
+    XChat.waittillguiexist ()
+    XChat.click ("btnConnect")
+    XChat.selectmenuitem ("mnuChannelTab")
+    XChat.waittillguinotexist ()
+except LdtpExecutionError, msg:
+    raise
+"""]]
+
+
+---
+
+ _** ** **********_** _** ** _ 
+
+************Note:_** The generated code had many unwanted waittillguiexist. I saw waittillguiexist (”dlg0″) in many p</ins>l<ins>aces. If your playback is stopped because of this, remove that before running the scripts. Sometime the resource will go high as the application map info is collected from the application, so no need to worry.If you find any issues regarding LDTP Editor, report it to ldtp-dev at</ins> lists.freedesktop.org or nagappan at gmail dot com or sp2hari at gmail dot com <ins> ** _ _ 
+
+
+## Known issues
+
+[[Recording TO DO|RecordTODO]] 
+
+
+## Demo of LDTP Recording
+
+* Inside [[netbeans|http://freeshell.in/~taggy/ldtp/ldtpguidemo.html]] editor 
+
+## Reference
+
+* How to create [[LDTP_test_scripts_in_python|LDTP_test_scripts_in_python]] 
+* Running LDTP scripts [[How_to_execute_scripts|How_to_execute_scripts]] 
+* Sequencing set of LDTP scripts using [[ldtprunner_XML|ldtprunner_XML]] file 
+* Script input [[Data_XML|Data_XML]] file - Useful to maintain a generic script 
