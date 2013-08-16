@@ -1,0 +1,16 @@
+
+
+## Syntax
+
+<name>={class=<type of object>[, <optional arguments>] 
+
+Example: gedit={class=frame, app_name=gedit} 
+
+
+## Description
+
+class keyword, is used to identify the object type. 
+
+Refer: [[gui.c|http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/pyldtp/gui.c]], [[parser.c|http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/appmap/parser.c]] 
+
+Check all the [[class_keywords|class_keywords]] implemented 
