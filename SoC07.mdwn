@@ -1,0 +1,31 @@
+
+* **Google Summer of Code '07 - Under Mozilla Foundation** 
+
+# Tasks
+
+* Firefox Automation 
+* Tinderbox Integration 
+
+# schedule
+
+* Firefox Automation 
+   * Automate most Basic Functional Tests (BFT) cases from [[Litmus.mozilla.org|http://litmus.mozilla.org/]]for Firefox Trunk build. 
+      * Schedule : April 20 - June 30 Test cases status available [[here|Firefox_Test_Cases]]. 
+* Tinderbox Integration 
+                                                         * July 1 - August 15 
+
+# Student
+
+[[Harishankaran|http://sp2hari.blogspot.com/]] 
+
+
+# Mentor
+
+[[NagappanAlagappan|http://nagappanal.blogspot.com/]] 
+
+[[Emily Chen|http://blogs.sun.com/roller/page/emily]] 
+
+
+# SoC 07 status
+
+Can be tracked from [[Firefox_Test_Cases|Firefox_Test_Cases]] 
