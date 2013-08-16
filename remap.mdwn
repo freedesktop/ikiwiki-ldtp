@@ -1,0 +1,30 @@
+
+
+## Syntax
+
+remap ('<application-name>', '<dialog name>') 
+
+undoremap ('<application-name>', '<dialog name>') 
+
+
+## Description
+
+We can handle dynamically created widgets (meaning widgets created at run time) using this remap function. Calling remap will generate appmap for the given dialog at run time and update the hash table. Then we can access the new widgets. But please make sure to call undoremap() once the required functions are performed so that the hash table will be reverted back to its original state. The reason for having undoremap() is that subsequent calls to remap() might corrupt the hash table containg the appmap entries. 
+
+Please not that the <application-name> should be same as the one given as the commmand-line argument for appmap generation. 
+
+
+## Implementation
+
+It uses the same logic that appmap module uses to generate appmap. Please refer to the following link for the source code of the remap functionality [[remap.c|http://cvs.freedesktop.org/ldtp/pyldtp/remap.c?view=markup]] 
+
+
+## Examples
+
+For handling widgets created at runtime in the New Appointment creation dialog in Evolution Calendar we can use the remap function as mentioned below. 
+
+remap ('evolution', 'dlgAppointment-Nosummary') 
+
+. . 
+
+undoremap ('evolution', 'dlgAppointment-Nosummary') 
