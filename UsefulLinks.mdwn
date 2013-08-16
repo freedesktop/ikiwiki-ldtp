@@ -1,0 +1,117 @@
+
+
+## Automation Framework
+
+[[http://safsdev.sourceforge.net|http://safsdev.sourceforge.net]] 
+
+
+## Accessibility
+
+[[http://developer.gnome.org/projects/gap/|http://developer.gnome.org/projects/gap/]] 
+
+[[http://developer.gnome.org/projects/gap/guide/gad/|http://developer.gnome.org/projects/gap/guide/gad/]] 
+
+[[http://developer.gnome.org/doc/API/|http://developer.gnome.org/doc/API/]] 
+
+[[http://developer.gnome.org/doc/API/2.0/atk/atk.html|http://developer.gnome.org/doc/API/2.0/atk/atk.html]] 
+
+[[http://developer.gnome.org/doc/API/2.0/at-spi/index.html|http://developer.gnome.org/doc/API/2.0/at-spi/index.html]] 
+
+
+## Mozilla Accessibility
+
+[[http://www.mozilla.org/access/|http://www.mozilla.org/access/]] 
+
+[[http://www.mozilla.org/access/architecture|http://www.mozilla.org/access/architecture]] 
+
+[[http://www.mozilla.org/projects/ui/accessibility/unix/architecture.html|http://www.mozilla.org/projects/ui/accessibility/unix/architecture.html]] 
+
+
+## KDE Accessibility
+
+[[http://accessibility.kde.org/|http://accessibility.kde.org/]]  
+
+[[http://trolls.troll.no/~harald/accessibility/|http://trolls.troll.no/~harald/accessibility/]]  
+
+[[http://accessibility.kde.org/developer/atk.php|http://accessibility.kde.org/developer/atk.php]] 
+
+
+## Linux Accessibility
+
+[[http://www.faqs.org/docs/Linux-HOWTO/Accessibility-HOWTO.html|http://www.faqs.org/docs/Linux-HOWTO/Accessibility-HOWTO.html]] 
+
+
+## Java access bridge - ATK
+
+[[http://www.linuxfromscratch.org/blfs/view/cvs/gnome/java-access-bridge.html|http://www.linuxfromscratch.org/blfs/view/cvs/gnome/java-access-bridge.html]] 
+
+[[http://mail.gnome.org/archives/gnome-accessibility-list/2003-November/msg00085.html|http://mail.gnome.org/archives/gnome-accessibility-list/2003-November/msg00085.html]] 
+
+
+## OpenOffice.org
+
+[[http://ui.openoffice.org/accessibility/at-support.html|http://ui.openoffice.org/accessibility/at-support.html]] 
+
+[[http://ui.openoffice.org/accessibility/AWB.html|http://ui.openoffice.org/accessibility/AWB.html]] 
+
+
+## Windows GUI test tools and Wine
+
+[[http://kegel.com/wine/testsw.html|http://kegel.com/wine/testsw.html]] 
+
+
+## Python related links
+
+If you have _**Novell Linux Desktop**_ and if you have installed python-doc package, you can see python documentation in /usr/share/doc/packages/python/html directory. 
+
+Alternate online - [[http://docs.python.org/|http://docs.python.org/]] You can download them for offline reading from [[http://docs.python.org/download.html|http://docs.python.org/download.html]] 
+
+**General Python links** 
+
+[[http://www.byteofpython.info/|http://www.byteofpython.info/]] - Python Cook Book 
+
+[[http://www.vex.net/~x/parnassus/|http://www.vex.net/~x/parnassus/]] 
+
+[[http://heather.cs.ucdavis.edu/~matloff/python.html|http://heather.cs.ucdavis.edu/~matloff/python.html]] 
+
+[[http://www.scipy.org/wikis/topical_software/TopicalSoftware|http://www.scipy.org/wikis/topical_software/TopicalSoftware]] 
+
+[[http://pydoc.org/2.3/|http://pydoc.org/2.3/]] 
+
+[[http://www.amk.ca/|http://www.amk.ca/]] 
+
+**Python Debugging links** 
+
+[[http://www.python.org/doc/current/lib/module-pdb.html|http://www.python.org/doc/current/lib/module-pdb.html]] 
+
+[[http://pydoc.org/2.3/pdb.html|http://pydoc.org/2.3/pdb.html]] 
+
+Exception Handling: [[http://docs.python.org/tut/node10.html|http://docs.python.org/tut/node10.html]] 
+
+**Python specific to GTK** 
+
+[[http://www.pygtk.org/|http://www.pygtk.org/]] 
+
+[[http://www.moeraki.com/pygtktutorial/pygtk2tutorial/index.html|http://www.moeraki.com/pygtktutorial/pygtk2tutorial/index.html]] 
+
+[[http://pygtk.org/pygtk2reference/index.html|http://pygtk.org/pygtk2reference/index.html]] 
+
+[[http://www.python.org/moin/PyGtk|http://www.python.org/moin/PyGtk]] 
+
+**Python specific to Java script** 
+
+[[http://wwwsearch.sourceforge.net/|http://wwwsearch.sourceforge.net/]] 
+
+[[http://wwwsearch.sourceforge.net/python-spidermonkey/|http://wwwsearch.sourceforge.net/python-spidermonkey/]] 
+
+
+## IRC through web interface
+
+[[http://www.chriscole.info/cgiirc/irc.cgi|http://www.chriscole.info/cgiirc/irc.cgi]] _**or**_ [[http://www.ictoadd.com/cgiirc/irc.cgi|http://www.ictoadd.com/cgiirc/irc.cgi]] 
+
+[[http://ircatwork.com/|http://ircatwork.com/]] 
+
+
+## Project development state
+
+[[http://cia.navi.cx/stats/project/ldtp|http://cia.navi.cx/stats/project/ldtp]] 
