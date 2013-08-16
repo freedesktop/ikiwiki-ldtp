@@ -1,0 +1,157 @@
+<<TableOfContents>>
+
+== LDTP works based on some technology ? ==
+
+   * Yes, LDTP is based on Assistive Technology.
+   * To know more about assisitive technology  http://developer.gnome.org/projects/gap/
+
+== Is LDTP announced ? ==
+
+Linux Desktop Testing Project (LDTP) was the first Test Automation Framework to use AT-SPI !!! LDTP has been open sourced by January 2005.
+  * LDTP 0.1.0 was anounced on [[http://lwn.net/Articles/121202/|Friday 28, January 2005]]
+  * LDTP was showcased and discussed in [[http://live.gnome.org/Stuttgart2005_2fLightningTalks|GUADEC 2005]]
+  * Published in [[http://opensourcetesting.org/functional.php#GNU/Linux%20Desktop%20Testing%20Project|opensourcetesting.org]]
+  * Published and discussed in [[http://slashdot.org/article.pl?sid=05/06/22/1843206|Slashdot]]
+
+== Why is LDTP not part of the GNOME project ? ==
+
+  * LDTP is Linux desktop agnostic. It aims at delivering an umbrella of test suites for Linux Desktop projects which includes the top ones like GNOME,
+  KDE, Mozilla, Openoffice.org etc. This increases wide-spread acceptance of LDTP as a de-facto desktop testing framework.
+  * Based on the inputs recevied from some of the prominent members of the GNOME and KDE community, LDTP has been hosted on [[http://anongit.freedesktop.org/git/ldtp|freedesktop.org]]
+  * However, LDTP currently uses the [[http://bugzilla.gnome.org/enter_bug.cgi?product=LDTP|GNOME bugzilla]] for bug tracking, thanks to [[http://tieguy.org/blog/index.cgi|Luis Villa]] for making this available.
+
+== How is LDTP different from other desktop testing frameworks ? ==
+
+LDTP is a unique initiative to make Linux Desktops stable and rock solid by running them through rigorous suite of test conditions.
+At the time of writing this document, some of the prominent features of LDTP include
+   * LDTP concepts are derived from [[http://staf.sourceforge.net/index.php|Software Testing Automation Framework]]
+   * LDTP supports verification of actions performed (guiexist, verifystate, etc)
+   * Writing test scripts are very easy, the script writer need not know about the object hierarchy
+   * CPU / Memory performance monitoring of application-under-test can be measured
+   * From the XML log, we can gather [[http://lists.freedesktop.org/archives/ldtp-dev/2005-October/000031.html|HTML report]] using XSLT
+   * Group based execution, which provides precise control on the flow of test-script execution
+   * User-friendly Test Editor with syntax highlighting for generating and grouping test data
+
+I believe that the goal of another desktop testing framework would be similar to that of LDTP and hence reduntant. I welcome everyone to join hands with the LDTP community and make it the de facto desktop testing framework for *nix platform. LDTP community has made 11 dot releases so far and is active.
+
+== How LDTP discovers the object ? ==
+
+LDTP discovers the object both dynamically (using [[remap]]) and statically (using application map - [[Howto_generate_Application_map]])
+
+
+== How to enable accesssibility ==
+
+In gnome-control-center, open 'Assistive Technology' and click 'Enable Assistive technologies' check box. Close and logout once. Accessibility will be enabled in GNOME environment.
+
+== Who uses and supports LDTP ? ==
+
+LDTP community include hackers from:
+   * GNOME QA community
+   * Mozilla QA community
+   * Openoffice.org QA community
+   * KDE QA community
+   * Novell/SuSE, Sun China
+   * Palm Source (access-company)
+   * VMware Inc
+
+And I see increasing number of participation every week in weekly community meetings.
+
+It is great to note that the following have successfully deployed LDTP
+
+  * [[http://go-evolution.org/Automation_using_LDTP|Evolution sanity scripts]] using LDTP project will be released by November end
+  * [[http://forge.novell.com/modules/xfmod/project/?tomato|Tomato]] project is [[http://lists.freedesktop.org/archives/ldtp-dev/2005-October/000034.html|integrating LDTP]] to provide a common scripting environment for Windows and Linux QA script writers
+  * LDTP is being used for [[http://mail.gnome.org/archives/evolution-hackers/2005-September/msg00133.html|valgrinding Evolution]]
+
+== Does LDTP support platforms other than Linux ? ==
+
+Yes, LDTP hackers from Sun Microsystems have successfully tested LDTP on Solaris. There are people trying to use LDTP on FreeBSD as well.
+
+== How to use LDTP to test Java applications ? ==
+
+http://mail.gnome.org/archives/gnome-accessibility-list/2003-November/msg00085.html
+
+== Will LDTP support KDE ? ==
+
+Yes. From KDE 4.0, KDE has planed to provide QT - ATK bridge, with this bridge LDTP can be used to test KDE applications also. Refer:
+  * http://trolls.troll.no/~Eharald/accessibility/
+  * http://accessibility.kde.org/
+  * http://accessibility.kde.org/developer/bridge.php
+
+== How accessibility technology works ? ==
+
+Refer:
+ * http://www.mozilla.org/projects/ui/accessibility/unix/architecture.html
+ * http://accessibility.kde.org/developer/atk.php
+
+== Can I run my tests from a remote location ? ==
+
+Accessibility for remote GNOME apps is still on the roadmap. Because the accessibility framework uses CORBA, it works in theory, but in practice, the bonobo-activation mechanism which GNOME uses to register with the at-spi registry is tied to localhost. So the missing link is a remote bonobo-activation; once you have that, the rest should fall into place.
+
+Refer: [[http://mail.gnome.org/archives/gnome-accessibility-list/2005-January/msg00020.html|Mail from Bill Haneman]]
+
+== Why does error message 'Unidentified Object' displayed ? ==
+
+ * When accessibility is not enabled.
+ * When object name in 'Testtable' differs from object defination in appmap
+ * If LDTP has not yet provided support for the corresponding type of object.
+
+== Where do i get information about python ? ==
+
+   * If you have '''''Novell Linux Desktop''''' and if you have installed python-doc package, you can see python documentation in /usr/share/doc/packages/python/html directory.
+   * Alternate online - http://docs.python.org/ You can download them for offline reading from http://docs.python.org/download.html
+
+'''General Python links'''
+   http://www.vex.net/~x/parnassus/
+
+== How can I write component functions for LDTP ? ==
+
+   * [[http://developer.gnome.org/doc/API/2.0/at-spi/index.html|AT-SPI API documentation]]
+   * [[How_to_develop_component_functions_for_LDTP]]
+
+== Is there any tutorial available for writing test scripts ? ==
+
+How to create [[LDTP_test_scripts_in_python]]
+
+== After adding new file, when I try to generate rpm, I'm getting error like <new file> not found ? ==
+
+Rpm distribution module tries to read MANIFEST file in local directory. If this file already exist and if you have added a new file in setup.py, on building you won't get any error. But on creating rpm you will get an error like <you new file name> not found. Remove MANIFEST file in local directory and generate the rpm file.
+
+== When I try to generate appmap for applications like gimp, gaim, I'm getting an error message "application not running" ? ==
+
+    * Try running the application seperately and try to poke them with at-poke.
+    * If at-poke is not able to detect, then try at-poke <application name>. Example: at-poke gaim
+    * If at-poke is able to detect, then you can generate appmap with the following steps:
+      Type the following environment variable in terminal
+      * export GTK_MODULES=gail:atk-bridge
+      * export GNOME_ACCESSIBILITY=1
+    now invoke the application from the terminal in which you have typed the above environment variables. Ex: gaim
+
+== When xscreensaver runs, GNU/LDTP is unable to proceed ? ==
+
+Seems to be accessibility bug. As a work around, use the command 'xscreensaver-command -exit'
+
+== I don't see any console output which are printed with g_print ? ==
+
+   * Use export LDTP_DEBUG=1 to get messages in console
+   * Use export LDTP_DEBUG=2 to get verbose messages in console
+
+== LDTP supported platforms ==
+
+  * [[http://www.opensuse.org/|OpenSuSE]]
+  * [[http://opensolaris.org/|OpenSolaris]]
+  * [[http://ubuntu.com/|Ubuntu]]
+  * [[http://www.debian.org/|Debian GNU/Linux]]
+  * [[http://fedora.redhat.com/|Fedora Core]]
+  * [[http://www.freebsd.org/|FreeBSD]]
+
+== How to Compile LDTP under Ubuntu Dapper? ==
+
+Check [[ldtpUnderDapper]]. You will need automake 1.9 and aclocal 1.9 installed.
+
+== Recommended GNOME Version ==
+
+[[http://www.gnome.org|GNOME]] 2.10 and above
+
+== With LDTPv2 I get ResponseNotReady ==
+
+If proxy environment variable is set, you might get this, unset it. eg: 'unset http_proxy'
