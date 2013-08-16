@@ -1,0 +1,58 @@
+
+
+## Syntax
+
+click ('<window name>', '<component name>') 
+
+
+## Description
+
+click on radio button / check box / push button/ combo box/ radio menu item/ toggle button/ radio button. 
+
+
+## Implementation
+
+_**Radio Button**_ 
+
+If radio button is already in checked state, then this function will uncheck (unset) it. 
+
+If radio button is already in unchecked state, then this function will check (set) it. 
+
+Refer: [[radio_button.c|http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/pyldtp/radio_button.c]] 
+
+_**Check Box**_ 
+
+If check box is already in checked state, then this function will uncheck (unset) it. 
+
+If check box is already in unchecked state, then this function will check (set) it. 
+
+Refer: [[check_box.c|http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/pyldtp/check_box.c]] 
+
+_**Push Button**_ 
+
+If push button state is enabled, then click on the object. 
+
+Refer: [[push_button.c|http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/pyldtp/push_button.c]] 
+
+_**Toggle Button**_ 
+
+Click on the toggle button. 
+
+Refer: [[toggle_button.c|http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/pyldtp/toggle_button.c]] 
+
+_**Combo Box**_ 
+
+Clicks on combo box, drop down list of combo box will be visible if not already else drop down list of combo box closes. 
+
+Refer: [[combo_box.c|http://forge.novell.com/modules/xfmod/cvs/cvsbrowse.php/ldtp/pyldtp/combo_box.c]] 
+
+
+## Examples
+
+Example for push button (With respect to gedit open dialog) 
+
+click ('dlgOpen', 'btnOpen') 
+
+For Check box, Check menu item, on doing this action, the state will be toggled. 
+
+For Radio button, Radio menu item, if they are not already selected, they are selected, otherwise silently ignored. 
