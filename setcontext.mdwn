@@ -1,0 +1,22 @@
+
+
+## Syntax
+
+setcontext ('<previous title name>', '<new title name>') 
+
+
+## Description
+
+LDTP selects window (frame / dialog / alert / font chooser) based on the title name. 
+
+
+## Implementation
+
+set the context to new title name. Changes are done in is_matching function in gui.c 
+
+
+## Examples
+
+In some applications the window title changes based on the operation we are doing. For example, when we browse any URL in Firefox browser, the title bar changes. Once title bar changed, then we can change the context using this function. 
+
+setcontext ('Mozilla Firefox', 'NOVELL: Novell and Linux - Mozilla Firefox') 
