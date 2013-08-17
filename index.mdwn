@@ -36,8 +36,8 @@ VMware open sources Cobra - Windows version of LDTP works on Windows XP SP3 / Vi
 We encourage you to join the project and help us to create a robust, reliable and stable test tool/framework for Windows/Linux/Mac Desktops. Thanks to **GNOME** Accessibility team and **Microsoft** Accessibility team for their great work and their continuous support. 
 [[!table header="no" class="mointable" data="""
  [[News|News]]  |  [[Features|Features]]  |  [[Binary / Source download|Download]]  |  [[GIT|GIT]]  |  [[Documentation|Docs]]  |
- [[HOWTO|HOWTO]]  |  [[FAQ|FAQ]]  |  [[Bugs|Bugs]]  |  [[Mailing list / IRC|Mailing list / IRC]]  |  [[Projects_using_LDTP|Projects_using_LDTP]]  |  [[LDTP_Demo|LDTP_Demo]] 
- [[Object-Oriented_LDTP|Object-Oriented_LDTP]]  |  [[TeamMembers|TeamMembers]]  |  [[Planet LDTP|http://ldtp.freedesktop.org/planet]]  |  [[Google SoC|SoC]]  |  [[Platforms|FAQ/LDTPsupportedplatforms]]  |  [[LDTP_TODO|LDTP_TODO]] 
+ [[HOWTO|HOWTO]]  |  [[FAQ|FAQ]]  |  [[Bugs|Bugs]]  |  [[Mailing list / IRC|Mailing_List_IRC]]  |  [[Projects_using_LDTP|Projects_using_LDTP]]  |  [[LDTP_Demo|LDTP_Demo]] 
+ [[Object-Oriented_LDTP|Object-Oriented_LDTP]]  |  [[TeamMembers|TeamMembers]]  |  [[Planet LDTP|http://ldtp.freedesktop.org/planet]]  |  [[Google SoC|SoC]]  |  [[Platforms|Platforms]]  |  [[LDTP_TODO|LDTP_TODO]] 
  [[Contribute|Contribute]]  |  [[LDTP forum|http://ldtp.myfastforum.org/index.php]]  |  [[Companies using LDTP|Companies using LDTP]]  |   |   |  
 """]]
 

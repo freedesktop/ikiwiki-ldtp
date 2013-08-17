@@ -1,9 +1,15 @@
 ##### LDTP Mailing list
 
-Archives - http://lists.freedesktop.org/archives/ldtp-dev/
+[[Subscribe to LDTP Development Mailing list|http://lists.freedesktop.org/mailman/listinfo/ldtp-dev]]
 
-Subscribe - http://lists.freedesktop.org/mailman/listinfo/ldtp-dev 
+[[Browse LDTP Development Mailing list Archive|http://lists.freedesktop.org/archives/ldtp-dev/]]
+
+[[Browse LDTP Development Mailing list Archive|http://forge.novell.com/modules/xfmod/maillist/archbrowse.php/ldtp-dev/?id=1458&prjname=ldtp&mlname=dev]] - Old since _Monday, September 19 2005_
+
+[[Mailing list / IRC|Mailing list / IRC]]
 
 ##### IRC
 
+irc.freenode.net #ldtp
 
+[[Web chat|http://webchat.freenode.net/?randomnick=1&channels=ldtp&uio=d4]]
