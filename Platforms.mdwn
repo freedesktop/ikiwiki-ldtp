@@ -1,0 +1,8 @@
+## LDTP supported platforms
+
+   * [[OpenSuSE|http://www.opensuse.org/]]
+   * [[OpenSolaris|http://opensolaris.org/]]
+   * [[Ubuntu|http://ubuntu.com/]]
+   * [[Debian GNU/Linux|http://www.debian.org/]]
+   * [[Fedora Core|http://fedora.redhat.com/]]
+   * [[FreeBSD|http://www.freebsd.org/]]
