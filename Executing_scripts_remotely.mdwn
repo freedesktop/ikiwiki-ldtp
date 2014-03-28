@@ -5,23 +5,23 @@ Steps to follow:
 
 Start LDTP engine (manually) in remote location with the following options 
 
-_$ ldtp
+$ ldtp
 
-Default port 4118 _ 
+Default port 4118
 
-$ ldtp **-p 4118** _ 
+$ ldtp **-p 4118**
 
 or 
 
-$ ldtp **--port=4118** _ 
+$ ldtp **--port=4118**
 
 from remote machine, in shell, you need to set LDTP_SERVER_ADDR with the remote server IP address or resolvable machine name (DNS entry). 
 
-_**export LDTP_SERVER_ADDR=xx.xx.xx.xx** _ 
+**export LDTP_SERVER_ADDR=xx.xx.xx.xx** 
 
 If port number is changed in the ldtp server, then LDTP_SERVER_PORT environment variable has to be set 
 
-_**export LDTP_SERVER_PORT=12345** _ 
+**export LDTP_SERVER_PORT=12345** 
 
 Now start executing the test scripts using ldtprunner or from a python prompt or from a shell. 
 
