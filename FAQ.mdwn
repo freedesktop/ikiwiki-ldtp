@@ -143,6 +143,8 @@ Seems to be accessibility bug. As a work around, use the command 'xscreensaver-c
 
 ## LDTP supported platforms
 
+   * [[OS X 10.6/10.7/10.8/10.9|http://www.apple.com]]
+   * [[Windows XP/Vista/7/8|http://microsoft.com]]
    * [[OpenSuSE|http://www.opensuse.org/]]
    * [[OpenSolaris|http://opensolaris.org/]]
    * [[Ubuntu|http://ubuntu.com/]]
@@ -163,3 +165,7 @@ Check [[ldtpUnderDapper]]. You will need automake 1.9 and aclocal 1.9 installed.
 ## With LDTPv2 I get ResponseNotReady
 
 If proxy environment variable is set, you might get this, unset it. eg: 'unset http_proxy'
+
+## A referral was returned from the server
+
+[[Suggestions|http://answers.microsoft.com/en-us/windows/forum/windows_7-windows_programs/always-getting-a-referral-was-returned-from-the/8a5802c8-0815-4abc-aab2-ed49dbbfb971]]

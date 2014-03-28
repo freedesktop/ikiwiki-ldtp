@@ -5,19 +5,15 @@ Steps to follow:
 
 Start LDTP engine (manually) in remote location with the following options 
 
-_$ ldtp **-s**_ 
+_$ ldtp
+
+Default port 4118 _ 
+
+$ ldtp **-p 4118** _ 
 
 or 
 
-_$ ldtp **--script-engine **_ 
-
-_Default port 23456 _ 
-
-_$ ldtp -s **-p 12345** _ 
-
-or 
-
-_$ ldtp --script-engine **--port=12345** _ 
+$ ldtp **--port=4118** _ 
 
 from remote machine, in shell, you need to set LDTP_SERVER_ADDR with the remote server IP address or resolvable machine name (DNS entry). 
 
