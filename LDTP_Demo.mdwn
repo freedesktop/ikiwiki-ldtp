@@ -1,10 +1,1 @@
-
-Evolution Address Book Automation using LDTP [[OGG|http://people.freedesktop.org/~prashmohan/evolution-addrbook-low.ogg]] / [[AVI|http://people.freedesktop.org/~prashmohan/evolution-addrbook-low.avi]] 
-
-Evolution Calendar Automation using LDTP [[OGG|http://people.freedesktop.org/~prashmohan/evolution-calendar-low.ogg]] / [[AVI|http://people.freedesktop.org/~prashmohan/evolution-calendar-low.avi]] 
-
-jhbuild running LDTP tests  Screencast [[AVI|http://people.freedesktop.org/~prashmohan/jhbuild-screencast-low.avi]] 
-
 [[Evolution IMAP Sanity|http://download.freedesktop.org/ldtp/movies/evolution-imap-sanity.html]] using LDTP(3.7 MB) 
-
-LDTP Recording Demo inside [[Netbeans editor|http://people.freedesktop.org/~nagappan/ldtpguidemo.html]] ! 
