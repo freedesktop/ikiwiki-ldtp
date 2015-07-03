@@ -1,5 +1,3 @@
-
-
 # Writing LDTP test scripts in Python scripting language
 
 
@@ -63,8 +61,8 @@ If any of the action releated functions (example: selectmenuitem, click, settext
 
 ## Executing LDTP scripts
 
-         * Sequencing set of LDTP scripts [[ldtprunner_XML|ldtprunner_XML]] 
-         * [[How_to_execute_scripts|How_to_execute_scripts]] 
+   * Sequencing set of LDTP scripts [[ldtprunner_XML|ldtprunner_XML]] 
+   * [[How_to_execute_scripts|How_to_execute_scripts]] 
 
 ## Debugging LDTP issues
 
@@ -74,37 +72,37 @@ If any of the action releated functions (example: selectmenuitem, click, settext
 ## Generating LDTP scripts
 
    * [[RecordHOWTO|RecordHOWTO]] - To generate scripts based on users actions 
-         * _**Note:**_ _Above mentioned steps is to create scripts manually_ 
+      * _**Note:**_ _Above mentioned steps is to create scripts manually_ 
 
 ## Test Data
 
-         * Identify the list of variable arguments and have it in a separate [[Data_XML|Data_XML]] file 
+   * Identify the list of variable arguments and have it in a separate [[Data_XML|Data_XML]] file 
 
 ## Test cases / Scenarios
 
-         * List the test scenarios which you are planing to automate - Refer [[Testcases|Testcases]] 
+   * List the test scenarios which you are planing to automate - Refer [[Testcases|Testcases]] 
 
 ## Reference
 
-         * Existing LDTP test scripts - [[http://cgit.freedesktop.org/ldtp/pyautosuite/|http://cgit.freedesktop.org/ldtp/pyautosuite/]] 
-         * If you have any issues in writing scripts, you can contact us either through mail or IRC - Refer [[BeginnersGuide|BeginnersGuide]] 
+   * Existing LDTP test scripts - [[http://cgit.freedesktop.org/ldtp/pyautosuite/|http://cgit.freedesktop.org/ldtp/pyautosuite/]] 
+   * If you have any issues in writing scripts, you can contact us either through mail or IRC - Refer [[BeginnersGuide|BeginnersGuide]] 
 
 ## Filing bugs
 
-      * If existing feature in LDTP does not work, please file a [[bug|http://bugzilla.gnome.org/enter_bug.cgi?product=LDTP]] and select component as ldtp. Also provide us the steps to reproduce, so that we can fix it at the earliest. 
+   * If existing feature in LDTP does not work, please file a [[bug|http://bugzilla.gnome.org/enter_bug.cgi?product=LDTP]] and select component as ldtp. Also provide us the steps to reproduce, so that we can fix it at the earliest. 
       * If new feature needs to be added in LDTP, please file an enhancement [[bug|http://bugzilla.gnome.org/enter_bug.cgi?product=LDTP]] 
 
 ## LDTP usage help
 
-      * Join the LDTP team on IRC for technical help, online. 
-            * Server  : irc.freenode.net Channel : #ldtp 
-      * Join the LDTP [[Mailing_List|Mailing_List]] 
-      * Refer [[FAQ|FAQ]], [[HOWTO|HOWTO]] 
+   * Join the LDTP team on IRC for technical help, online. 
+      * Server  : irc.freenode.net Channel : #ldtp 
+   * Join the LDTP [[Mailing_List|Mailing_List]] 
+   * Refer [[FAQ|FAQ]], [[HOWTO|HOWTO]] 
 
 ## Hacking LDTP
 
-      * If you are interested in writing a new component function - Refer [[How_to_develop_component_functions_for_LDTP|How_to_develop_component_functions_for_LDTP]] 
-      * LDTP internal [[Architecture|Architecture]] page 
+   * If you are interested in writing a new component function - Refer [[How_to_develop_component_functions_for_LDTP|How_to_develop_component_functions_for_LDTP]] 
+   * LDTP internal [[Architecture|Architecture]] page 
 
 ## Useful Links
 
