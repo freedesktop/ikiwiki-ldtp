@@ -27,7 +27,7 @@ As of now, GNU LDTP can test any GNOME-based GUI applications, which are accessi
 * [[Clojure|https://github.com/RedHatQE/gnome.ldtp]] 
 **Tutorial** 
 
-_If you are a LDTP **beginner**, we recommend you to read the **GNU LDTP Tutorial** [[PDF|http://download.freedesktop.org/ldtp/doc/ldtp-tutorial.pdf]]_ 
+_If you are a LDTP **beginner**, we recommend you to read the **GNU LDTP Tutorial** [[PDF|https://ldtp.freedesktop.org/ldtp-tutorial.pdf]]_ 
 
 **Credit** 
 

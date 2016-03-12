@@ -6,7 +6,7 @@
    * [[LDTP Python User API Manual|http://ldtp.freedesktop.org/user-doc/index.html]] - Online HTML 
    * [[Java User API Manual|http://ldtp.freedesktop.org/javadoc/]] 
    * [[LDTP Python User API Manual|http://download.freedesktop.org/ldtp/1.x/1.1.x/ldtp-doc.tar.bz2]] - Download HTML tar archive for offline usage 
-   * LDTP Tutorial [[PDF|http://download.freedesktop.org/ldtp/doc/ldtp-tutorial.pdf]] / [[ODF|http://download.freedesktop.org/ldtp/doc/ldtp-tutorial.odt]] 
+   * LDTP Tutorial [[PDF|http://download.freedesktop.org/ldtp-tutorial.pdf]] 
    * [[LDTP Editor|http://nagappanal.blogspot.com/2007/11/linux-desktop-testing-project-editor.html]] 
 
 ## Documentation License
